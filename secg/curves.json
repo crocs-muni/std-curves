@@ -1654,8 +1654,8 @@
             "coeff": "0x01"
           }
         ],
-        "bits": 233,
-        "degree": 233,
+        "bits": 239,
+        "degree": 239,
         "basis": "poly"
       },
       "form": "Weierstrass",
