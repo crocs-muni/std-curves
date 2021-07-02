@@ -1,1249 +1,999 @@
-{
-  "name": "other",
-  "desc": "An assortment of some other curves.",
-  "curves": [
+[
     {
-      "name": "M-221",
-      "category": "other",
-      "desc": "Curve from https://eprint.iacr.org/2013/647.pdf",
-      "field": {
-        "type": "Prime",
-        "p": "0x1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD",
-        "bits": 221
-      },
-      "form": "Montgomery",
-      "params": {
-        "a": {
-          "raw": "0x01c93a"
+        "name": "M-221",
+        "category": "other",
+        "desc": "Curve from https://eprint.iacr.org/2013/647.pdf",
+        "form": "Montgomery",
+        "field": {
+            "type": "Prime",
+            "p": "0x1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD",
+            "bits": 221
         },
-        "b": {
-          "raw": "0x01"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": "0x04"
-        },
-        "y": {
-          "raw": "0x0f7acdd2a4939571d1cef14eca37c228e61dbff10707dc6c08c5056d"
-        }
-      },
-      "order": "0x040000000000000000000000000015A08ED730E8A2F77F005042605B",
-      "cofactor": "0x8"
-    },
-    {
-      "name": "M-383",
-      "category": "other",
-      "desc": "Curve from https://eprint.iacr.org/2013/647.pdf",
-      "field": {
-        "type": "Prime",
-        "p": "0x7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF45",
-        "bits": 383
-      },
-      "form": "Montgomery",
-      "params": {
-        "a": {
-          "raw": "0x1f82fe"
-        },
-        "b": {
-          "raw": "0x01"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": "0x0c"
-        },
-        "y": {
-          "raw": "0x1ec7ed04aaf834af310e304b2da0f328e7c165f0e8988abd3992861290f617aa1f1b2e7d0b6e332e969991b62555e77e"
-        }
-      },
-      "order": "0x10000000000000000000000000000000000000000000000006C79673AC36BA6E7A32576F7B1B249E46BBC225BE9071D7",
-      "cofactor": "0x08"
-    },
-    {
-      "name": "M-511",
-      "category": "other",
-      "desc": "Curve from https://eprint.iacr.org/2013/647.pdf",
-      "field": {
-        "type": "Prime",
-        "p": "0x7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF45",
-        "bits": 511
-      },
-      "form": "Montgomery",
-      "params": {
-        "a": {
-          "raw": "0x081806"
-        },
-        "b": {
-          "raw": "0x01"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": "0x05"
-        },
-        "y": {
-          "raw": "0x2fbdc0ad8530803d28fdbad354bb488d32399ac1cf8f6e01ee3f96389b90c809422b9429e8a43dbf49308ac4455940abe9f1dbca542093a895e30a64af056fa5"
-        }
-      },
-      "order": "0x100000000000000000000000000000000000000000000000000000000000000017B5FEFF30C7F5677AB2AEEBD13779A2AC125042A6AA10BFA54C15BAB76BAF1B",
-      "cofactor": "0x08"
-    },
-    {
-      "name": "E-222",
-      "category": "other",
-      "desc": "Curve from https://eprint.iacr.org/2013/647.pdf",
-      "field": {
-        "type": "Prime",
-        "p": "0x3fffffffffffffffffffffffffffffffffffffffffffffffffffff8b",
-        "bits": 222
-      },
-      "form": "Edwards",
-      "params": {
-        "c": {
-          "raw": "0x01"
-        },
-        "d": {
-          "raw": "0x27166"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": "0x19b12bb156a389e55c9768c303316d07c23adab3736eb2bc3eb54e51"
-        },
-        "y": {
-          "raw": "0x1c"
-        }
-      },
-      "order": "0xffffffffffffffffffffffffffff70cbc95e932f802f31423598cbf",
-      "cofactor": "0x04"
-    },
-    {
-      "name": "E-382",
-      "category": "other",
-      "desc": "Curve from https://eprint.iacr.org/2013/647.pdf",
-      "field": {
-        "type": "Prime",
-        "p": "0x3fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff97",
-        "bits": 382
-      },
-      "form": "Edwards",
-      "params": {
-        "c": {
-          "raw": "0x01"
-        },
-        "d": {
-          "raw": "0x3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffef8e1"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": "0x196f8dd0eab20391e5f05be96e8d20ae68f840032b0b64352923bab85364841193517dbce8105398ebc0cc9470f79603"
-        },
-        "y": {
-          "raw": "0x11"
-        }
-      },
-      "order": "0xfffffffffffffffffffffffffffffffffffffffffffffffd5fb21f21e95eee17c5e69281b102d2773e27e13fd3c9719",
-      "cofactor": "0x04"
-    },
-    {
-      "name": "E-521",
-      "category": "other",
-      "desc": "Curve from https://eprint.iacr.org/2013/647.pdf",
-      "field": {
-        "type": "Prime",
-        "p": "0x1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-        "bits": 521
-      },
-      "form": "Edwards",
-      "params": {
-        "c": {
-          "raw": "0x01"
-        },
-        "d": {
-          "raw": "0x1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa4331"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": "0x752cb45c48648b189df90cb2296b2878a3bfd9f42fc6c818ec8bf3c9c0c6203913f6ecc5ccc72434b1ae949d568fc99c6059d0fb13364838aa302a940a2f19ba6c"
-        },
-        "y": {
-          "raw": "0x0c"
-        }
-      },
-      "order": "0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffd15b6c64746fc85f736b8af5e7ec53f04fbd8c4569a8f1f4540ea2435f5180d6b",
-      "cofactor": "0x04"
-    },
-    {
-      "name": "Curve25519",
-      "category": "other",
-      "desc": "Curve from https://cr.yp.to/ecdh.html",
-      "field": {
-        "type": "Prime",
-        "p": "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffed",
-        "bits": 255
-      },
-      "form": "Montgomery",
-      "params": {
-        "a": {
-          "raw": "0x76d06"
-        },
-        "b": {
-          "raw": "0x01"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": "0x09"
-        },
-        "y": {
-          "raw": "0x20ae19a1b8a086b4e01edd2c7748d14c923d4d7e6d7c61b229e9c5a27eced3d9"
-        }
-      },
-      "order": "0x1000000000000000000000000000000014def9dea2f79cd65812631a5cf5d3ed",
-      "cofactor": "0x08",
-      "characteristics": {
-        "discriminant": "3789438435840",
-        "j_invariant": "39240375672115510010799456308813573486606784421612167109713554819120306934551",
-        "trace_of_frobenius": "-221938542218978828286815502327069187962"
-      }
-    },
-    {
-      "name": "Curve22103",
-      "category": "other",
-      "desc": "Curve from https://github.com/relic-toolkit/relic",
-      "field": {
-        "type": "Prime",
-        "p": "0x1ffffffffffffffffffffffffffffffffffffffffffffffffffffffd",
-        "bits": 221
-      },
-      "form": "Weierstrass",
-      "params": {
-        "a": {
-          "raw": "0x155555555555555555555555555555555555555555555552174084FF"
-        },
-        "b": {
-          "raw": "0x1425ED097B425ED097B425ED097B425ED097B425ED0BBA9428427967"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": "0xCB476FE081B61F56A60B1D1B34FB7207D072EF25DADF377731049B0"
-        },
-        "y": {
-          "raw": "0x36429404D97E1E217BAD2E5601F6551F95D8FE9481BD454D1F3E7B6"
-        }
-      },
-      "order": "0x3FFFFFFFFFFFFFFFFFFFFFFFFFFF5CD04695A145C3067CF4AAE2025",
-      "cofactor": "0x08"
-    },
-    {
-      "name": "Curve4417",
-      "category": "other",
-      "desc": "Curve from https://github.com/relic-toolkit/relic",
-      "field": {
-        "type": "Prime",
-        "p": "0x3fffffffffffffffffffffffffffffffffffffffffffffffffffffffb",
-        "bits": 226
-      },
-      "form": "Weierstrass",
-      "params": {
-        "a": {
-          "raw": "0x4648D10B419379D50F4BA01869D9AE363285E01FE66920878EE075B0"
-        },
-        "b": {
-          "raw": "0x4C4DCEDFAC09383A0311B98EE9637415B9134B4115FDB760C1A3D419"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": "0xFF9D7EDD97D523012FFAACA32B7C90F1A8E026F21972C789A8484A2B"
-        },
-        "y": {
-          "raw": "0x3E9036ADC1A41FCE2F2CA08E2D1BE4F6D97E30CA7761DB1F3E2F2CE96"
-        }
-      },
-      "order": "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFC4A75594D4923FC93D42713CDAF",
-      "cofactor": "0x04"
-    },
-    {
-      "name": "Curve1174",
-      "category": "other",
-      "desc": "Curve from https://eprint.iacr.org/2013/325.pdf",
-      "field": {
-        "type": "Prime",
-        "p": "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff7",
-        "bits": 251
-      },
-      "form": "Weierstrass",
-      "params": {
-        "a": {
-          "raw": "0x486BE25B34C8080922B969257EEB54C404F914A29067A5560BB9AEE0BC67A6D"
-        },
-        "b": {
-          "raw": "0xE347A25BF875DD2F1F12D8A10334D417CC15E77893A99F4BF278CA563072E6"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": "0x3BE821D63D2CD5AFE0504F452E5CF47A60A10446928CEAECFD5294F89B45051"
-        },
-        "y": {
-          "raw": "0x66FE4E7B8B6FE152F743393029A61BFB839747C8FB00F7B27A6841C07532A0"
-        }
-      },
-      "order": "0x1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF77965C4DFD307348944D45FD166C971",
-      "cofactor": "0x04"
-    },
-    {
-      "name": "Curve67254",
-      "category": "other",
-      "desc": "Curve from https://github.com/relic-toolkit/relic",
-      "field": {
-        "type": "Prime",
-        "p": "0x3fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff97",
-        "bits": 382
-      },
-      "form": "Weierstrass",
-      "params": {
-        "a": {
-          "raw": "0x2E32419A32377AF8E7F03148A106D112C8C2E26D31A89F46B743DEED322C7ADC3024AFE4B5AFD8DB7180281586549F4A"
-        },
-        "b": {
-          "raw": "0x22F6EF3BE72A67FDC236D7173727CD2AF6D02A195753C44BDF451369B02EA0F963D9A775CAE6DC3AE9CCABB7F183C1AD"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": "0x141946416199FDDA96EC1F1AC80058AA3F0CE96B1BCD023E97BAE542FE3404B4738DB9B81A13698339387672ECA360C0"
-        },
-        "y": {
-          "raw": "0xD51BF79D968F4A076022E750F821058E2B5073697B639EDD355EBF8AD32352B1EFA9478DE7EB5662EF0D26EF6EEA795"
-        }
-      },
-      "order": "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD5FB21F21E95EEE17C5E69281B102D2773E27E13FD3C9719",
-      "cofactor": "0x04"
-    },
-    {
-      "category": "other",
-      "cofactor": "0x8",
-      "desc": "",
-      "field": {
-        "bits": 283,
-        "p": "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff45",
-        "type": "Prime"
-      },
-      "form": "Montgomery",
-      "generator": {
-        "x": {
-          "raw": "0x5"
-        },
-        "y": {
-          "raw": "0x1eebe07dc1871896732b12d5504a32370471965c7a11f2c89865f855ab3cbd7c224e3620c31af3370788457dd5ce46df"
-        }
-      },
-      "name": "Curve383187",
-      "order": "0x1000000000000000000000000000000000000000000000000e85a85287a1488acd41ae84b2b7030446f72088b00a0e21",
-      "params": {
-        "a": {
-          "raw": "0x38251"
-        },
-        "b": {
-          "raw": "0x01"
-        }
-      }
-    },
-    {
-      "name": "Ed25519",
-      "category": "other",
-      "desc": "Curve from https://ed25519.cr.yp.to",
-      "field": {
-        "type": "Prime",
-        "p": "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffed",
-        "bits": 255
-      },
-      "form": "TwistedEdwards",
-      "params": {
-        "a": {
-          "raw": "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffec"
-        },
-        "d": {
-          "raw": "0x52036cee2b6ffe738cc740797779e89800700a4d4141d8ab75eb4dca135978a3"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": "0x216936D3CD6E53FEC0A4E231FDD6DC5C692CC7609525A7B2C9562D608F25D51A"
-        },
-        "y": {
-          "raw": "0x6666666666666666666666666666666666666666666666666666666666666658"
-        }
-      },
-      "order": "0x1000000000000000000000000000000014def9dea2f79cd65812631a5cf5d3ed",
-      "cofactor": "0x08",
-      "characteristics": {
-        "discriminant": "604592382411166409359847682163448376412977399592556651652337986082875105857",
-        "j_invariant": "39240375672115510010799456308813573486606784421612167109713554819120306934551",
-        "trace_of_frobenius": "-221938542218978828286815502327069187962"
-      }
-    },
-    {
-      "name": "Ed448",
-      "category": "other",
-      "desc": "Curve from https://eprint.iacr.org/2015/625.pdf",
-      "field": {
-        "type": "Prime",
-        "p": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffeffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-        "bits": 448
-      },
-      "form": "TwistedEdwards",
-      "params": {
-        "a": {
-          "raw": "0x01"
-        },
-        "d": {
-          "raw": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffeffffffffffffffffffffffffffffffffffffffffffffffffffff6756"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa955555555555555555555555555555555555555555555555555555555"
-        },
-        "y": {
-          "raw": "0xae05e9634ad7048db359d6205086c2b0036ed7a035884dd7b7e36d728ad8c4b80d6565833a2a3098bbbcb2bed1cda06bdaeafbcdea9386ed"
-        }
-      },
-      "order": "0x3fffffffffffffffffffffffffffffffffffffffffffffffffffffff7cca23e9c44edb49aed63690216cc2728dc58f552378c292ab5844f3",
-      "cofactor": "0x04"
-    },
-    {
-      "name": "Curve41417",
-      "category": "other",
-      "desc": "Curve from https://cr.yp.to/talks/2013.09.16/slides-djb-20130916-a4.pdf",
-      "field": {
-        "type": "Prime",
-        "p": "0x3fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffef",
-        "bits": 414
-      },
-      "form": "TwistedEdwards",
-      "params": {
-        "a": {
-          "raw": "0x01"
-        },
-        "d": {
-          "raw": "0xe21"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": "0x1a334905141443300218c0631c326e5fcd46369f44c03ec7f57ff35498a4ab4d6d6ba111301a73faa8537c64c4fd3812f3cbc595"
-        },
-        "y": {
-          "raw": "0x22"
-        }
-      },
-      "order": "0x7ffffffffffffffffffffffffffffffffffffffffffffffffffeb3cc92414cf706022b36f1c0338ad63cf181b0e71a5e106af79",
-      "cofactor": "0x08"
-    },
-    {
-      "name": "Fp254BNa",
-      "category": "other",
-      "desc": "Curve used in: https://eprint.iacr.org/2010/354.pdf",
-      "field": {
-        "type": "Prime",
-        "p": "0x2370fb049d410fbe4e761a9886e502417d023f40180000017e80600000000001",
-        "bits": 254
-      },
-      "form": "Weierstrass",
-      "params": {
-        "a": {
-          "raw": "0x00"
-        },
-        "b": {
-          "raw": "0x05"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": "0x01"
-        },
-        "y": {
-          "raw": "0xd45589b158faaf6ab0e4ad38d998e9982e7ff63964ee1460342a592677cccb0"
-        }
-      },
-      "order": "0x2370fb049d410fbe4e761a9886e502411dc1af70120000017e80600000000001",
-      "cofactor": "0x01",
-      "characteristics": {
-        "discriminant": "16030569034403128277756688287498649515636838101184337499778392980116222236113",
-        "j_invariant": "0",
-        "trace_of_frobenius": "126611883464401272108868536818127077377",
-        "embedding_degree": "12",
-        "anomalous": false,
-        "supersingular": false,
-        "cm_disc": "284987893944944502715674458444420435832981068983435327675576459482874497379",
-        "conductor": "15",
-        "torsion_degrees": [
-          {
-            "r": 2,
-            "least": 3,
-            "full": 3
-          },
-          {
-            "r": 3,
-            "least": 2,
-            "full": 6
-          },
-          {
-            "r": 5,
-            "least": 24,
-            "full": 24
-          },
-          {
-            "r": 7,
-            "least": 6,
-            "full": 6
-          }
-        ]
-      }
-    },
-    {
-      "name": "Fp254n2BNa",
-      "category": "other",
-      "desc": "Curve used in: https://eprint.iacr.org/2010/354.pdf",
-      "field": {
-        "type": "Extension",
-        "base": "0x2370fb049d410fbe4e761a9886e502417d023f40180000017e80600000000001",
-        "bits": 508,
-        "degree": 2,
-        "poly": [
-          {
-            "power": 2,
-            "coeff": "0x01"
-          },
-          {
-            "power": 0,
-            "coeff": "0x05"
-          }
-        ]
-      },
-      "form": "Weierstrass",
-      "params": {
-        "a": {
-          "poly": [
-            {
-              "power": 0,
-              "coeff": "0x00"
-            }
-          ]
-        },
-        "b": {
-          "poly": [
-            {
-              "power": 1,
-              "coeff": "0x2370fb049d410fbe4e761a9886e502417d023f40180000017e80600000000000"
-            }
-          ]
-        }
-      },
-      "generator": {
-        "x": {
-          "poly": [
-            {
-              "power": 1,
-              "coeff": "0xa1cf585585a61c6e9880b1f2a5c539f7d906fff238fa6341e1de1a2e45c3f72"
+        "params": {
+            "a": {
+                "raw": "0x01c93a"
             },
-            {
-              "power": 0,
-              "coeff": "0x19b0bea4afe4c330da93cc3533da38a9f430b471c6f8a536e81962ed967909b5"
+            "b": {
+                "raw": "0x01"
             }
-          ]
         },
-        "y": {
-          "poly": [
-            {
-              "power": 1,
-              "coeff": "0x0ee97d6de9902a27d00e952232a78700863bc9aa9be960C32f5bf9fd0a32d345"
+        "generator": {
+            "x": {
+                "raw": "0x04"
             },
-            {
-              "power": 0,
-              "coeff": "0x17abd366ebbd65333e49c711a80a0cf6d24adf1b9b3990eedcc91731384d2627"
+            "y": {
+                "raw": "0x0f7acdd2a4939571d1cef14eca37c228e61dbff10707dc6c08c5056d"
             }
-          ]
-        }
-      },
-      "order": "0x2370fb049d410fbe4e761a9886e502411dc1af70120000017e80600000000001",
-      "cofactor": "0x2370fb049d410fbe4e761a9886e50241dc42cf101e0000017e80600000000001"
+        },
+        "order": "0x40000000000000000000000000015a08ed730e8a2f77f005042605b",
+        "cofactor": "0x8"
     },
     {
-      "name": "Fp254BNb",
-      "category": "other",
-      "desc": "Curve used in https://www.iacr.org/archive/eurocrypt2011/66320047/66320047.pdf",
-      "field": {
-        "type": "Prime",
-        "p": "0x2523648240000001ba344d80000000086121000000000013a700000000000013",
-        "bits": 254
-      },
-      "form": "Weierstrass",
-      "params": {
-        "a": {
-          "raw": "0x00"
+        "name": "M-383",
+        "category": "other",
+        "desc": "Curve from https://eprint.iacr.org/2013/647.pdf",
+        "form": "Montgomery",
+        "field": {
+            "type": "Prime",
+            "p": "0x7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF45",
+            "bits": 383
         },
-        "b": {
-          "raw": "0x02"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": "0x2523648240000001ba344d80000000086121000000000013a700000000000012"
+        "params": {
+            "a": {
+                "raw": "0x1f82fe"
+            },
+            "b": {
+                "raw": "0x01"
+            }
         },
-        "y": {
-          "raw": "0x01"
-        }
-      },
-      "order": "0x2523648240000001ba344d8000000007ff9f800000000010a10000000000000d",
-      "cofactor": "0x01",
-      "characteristics": {
-        "discriminant": "16798108731015832284940804142231733909889187121439069848933715426072753862995",
-        "j_invariant": "0",
-        "trace_of_frobenius": "129607518034317099905336561907183648775",
-        "embedding_degree": "12",
-        "anomalous": false,
-        "supersingular": false,
-        "cm_disc": "67192434924063329139763216568926935639427140967721962295829525142383831810117",
-        "conductor": "1",
-        "torsion_degrees": [
-          {
-            "r": 2,
-            "least": 3,
-            "full": 3
-          },
-          {
-            "r": 3,
-            "least": 2,
-            "full": 2
-          },
-          {
-            "r": 5,
-            "least": 8,
-            "full": 8
-          },
-          {
-            "r": 7,
-            "least": 6,
-            "full": 6
-          }
-        ]
-      },
-      "aliases": [
-        "bn/bn254"
-      ]
+        "generator": {
+            "x": {
+                "raw": "0x0c"
+            },
+            "y": {
+                "raw": "0x1ec7ed04aaf834af310e304b2da0f328e7c165f0e8988abd3992861290f617aa1f1b2e7d0b6e332e969991b62555e77e"
+            }
+        },
+        "order": "0x10000000000000000000000000000000000000000000000006c79673ac36ba6e7a32576f7b1b249e46bbc225be9071d7",
+        "cofactor": "0x8"
     },
     {
-      "name": "Fp224BN",
-      "category": "other",
-      "desc": "Curve described in https://www.iso.org/standard/80241.html",
-      "field": {
-        "type": "Prime",
-        "p": "0xfffffffffff107288ec29e602c4520db42180823bb907d1287127833",
-        "bits": 224
-      },
-      "form": "Weierstrass",
-      "params": {
-        "a": {
-          "raw": "0x00"
+        "name": "M-511",
+        "category": "other",
+        "desc": "Curve from https://eprint.iacr.org/2013/647.pdf",
+        "form": "Montgomery",
+        "field": {
+            "type": "Prime",
+            "p": "0x7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF45",
+            "bits": 511
         },
-        "b": {
-          "raw": "0x03"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": "0x01"
+        "params": {
+            "a": {
+                "raw": "0x081806"
+            },
+            "b": {
+                "raw": "0x01"
+            }
         },
-        "y": {
-          "raw": "0x02"
-        }
-      },
-      "order": "0xfffffffffff107288ec29e602c4420db4218082b36c2accff76c58ed",
-      "cofactor": "0x01",
-      "characteristics": {
-        "discriminant": "26959946667149205758383469736921695435015736735261155141423417420035",
-        "j_invariant": "0",
-        "trace_of_frobenius": "5192296858534689624111674181427015",
-        "embedding_degree": "12",
-        "anomalous": false,
-        "supersingular": false,
-        "cm_disc": "11982198518732980337059319883076308505307343156261666272668832029853",
-        "conductor": "3",
-        "torsion_degrees": [
-          {
-            "r": 2,
-            "least": 3,
-            "full": 3
-          },
-          {
-            "r": 3,
-            "least": 2,
-            "full": 6
-          },
-          {
-            "r": 5,
-            "least": 8,
-            "full": 8
-          },
-          {
-            "r": 7,
-            "least": 2,
-            "full": 6
-          },
-          {
-            "r": 11,
-            "least": 10,
-            "full": 10
-          },
-          {
-            "r": 13,
-            "least": 2,
-            "full": 12
-          }
-        ]
-      }
+        "generator": {
+            "x": {
+                "raw": "0x05"
+            },
+            "y": {
+                "raw": "0x2fbdc0ad8530803d28fdbad354bb488d32399ac1cf8f6e01ee3f96389b90c809422b9429e8a43dbf49308ac4455940abe9f1dbca542093a895e30a64af056fa5"
+            }
+        },
+        "order": "0x100000000000000000000000000000000000000000000000000000000000000017b5feff30c7f5677ab2aeebd13779a2ac125042a6aa10bfa54c15bab76baf1b",
+        "cofactor": "0x8"
     },
     {
-      "name": "Fp256BN",
-      "category": "other",
-      "desc": "Curve described in https://www.iso.org/standard/80241.html",
-      "field": {
-        "type": "Prime",
-        "p": "0xfffffffffffcf0cd46e5f25eee71a49f0cdc65fb12980a82d3292ddbaed33013",
-        "bits": 256
-      },
-      "form": "Weierstrass",
-      "params": {
-        "a": {
-          "raw": "0x00"
+        "name": "E-222",
+        "category": "other",
+        "desc": "Curve from https://eprint.iacr.org/2013/647.pdf",
+        "form": "Edwards",
+        "field": {
+            "type": "Prime",
+            "p": "0x3fffffffffffffffffffffffffffffffffffffffffffffffffffff8b",
+            "bits": 222
         },
-        "b": {
-          "raw": "0x03"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": "0x01"
+        "params": {
+            "c": {
+                "raw": "0x01"
+            },
+            "d": {
+                "raw": "0x27166"
+            }
         },
-        "y": {
-          "raw": "0x02"
-        }
-      },
-      "order": "0xfffffffffffcf0cd46e5f25eee71a49e0cdc65fb1299921af62d536cd10b500d",
-      "cofactor": "0x01",
-      "characteristics": {
-        "discriminant": "115792089237314936872688561244471742058375878355761205198700409522629664514275",
-        "j_invariant": "0",
-        "trace_of_frobenius": "340282366920936614211651523200128901127",
-        "embedding_degree": "12",
-        "anomalous": false,
-        "supersingular": false,
-        "cm_disc": "2058526030885598877736685533235053192147392138027217263024844384743637907429",
-        "conductor": "15",
-        "torsion_degrees": [
-          {
-            "r": 2,
-            "least": 3,
-            "full": 3
-          },
-          {
-            "r": 3,
-            "least": 2,
-            "full": 6
-          },
-          {
-            "r": 5,
-            "least": 24,
-            "full": 24
-          }
-        ]
-      }
+        "generator": {
+            "x": {
+                "raw": "0x19b12bb156a389e55c9768c303316d07c23adab3736eb2bc3eb54e51"
+            },
+            "y": {
+                "raw": "0x1c"
+            }
+        },
+        "order": "0xffffffffffffffffffffffffffff70cbc95e932f802f31423598cbf",
+        "cofactor": "0x4"
     },
     {
-      "name": "Fp384BN",
-      "category": "other",
-      "desc": "Curve described in https://www.iso.org/standard/80241.html",
-      "field": {
-        "type": "Prime",
-        "p": "0xfffffffffffffffffff2a96823d5920d2a127e3f6fbca024c8fbe29531892c79534f9d306328261550a7cabd7cccd10b",
-        "bits": 384
-      },
-      "form": "Weierstrass",
-      "params": {
-        "a": {
-          "raw": "0x00"
+        "name": "E-382",
+        "category": "other",
+        "desc": "Curve from https://eprint.iacr.org/2013/647.pdf",
+        "form": "Edwards",
+        "field": {
+            "type": "Prime",
+            "p": "0x3fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff97",
+            "bits": 382
         },
-        "b": {
-          "raw": "0x03"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": "0x01"
+        "params": {
+            "c": {
+                "raw": "0x01"
+            },
+            "d": {
+                "raw": "0x3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffef8e1"
+            }
         },
-        "y": {
-          "raw": "0x02"
-        }
-      },
-      "order": "0xfffffffffffffffffff2a96823d5920d2a127e3f6fbca023c8fbe29531892c795356487d8ac63e4f4db17384341a5775",
-      "cofactor": "0x01",
-      "characteristics": {
-        "discriminant": "39402006196394479212278605372068645601647601647604977711041989197213181721117185302456933847594895764913993728967131",
-        "j_invariant": "0",
-        "trace_of_frobenius": "6277101735386680763835754795021643429033562911502587034007",
-        "embedding_degree": "12",
-        "anomalous": false,
-        "supersingular": false
-      }
+        "generator": {
+            "x": {
+                "raw": "0x196f8dd0eab20391e5f05be96e8d20ae68f840032b0b64352923bab85364841193517dbce8105398ebc0cc9470f79603"
+            },
+            "y": {
+                "raw": "0x11"
+            }
+        },
+        "order": "0xfffffffffffffffffffffffffffffffffffffffffffffffd5fb21f21e95eee17c5e69281b102d2773e27e13fd3c9719",
+        "cofactor": "0x4"
     },
     {
-      "name": "Fp512BN",
-      "category": "other",
-      "desc": "Curve described in https://www.iso.org/standard/80241.html",
-      "field": {
-        "type": "Prime",
-        "p": "0xfffffffffffffffffffffffffff9ec7f01c60ba1d8cb5307c0bbe3c111b0ef455146cf1eacbe98b8e48c65deab236fe1916a55ce5f4c6467b4eb280922adef33",
-        "bits": 512
-      },
-      "form": "Weierstrass",
-      "params": {
-        "a": {
-          "raw": "0x00"
+        "name": "E-521",
+        "category": "other",
+        "desc": "Curve from https://eprint.iacr.org/2013/647.pdf",
+        "form": "Edwards",
+        "field": {
+            "type": "Prime",
+            "p": "0x1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+            "bits": 521
         },
-        "b": {
-          "raw": "0x03"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": "0x01"
+        "params": {
+            "c": {
+                "raw": "0x01"
+            },
+            "d": {
+                "raw": "0x1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa4331"
+            }
         },
-        "y": {
-          "raw": "0x02"
-        }
-      },
-      "order": "0xfffffffffffffffffffffffffff9ec7f01c60ba1d8cb5307c0bbe3c111b0ef445146cf1eacbe98b8e48c65deab2679a34a10313e04f9a2b406a64a5f519a09ed",
-      "cofactor": "0x01",
-      "characteristics": {
-        "discriminant": "13407807929942597099574024998205830437246153344875111580494527427714590099881795845981157516604994291639750834285779043186149750164319950153126044364562435",
-        "j_invariant": "0",
-        "trace_of_frobenius": "115792089237316195423570985008687840101103879741288409693302319863988063823175"
-      }
+        "generator": {
+            "x": {
+                "raw": "0x752cb45c48648b189df90cb2296b2878a3bfd9f42fc6c818ec8bf3c9c0c6203913f6ecc5ccc72434b1ae949d568fc99c6059d0fb13364838aa302a940a2f19ba6c"
+            },
+            "y": {
+                "raw": "0x0c"
+            }
+        },
+        "order": "0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffd15b6c64746fc85f736b8af5e7ec53f04fbd8c4569a8f1f4540ea2435f5180d6b",
+        "cofactor": "0x4"
     },
     {
-      "form": "Weierstrass",
-      "name": "ssc-160",
-      "category": "other",
-      "desc": "A prime order curve from MIRACL: https://github.com/miracl/MIRACL/blob/master/docs/miracl-explained/miracl-standard-curves.md. Has no generator specified.",
-      "field": {
-        "type": "Prime",
-        "p": "0xc90fdaa22168c234c4c6628b80dc1cd129024e1f",
-        "bits": 160
-      },
-      "params": {
-        "a": {
-          "raw": "0xc90fdaa22168c234c4c6628b80dc1cd129024e1c"
+        "name": "Curve25519",
+        "category": "other",
+        "desc": "Curve from https://cr.yp.to/ecdh.html",
+        "form": "Montgomery",
+        "field": {
+            "type": "Prime",
+            "p": "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffed",
+            "bits": 255
         },
-        "b": {
-          "raw": "0xadf85458a2bb4a9aafdc5620273d3cf1d8b9c841"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": ""
+        "params": {
+            "a": {
+                "raw": "0x76d06"
+            },
+            "b": {
+                "raw": "0x01"
+            }
         },
-        "y": {
-          "raw": ""
-        }
-      },
-      "order": "0xc90fdaa22168c234c4c5d89f4f2dd72349ee61f7",
-      "cofactor": "0x01"
+        "generator": {
+            "x": {
+                "raw": "0x09"
+            },
+            "y": {
+                "raw": "0x20ae19a1b8a086b4e01edd2c7748d14c923d4d7e6d7c61b229e9c5a27eced3d9"
+            }
+        },
+        "order": "0x1000000000000000000000000000000014def9dea2f79cd65812631a5cf5d3ed",
+        "cofactor": "0x8"
     },
     {
-      "form": "Weierstrass",
-      "name": "ssc-192",
-      "category": "other",
-      "desc": "A prime order curve from MIRACL: https://github.com/miracl/MIRACL/blob/master/docs/miracl-explained/miracl-standard-curves.md. Has no generator specified.",
-      "field": {
-        "type": "Prime",
-        "p": "0xc90fdaa22168c234c4c6628b80dc1cd129024e088a67cd13",
-        "bits": 192
-      },
-      "params": {
-        "a": {
-          "raw": "0xc302f41d932a36cda7a3463093d18db78fce476de1a86294"
+        "name": "Curve22103",
+        "category": "other",
+        "desc": "Curve from https://github.com/relic-toolkit/relic",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0x1ffffffffffffffffffffffffffffffffffffffffffffffffffffffd",
+            "bits": 221
         },
-        "b": {
-          "raw": "0xadf85458a2bb4a9aafdc5620273d3cf1d8b9c583ce2d36a6"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": ""
+        "params": {
+            "a": {
+                "raw": "0x155555555555555555555555555555555555555555555552174084FF"
+            },
+            "b": {
+                "raw": "0x1425ED097B425ED097B425ED097B425ED097B425ED0BBA9428427967"
+            }
         },
-        "y": {
-          "raw": ""
-        }
-      },
-      "order": "0xc90fdaa22168c234c4c6628c5dca19490dd3e6fd7979a7a3",
-      "cofactor": "0x01"
+        "generator": {
+            "x": {
+                "raw": "0xCB476FE081B61F56A60B1D1B34FB7207D072EF25DADF377731049B0"
+            },
+            "y": {
+                "raw": "0x36429404D97E1E217BAD2E5601F6551F95D8FE9481BD454D1F3E7B6"
+            }
+        },
+        "order": "0x3fffffffffffffffffffffffffff5cd04695a145c3067cf4aae2025",
+        "cofactor": "0x8"
     },
     {
-      "form": "Weierstrass",
-      "name": "ssc-224",
-      "category": "other",
-      "desc": "A prime order curve from MIRACL: https://github.com/miracl/MIRACL/blob/master/docs/miracl-explained/miracl-standard-curves.md. Has no generator specified.",
-      "field": {
-        "type": "Prime",
-        "p": "0xc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbedf",
-        "bits": 224
-      },
-      "params": {
-        "a": {
-          "raw": "0xc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbedc"
+        "name": "Curve4417",
+        "category": "other",
+        "desc": "Curve from https://github.com/relic-toolkit/relic",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0x3fffffffffffffffffffffffffffffffffffffffffffffffffffffffb",
+            "bits": 226
         },
-        "b": {
-          "raw": "0xadf85458a2bb4a9aafdc5620273d3cf1d8b9c583ce2d3695a9e13a03"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": ""
+        "params": {
+            "a": {
+                "raw": "0x4648D10B419379D50F4BA01869D9AE363285E01FE66920878EE075B0"
+            },
+            "b": {
+                "raw": "0x4C4DCEDFAC09383A0311B98EE9637415B9134B4115FDB760C1A3D419"
+            }
         },
-        "y": {
-          "raw": ""
-        }
-      },
-      "order": "0xc90fdaa22168c234c4c6628b80dd2439be5b2b827a9ffbea7240e5cd",
-      "cofactor": "0x01"
+        "generator": {
+            "x": {
+                "raw": "0xFF9D7EDD97D523012FFAACA32B7C90F1A8E026F21972C789A8484A2B"
+            },
+            "y": {
+                "raw": "0x3E9036ADC1A41FCE2F2CA08E2D1BE4F6D97E30CA7761DB1F3E2F2CE96"
+            }
+        },
+        "order": "0xfffffffffffffffffffffffffffffc4a75594d4923fc93d42713cdaf",
+        "cofactor": "0x4"
     },
     {
-      "form": "Weierstrass",
-      "name": "ssc-256",
-      "category": "other",
-      "desc": "A prime order curve from MIRACL: https://github.com/miracl/MIRACL/blob/master/docs/miracl-explained/miracl-standard-curves.md. Has no generator specified.",
-      "field": {
-        "type": "Prime",
-        "p": "0xc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbea63b139c0b",
-        "bits": 256
-      },
-      "params": {
-        "a": {
-          "raw": "0xc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbea63b139c08"
+        "name": "Curve1174",
+        "category": "other",
+        "desc": "Curve from https://eprint.iacr.org/2013/325.pdf",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff7",
+            "bits": 251
         },
-        "b": {
-          "raw": "0xadf85458a2bb4a9aafdc5620273d3cf1d8b9c583ce2d3695a9e13641146434e1"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": ""
+        "params": {
+            "a": {
+                "raw": "0x486BE25B34C8080922B969257EEB54C404F914A29067A5560BB9AEE0BC67A6D"
+            },
+            "b": {
+                "raw": "0xE347A25BF875DD2F1F12D8A10334D417CC15E77893A99F4BF278CA563072E6"
+            }
         },
-        "y": {
-          "raw": ""
-        }
-      },
-      "order": "0xc90fdaa22168c234c4c6628b80dc1cd0fbec42e940b37a88d9caeca198a64437",
-      "cofactor": "0x01"
+        "generator": {
+            "x": {
+                "raw": "0x3BE821D63D2CD5AFE0504F452E5CF47A60A10446928CEAECFD5294F89B45051"
+            },
+            "y": {
+                "raw": "0x66FE4E7B8B6FE152F743393029A61BFB839747C8FB00F7B27A6841C07532A0"
+            }
+        },
+        "order": "0x1fffffffffffffffffffffffffffffff77965c4dfd307348944d45fd166c971",
+        "cofactor": "0x4"
     },
     {
-      "form": "Weierstrass",
-      "name": "ssc-288",
-      "category": "other",
-      "desc": "A prime order curve from MIRACL: https://github.com/miracl/MIRACL/blob/master/docs/miracl-explained/miracl-standard-curves.md. Has no generator specified.",
-      "field": {
-        "type": "Prime",
-        "p": "0xc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbea63b139b22514a098b",
-        "bits": 288
-      },
-      "params": {
-        "a": {
-          "raw": "0xc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbea63b139b22514a0988"
+        "name": "Curve67254",
+        "category": "other",
+        "desc": "Curve from https://github.com/relic-toolkit/relic",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0x3fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff97",
+            "bits": 382
         },
-        "b": {
-          "raw": "0xadf85458a2bb4a9aafdc5620273d3cf1d8b9c583ce2d3695a9e13641146433fbcc939f36"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": ""
+        "params": {
+            "a": {
+                "raw": "0x2E32419A32377AF8E7F03148A106D112C8C2E26D31A89F46B743DEED322C7ADC3024AFE4B5AFD8DB7180281586549F4A"
+            },
+            "b": {
+                "raw": "0x22F6EF3BE72A67FDC236D7173727CD2AF6D02A195753C44BDF451369B02EA0F963D9A775CAE6DC3AE9CCABB7F183C1AD"
+            }
         },
-        "y": {
-          "raw": ""
-        }
-      },
-      "order": "0xc90fdaa22168c234c4c6628b80dc1cd12903ba214366757b7a5240b2a637e2065a850855",
-      "cofactor": "0x01"
+        "generator": {
+            "x": {
+                "raw": "0x141946416199FDDA96EC1F1AC80058AA3F0CE96B1BCD023E97BAE542FE3404B4738DB9B81A13698339387672ECA360C0"
+            },
+            "y": {
+                "raw": "0xD51BF79D968F4A076022E750F821058E2B5073697B639EDD355EBF8AD32352B1EFA9478DE7EB5662EF0D26EF6EEA795"
+            }
+        },
+        "order": "0xfffffffffffffffffffffffffffffffffffffffffffffffd5fb21f21e95eee17c5e69281b102d2773e27e13fd3c9719",
+        "cofactor": "0x4"
     },
     {
-      "form": "Weierstrass",
-      "name": "ssc-320",
-      "category": "other",
-      "desc": "A prime order curve from MIRACL: https://github.com/miracl/MIRACL/blob/master/docs/miracl-explained/miracl-standard-curves.md. Has no generator specified.",
-      "field": {
-        "type": "Prime",
-        "p": "0xc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbea63b139b22514a08798e3408b3",
-        "bits": 320
-      },
-      "params": {
-        "a": {
-          "raw": "0xc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbea63b139b22514a08798e3408b0"
+        "name": "Curve383187",
+        "category": "other",
+        "form": "Montgomery",
+        "field": {
+            "bits": 283,
+            "p": "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff45",
+            "type": "Prime"
         },
-        "b": {
-          "raw": "0xadf85458a2bb4a9aafdc5620273d3cf1d8b9c583ce2d3695a9e13641146433fbcc939dce249b40a4"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": ""
+        "params": {
+            "a": {
+                "raw": "0x38251"
+            },
+            "b": {
+                "raw": "0x01"
+            }
         },
-        "y": {
-          "raw": ""
-        }
-      },
-      "order": "0xc90fdaa22168c234c4c6628b80dc1cd129024e09489bd44fda941042cccc7286009777663bb29671",
-      "cofactor": "0x01"
+        "generator": {
+            "x": {
+                "raw": "0x5"
+            },
+            "y": {
+                "raw": "0x1eebe07dc1871896732b12d5504a32370471965c7a11f2c89865f855ab3cbd7c224e3620c31af3370788457dd5ce46df"
+            }
+        },
+        "order": "0x1000000000000000000000000000000000000000000000000e85a85287a1488acd41ae84b2b7030446f72088b00a0e21",
+        "cofactor": "0x8"
     },
     {
-      "form": "Weierstrass",
-      "name": "ssc-384",
-      "category": "other",
-      "desc": "A prime order curve from MIRACL: https://github.com/miracl/MIRACL/blob/master/docs/miracl-explained/miracl-standard-curves.md. Has no generator specified.",
-      "field": {
-        "type": "Prime",
-        "p": "0xc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbea63b139b22514a08798e3404ddef9519b3cd3a437b",
-        "bits": 384
-      },
-      "params": {
-        "a": {
-          "raw": "0xc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbea63b139b22514a08798e3404ddef9519b3cd3a4378"
+        "name": "Ed25519",
+        "category": "other",
+        "desc": "Curve from https://ed25519.cr.yp.to",
+        "form": "TwistedEdwards",
+        "field": {
+            "type": "Prime",
+            "p": "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffed",
+            "bits": 255
         },
-        "b": {
-          "raw": "0xadf85458a2bb4a9aafdc5620273d3cf1d8b9c583ce2d3695a9e13641146433fbcc939dce249b3ef97d2fe363630c7791"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": ""
+        "params": {
+            "a": {
+                "raw": "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffec"
+            },
+            "d": {
+                "raw": "0x52036cee2b6ffe738cc740797779e89800700a4d4141d8ab75eb4dca135978a3"
+            }
         },
-        "y": {
-          "raw": ""
-        }
-      },
-      "order": "0xc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc73b7669162524b60c73ee73e6dfe7059f510370fe7870d8599",
-      "cofactor": "0x01"
+        "generator": {
+            "x": {
+                "raw": "0x216936D3CD6E53FEC0A4E231FDD6DC5C692CC7609525A7B2C9562D608F25D51A"
+            },
+            "y": {
+                "raw": "0x6666666666666666666666666666666666666666666666666666666666666658"
+            }
+        },
+        "order": "0x1000000000000000000000000000000014def9dea2f79cd65812631a5cf5d3ed",
+        "cofactor": "0x8"
     },
     {
-      "form": "Weierstrass",
-      "name": "ssc-512",
-      "category": "other",
-      "desc": "A prime order curve from MIRACL: https://github.com/miracl/MIRACL/blob/master/docs/miracl-explained/miracl-standard-curves.md. Has no generator specified.",
-      "field": {
-        "type": "Prime",
-        "p": "0xc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbea63b139b22514a08798e3404ddef9519b3cd3a431b302b0a6df25f14374fe1356d6d51c5ef",
-        "bits": 512
-      },
-      "params": {
-        "a": {
-          "raw": "0xc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbea63b139b22514a08798e3404ddef9519b3cd3a431b302b0a6df25f14374fe1356d6d51c5ec"
+        "name": "Ed448",
+        "category": "other",
+        "desc": "Curve from https://eprint.iacr.org/2015/625.pdf",
+        "form": "TwistedEdwards",
+        "field": {
+            "type": "Prime",
+            "p": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffeffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+            "bits": 448
         },
-        "b": {
-          "raw": "0xadf85458a2bb4a9aafdc5620273d3cf1d8b9c583ce2d3695a9e13641146433fbcc939dce249b3ef97d2fe363630c75d8f681b202aec4617ad3df1ed5d5fd6a8d"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": ""
+        "params": {
+            "a": {
+                "raw": "0x01"
+            },
+            "d": {
+                "raw": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffeffffffffffffffffffffffffffffffffffffffffffffffffffff6756"
+            }
         },
-        "y": {
-          "raw": ""
-        }
-      },
-      "order": "0xc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbea63b139b235a2359c4afbc9eb7987f1c9ab37e42599188c4b7dc6269b830d80897f57a5f71",
-      "cofactor": "0x01"
+        "generator": {
+            "x": {
+                "raw": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa955555555555555555555555555555555555555555555555555555555"
+            },
+            "y": {
+                "raw": "0xae05e9634ad7048db359d6205086c2b0036ed7a035884dd7b7e36d728ad8c4b80d6565833a2a3098bbbcb2bed1cda06bdaeafbcdea9386ed"
+            }
+        },
+        "order": "0x3fffffffffffffffffffffffffffffffffffffffffffffffffffffff7cca23e9c44edb49aed63690216cc2728dc58f552378c292ab5844f3",
+        "cofactor": "0x4"
     },
     {
-      "form": "Weierstrass",
-      "name": "Tweedledum",
-      "category": "other",
-      "desc": "Tweedledum pairing friendly curve from <https://github.com/daira/tweedle>.",
-      "field": {
-        "type": "Prime",
-        "p": "0x40000000000000000000000000000000038aa1276c3f59b9a14064e200000001",
-        "bits": 255
-      },
-      "params": {
-        "a": {
-          "raw": "0x00"
+        "name": "Curve41417",
+        "category": "other",
+        "desc": "Curve from https://cr.yp.to/talks/2013.09.16/slides-djb-20130916-a4.pdf",
+        "form": "TwistedEdwards",
+        "field": {
+            "type": "Prime",
+            "p": "0x3fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffef",
+            "bits": 414
         },
-        "b": {
-          "raw": "0x05"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": "0x40000000000000000000000000000000038aa1276c3f59b9a14064e200000000"
+        "params": {
+            "a": {
+                "raw": "0x01"
+            },
+            "d": {
+                "raw": "0xe21"
+            }
         },
-        "y": {
-          "raw": "0x02"
-        }
-      },
-      "order": "0x40000000000000000000000000000000038aa127696286c9842cafd400000001",
-      "cofactor": "0x01"
+        "generator": {
+            "x": {
+                "raw": "0x1a334905141443300218c0631c326e5fcd46369f44c03ec7f57ff35498a4ab4d6d6ba111301a73faa8537c64c4fd3812f3cbc595"
+            },
+            "y": {
+                "raw": "0x22"
+            }
+        },
+        "order": "0x7ffffffffffffffffffffffffffffffffffffffffffffffffffeb3cc92414cf706022b36f1c0338ad63cf181b0e71a5e106af79",
+        "cofactor": "0x8"
     },
     {
-      "form": "Weierstrass",
-      "name": "Tweedledee",
-      "category": "other",
-      "desc": "Tweedledee pairing friendly curve from <https://github.com/daira/tweedle>.",
-      "field": {
-        "type": "Prime",
-        "p": "0x40000000000000000000000000000000038aa127696286c9842cafd400000001",
-        "bits": 255
-      },
-      "params": {
-        "a": {
-          "raw": "0x00"
+        "name": "Fp254BNa",
+        "category": "other",
+        "desc": "Curve used in: https://eprint.iacr.org/2010/354.pdf",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0x2370fb049d410fbe4e761a9886e502417d023f40180000017e80600000000001",
+            "bits": 254
         },
-        "b": {
-          "raw": "0x05"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": "0x40000000000000000000000000000000038aa127696286c9842cafd400000000"
+        "params": {
+            "a": {
+                "raw": "0x00"
+            },
+            "b": {
+                "raw": "0x05"
+            }
         },
-        "y": {
-          "raw": "0x02"
-        }
-      },
-      "order": "0x40000000000000000000000000000000038aa1276c3f59b9a14064e200000001",
-      "cofactor": "0x01"
+        "generator": {
+            "x": {
+                "raw": "0x01"
+            },
+            "y": {
+                "raw": "0xd45589b158faaf6ab0e4ad38d998e9982e7ff63964ee1460342a592677cccb0"
+            }
+        },
+        "order": "0x2370fb049d410fbe4e761a9886e502411dc1af70120000017e80600000000001",
+        "cofactor": "0x1"
     },
     {
-      "form": "TwistedEdwards",
-      "name": "JubJub",
-      "category": "other",
-      "desc": "JubJub curve from <https://z.cash/technology/jubjub/>.",
-      "field": {
-        "type": "Prime",
-        "p": "0x73eda753299d7d483339d80809a1d80553bda402fffe5bfeffffffff00000001",
-        "bits": 255
-      },
-      "params": {
-        "a": {
-          "raw": "0x73eda753299d7d483339d80809a1d80553bda402fffe5bfeffffffff00000000"
+        "name": "Fp254n2BNa",
+        "category": "other",
+        "desc": "Curve used in: https://eprint.iacr.org/2010/354.pdf",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Extension",
+            "base": "0x2370fb049d410fbe4e761a9886e502417d023f40180000017e80600000000001",
+            "bits": 508,
+            "degree": 2,
+            "poly": [
+                {
+                    "power": 2,
+                    "coeff": "0x01"
+                },
+                {
+                    "power": 0,
+                    "coeff": "0x05"
+                }
+            ]
         },
-        "d": {
-          "raw": "0x2a9318e74bfa2b48f5fd9207e6bd7fd4292d7f6d37579d2601065fd6d6343eb1"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": "0x11dafe5d23e1218086a365b99fbf3d3be72f6afd7d1f72623e6b071492d1122b"
+        "params": {
+            "a": {
+                "poly": [
+                    {
+                        "power": 0,
+                        "coeff": "0x00"
+                    }
+                ]
+            },
+            "b": {
+                "poly": [
+                    {
+                        "power": 1,
+                        "coeff": "0x2370fb049d410fbe4e761a9886e502417d023f40180000017e80600000000000"
+                    }
+                ]
+            }
         },
-        "y": {
-          "raw": "0x1d523cf1ddab1a1793132e78c866c0c33e26ba5cc220fed7cc3f870e59d292aa"
-        }
-      },
-      "order": "0xe7db4ea6533afa906673b0101343b00a6682093ccc81082d0970e5ed6f72cb7",
-      "cofactor": "0x08"
+        "order": "0x2370fb049d410fbe4e761a9886e502411dc1af70120000017e80600000000001",
+        "cofactor": "0x2370fb049d410fbe4e761a9886e50241dc42cf101e0000017e80600000000001"
     },
     {
-      "form": "Weierstrass",
-      "name": "Pallas",
-      "category": "other",
-      "desc": "Pallas curve from the [Pasta curves](https://electriccoin.co/blog/the-pasta-curves-for-halo-2-and-beyond/).",
-      "field": {
-        "type": "Prime",
-        "p": "0x40000000000000000000000000000000224698fc094cf91b992d30ed00000001",
-        "bits": 255
-      },
-      "params": {
-        "a": {
-          "raw": "0x00"
+        "name": "Fp254BNb",
+        "category": "other",
+        "aliases": [
+            "bn/bn254"
+        ],
+        "desc": "Curve used in https://www.iacr.org/archive/eurocrypt2011/66320047/66320047.pdf",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0x2523648240000001ba344d80000000086121000000000013a700000000000013",
+            "bits": 254
         },
-        "b": {
-          "raw": "0x05"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": "0x40000000000000000000000000000000224698fc094cf91b992d30ed00000000"
+        "params": {
+            "a": {
+                "raw": "0x00"
+            },
+            "b": {
+                "raw": "0x02"
+            }
         },
-        "y": {
-          "raw": "0x02"
-        }
-      },
-      "order": "0x40000000000000000000000000000000224698fc0994a8dd8c46eb2100000001",
-      "cofactor": "0x01"
+        "generator": {
+            "x": {
+                "raw": "0x2523648240000001ba344d80000000086121000000000013a700000000000012"
+            },
+            "y": {
+                "raw": "0x01"
+            }
+        },
+        "order": "0x2523648240000001ba344d8000000007ff9f800000000010a10000000000000d",
+        "cofactor": "0x1"
     },
     {
-      "form": "Weierstrass",
-      "name": "Vesta",
-      "category": "other",
-      "desc": "Vesta curve from the [Pasta curves](https://electriccoin.co/blog/the-pasta-curves-for-halo-2-and-beyond/).",
-      "field": {
-        "type": "Prime",
-        "p": "0x40000000000000000000000000000000224698fc0994a8dd8c46eb2100000001",
-        "bits": 255
-      },
-      "params": {
-        "a": {
-          "raw": "0x00"
+        "name": "Fp224BN",
+        "category": "other",
+        "desc": "Curve described in https://www.iso.org/standard/80241.html",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0xfffffffffff107288ec29e602c4520db42180823bb907d1287127833",
+            "bits": 224
         },
-        "b": {
-          "raw": "0x05"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": "0x40000000000000000000000000000000224698fc0994a8dd8c46eb2100000000"
+        "params": {
+            "a": {
+                "raw": "0x00"
+            },
+            "b": {
+                "raw": "0x03"
+            }
         },
-        "y": {
-          "raw": "0x02"
-        }
-      },
-      "order": "0x40000000000000000000000000000000224698fc094cf91b992d30ed00000001",
-      "cofactor": "0x01"
+        "generator": {
+            "x": {
+                "raw": "0x01"
+            },
+            "y": {
+                "raw": "0x02"
+            }
+        },
+        "order": "0xfffffffffff107288ec29e602c4420db4218082b36c2accff76c58ed",
+        "cofactor": "0x1"
     },
     {
-      "name": "MDC201601",
-      "category": "other",
-      "desc": "The Million Dollar Curve",
-      "field": {
-        "type": "Prime",
-        "p": "0xf13b68b9d456afb4532f92fdd7a5fd4f086a9037ef07af9ec13710405779ec13",
-        "bits": 256
-      },
-      "form": "Edwards",
-      "params": {
-        "c": {
-          "raw": "0x01"
+        "name": "Fp256BN",
+        "category": "other",
+        "desc": "Curve described in https://www.iso.org/standard/80241.html",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0xfffffffffffcf0cd46e5f25eee71a49f0cdc65fb12980a82d3292ddbaed33013",
+            "bits": 256
         },
-        "d": {
-          "raw": "0x571304521965b68a7cdfbfccfb0cb9625f1270f63f21f041ee9309250300cf89"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": "0xb681886a7f903b83d85b421e03cbcf6350d72abb8d2713e2232c25bfee68363b"
+        "params": {
+            "a": {
+                "raw": "0x00"
+            },
+            "b": {
+                "raw": "0x03"
+            }
         },
-        "y": {
-          "raw": "0xca6734e1b59c0b0359814dcf6563da421da8bc3d81a93a3a7e73c355bd2864b5"
-        }
-      },
-      "order": "0x3c4eda2e7515abed14cbe4bf75e97f534fb38975faf974bb588552f421b0f7fb",
-      "cofactor": "0x04",
-      "properties": {
+        "generator": {
+            "x": {
+                "raw": "0x01"
+            },
+            "y": {
+                "raw": "0x02"
+            }
+        },
+        "order": "0xfffffffffffcf0cd46e5f25eee71a49e0cdc65fb1299921af62d536cd10b500d",
+        "cofactor": "0x1"
+    },
+    {
+        "name": "Fp384BN",
+        "category": "other",
+        "desc": "Curve described in https://www.iso.org/standard/80241.html",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0xfffffffffffffffffff2a96823d5920d2a127e3f6fbca024c8fbe29531892c79534f9d306328261550a7cabd7cccd10b",
+            "bits": 384
+        },
+        "params": {
+            "a": {
+                "raw": "0x00"
+            },
+            "b": {
+                "raw": "0x03"
+            }
+        },
+        "generator": {
+            "x": {
+                "raw": "0x01"
+            },
+            "y": {
+                "raw": "0x02"
+            }
+        },
+        "order": "0xfffffffffffffffffff2a96823d5920d2a127e3f6fbca023c8fbe29531892c795356487d8ac63e4f4db17384341a5775",
+        "cofactor": "0x1"
+    },
+    {
+        "name": "Fp512BN",
+        "category": "other",
+        "desc": "Curve described in https://www.iso.org/standard/80241.html",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0xfffffffffffffffffffffffffff9ec7f01c60ba1d8cb5307c0bbe3c111b0ef455146cf1eacbe98b8e48c65deab236fe1916a55ce5f4c6467b4eb280922adef33",
+            "bits": 512
+        },
+        "params": {
+            "a": {
+                "raw": "0x00"
+            },
+            "b": {
+                "raw": "0x03"
+            }
+        },
+        "generator": {
+            "x": {
+                "raw": "0x01"
+            },
+            "y": {
+                "raw": "0x02"
+            }
+        },
+        "order": "0xfffffffffffffffffffffffffff9ec7f01c60ba1d8cb5307c0bbe3c111b0ef445146cf1eacbe98b8e48c65deab2679a34a10313e04f9a2b406a64a5f519a09ed",
+        "cofactor": "0x1"
+    },
+    {
+        "name": "ssc-160",
+        "category": "other",
+        "desc": "A prime order curve from MIRACL: https://github.com/miracl/MIRACL/blob/master/docs/miracl-explained/miracl-standard-curves.md. Has no generator specified.",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0xc90fdaa22168c234c4c6628b80dc1cd129024e1f",
+            "bits": 160
+        },
+        "params": {
+            "a": {
+                "raw": "0xc90fdaa22168c234c4c6628b80dc1cd129024e1c"
+            },
+            "b": {
+                "raw": "0xadf85458a2bb4a9aafdc5620273d3cf1d8b9c841"
+            }
+        },
+        "order": "0xc90fdaa22168c234c4c5d89f4f2dd72349ee61f7",
+        "cofactor": "0x1"
+    },
+    {
+        "name": "ssc-192",
+        "category": "other",
+        "desc": "A prime order curve from MIRACL: https://github.com/miracl/MIRACL/blob/master/docs/miracl-explained/miracl-standard-curves.md. Has no generator specified.",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0xc90fdaa22168c234c4c6628b80dc1cd129024e088a67cd13",
+            "bits": 192
+        },
+        "params": {
+            "a": {
+                "raw": "0xc302f41d932a36cda7a3463093d18db78fce476de1a86294"
+            },
+            "b": {
+                "raw": "0xadf85458a2bb4a9aafdc5620273d3cf1d8b9c583ce2d36a6"
+            }
+        },
+        "order": "0xc90fdaa22168c234c4c6628c5dca19490dd3e6fd7979a7a3",
+        "cofactor": "0x1"
+    },
+    {
+        "name": "ssc-224",
+        "category": "other",
+        "desc": "A prime order curve from MIRACL: https://github.com/miracl/MIRACL/blob/master/docs/miracl-explained/miracl-standard-curves.md. Has no generator specified.",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0xc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbedf",
+            "bits": 224
+        },
+        "params": {
+            "a": {
+                "raw": "0xc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbedc"
+            },
+            "b": {
+                "raw": "0xadf85458a2bb4a9aafdc5620273d3cf1d8b9c583ce2d3695a9e13a03"
+            }
+        },
+        "order": "0xc90fdaa22168c234c4c6628b80dd2439be5b2b827a9ffbea7240e5cd",
+        "cofactor": "0x1"
+    },
+    {
+        "name": "ssc-256",
+        "category": "other",
+        "desc": "A prime order curve from MIRACL: https://github.com/miracl/MIRACL/blob/master/docs/miracl-explained/miracl-standard-curves.md. Has no generator specified.",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0xc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbea63b139c0b",
+            "bits": 256
+        },
+        "params": {
+            "a": {
+                "raw": "0xc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbea63b139c08"
+            },
+            "b": {
+                "raw": "0xadf85458a2bb4a9aafdc5620273d3cf1d8b9c583ce2d3695a9e13641146434e1"
+            }
+        },
+        "order": "0xc90fdaa22168c234c4c6628b80dc1cd0fbec42e940b37a88d9caeca198a64437",
+        "cofactor": "0x1"
+    },
+    {
+        "name": "ssc-288",
+        "category": "other",
+        "desc": "A prime order curve from MIRACL: https://github.com/miracl/MIRACL/blob/master/docs/miracl-explained/miracl-standard-curves.md. Has no generator specified.",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0xc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbea63b139b22514a098b",
+            "bits": 288
+        },
+        "params": {
+            "a": {
+                "raw": "0xc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbea63b139b22514a0988"
+            },
+            "b": {
+                "raw": "0xadf85458a2bb4a9aafdc5620273d3cf1d8b9c583ce2d3695a9e13641146433fbcc939f36"
+            }
+        },
+        "order": "0xc90fdaa22168c234c4c6628b80dc1cd12903ba214366757b7a5240b2a637e2065a850855",
+        "cofactor": "0x1"
+    },
+    {
+        "name": "ssc-320",
+        "category": "other",
+        "desc": "A prime order curve from MIRACL: https://github.com/miracl/MIRACL/blob/master/docs/miracl-explained/miracl-standard-curves.md. Has no generator specified.",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0xc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbea63b139b22514a08798e3408b3",
+            "bits": 320
+        },
+        "params": {
+            "a": {
+                "raw": "0xc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbea63b139b22514a08798e3408b0"
+            },
+            "b": {
+                "raw": "0xadf85458a2bb4a9aafdc5620273d3cf1d8b9c583ce2d3695a9e13641146433fbcc939dce249b40a4"
+            }
+        },
+        "order": "0xc90fdaa22168c234c4c6628b80dc1cd129024e09489bd44fda941042cccc7286009777663bb29671",
+        "cofactor": "0x1"
+    },
+    {
+        "name": "ssc-384",
+        "category": "other",
+        "desc": "A prime order curve from MIRACL: https://github.com/miracl/MIRACL/blob/master/docs/miracl-explained/miracl-standard-curves.md. Has no generator specified.",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0xc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbea63b139b22514a08798e3404ddef9519b3cd3a437b",
+            "bits": 384
+        },
+        "params": {
+            "a": {
+                "raw": "0xc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbea63b139b22514a08798e3404ddef9519b3cd3a4378"
+            },
+            "b": {
+                "raw": "0xadf85458a2bb4a9aafdc5620273d3cf1d8b9c583ce2d3695a9e13641146433fbcc939dce249b3ef97d2fe363630c7791"
+            }
+        },
+        "order": "0xc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc73b7669162524b60c73ee73e6dfe7059f510370fe7870d8599",
+        "cofactor": "0x1"
+    },
+    {
+        "name": "ssc-512",
+        "category": "other",
+        "desc": "A prime order curve from MIRACL: https://github.com/miracl/MIRACL/blob/master/docs/miracl-explained/miracl-standard-curves.md. Has no generator specified.",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0xc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbea63b139b22514a08798e3404ddef9519b3cd3a431b302b0a6df25f14374fe1356d6d51c5ef",
+            "bits": 512
+        },
+        "params": {
+            "a": {
+                "raw": "0xc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbea63b139b22514a08798e3404ddef9519b3cd3a431b302b0a6df25f14374fe1356d6d51c5ec"
+            },
+            "b": {
+                "raw": "0xadf85458a2bb4a9aafdc5620273d3cf1d8b9c583ce2d3695a9e13641146433fbcc939dce249b3ef97d2fe363630c75d8f681b202aec4617ad3df1ed5d5fd6a8d"
+            }
+        },
+        "order": "0xc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbea63b139b235a2359c4afbc9eb7987f1c9ab37e42599188c4b7dc6269b830d80897f57a5f71",
+        "cofactor": "0x1"
+    },
+    {
+        "name": "Tweedledum",
+        "category": "other",
+        "desc": "Tweedledum pairing friendly curve from <https://github.com/daira/tweedle>.",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0x40000000000000000000000000000000038aa1276c3f59b9a14064e200000001",
+            "bits": 255
+        },
+        "params": {
+            "a": {
+                "raw": "0x00"
+            },
+            "b": {
+                "raw": "0x05"
+            }
+        },
+        "generator": {
+            "x": {
+                "raw": "0x40000000000000000000000000000000038aa1276c3f59b9a14064e200000000"
+            },
+            "y": {
+                "raw": "0x02"
+            }
+        },
+        "order": "0x40000000000000000000000000000000038aa127696286c9842cafd400000001",
+        "cofactor": "0x1"
+    },
+    {
+        "name": "Tweedledee",
+        "category": "other",
+        "desc": "Tweedledee pairing friendly curve from <https://github.com/daira/tweedle>.",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0x40000000000000000000000000000000038aa127696286c9842cafd400000001",
+            "bits": 255
+        },
+        "params": {
+            "a": {
+                "raw": "0x00"
+            },
+            "b": {
+                "raw": "0x05"
+            }
+        },
+        "generator": {
+            "x": {
+                "raw": "0x40000000000000000000000000000000038aa127696286c9842cafd400000000"
+            },
+            "y": {
+                "raw": "0x02"
+            }
+        },
+        "order": "0x40000000000000000000000000000000038aa1276c3f59b9a14064e200000001",
+        "cofactor": "0x1"
+    },
+    {
+        "name": "JubJub",
+        "category": "other",
+        "desc": "JubJub curve from <https://z.cash/technology/jubjub/>.",
+        "form": "TwistedEdwards",
+        "field": {
+            "type": "Prime",
+            "p": "0x73eda753299d7d483339d80809a1d80553bda402fffe5bfeffffffff00000001",
+            "bits": 255
+        },
+        "params": {
+            "a": {
+                "raw": "0x73eda753299d7d483339d80809a1d80553bda402fffe5bfeffffffff00000000"
+            },
+            "d": {
+                "raw": "0x2a9318e74bfa2b48f5fd9207e6bd7fd4292d7f6d37579d2601065fd6d6343eb1"
+            }
+        },
+        "generator": {
+            "x": {
+                "raw": "0x11dafe5d23e1218086a365b99fbf3d3be72f6afd7d1f72623e6b071492d1122b"
+            },
+            "y": {
+                "raw": "0x1d523cf1ddab1a1793132e78c866c0c33e26ba5cc220fed7cc3f870e59d292aa"
+            }
+        },
+        "order": "0xe7db4ea6533afa906673b0101343b00a6682093ccc81082d0970e5ed6f72cb7",
+        "cofactor": "0x8"
+    },
+    {
+        "name": "Pallas",
+        "category": "other",
+        "desc": "Pallas curve from the [Pasta curves](https://electriccoin.co/blog/the-pasta-curves-for-halo-2-and-beyond/).",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0x40000000000000000000000000000000224698fc094cf91b992d30ed00000001",
+            "bits": 255
+        },
+        "params": {
+            "a": {
+                "raw": "0x00"
+            },
+            "b": {
+                "raw": "0x05"
+            }
+        },
+        "generator": {
+            "x": {
+                "raw": "0x40000000000000000000000000000000224698fc094cf91b992d30ed00000000"
+            },
+            "y": {
+                "raw": "0x02"
+            }
+        },
+        "order": "0x40000000000000000000000000000000224698fc0994a8dd8c46eb2100000001",
+        "cofactor": "0x1"
+    },
+    {
+        "name": "Vesta",
+        "category": "other",
+        "desc": "Vesta curve from the [Pasta curves](https://electriccoin.co/blog/the-pasta-curves-for-halo-2-and-beyond/).",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0x40000000000000000000000000000000224698fc0994a8dd8c46eb2100000001",
+            "bits": 255
+        },
+        "params": {
+            "a": {
+                "raw": "0x00"
+            },
+            "b": {
+                "raw": "0x05"
+            }
+        },
+        "generator": {
+            "x": {
+                "raw": "0x40000000000000000000000000000000224698fc0994a8dd8c46eb2100000000"
+            },
+            "y": {
+                "raw": "0x02"
+            }
+        },
+        "order": "0x40000000000000000000000000000000224698fc094cf91b992d30ed00000001",
+        "cofactor": "0x1"
+    },
+    {
+        "name": "MDC201601",
+        "category": "other",
+        "desc": "The Million Dollar Curve",
+        "form": "Edwards",
+        "field": {
+            "type": "Prime",
+            "p": "0xf13b68b9d456afb4532f92fdd7a5fd4f086a9037ef07af9ec13710405779ec13",
+            "bits": 256
+        },
+        "params": {
+            "c": {
+                "raw": "0x01"
+            },
+            "d": {
+                "raw": "0x571304521965b68a7cdfbfccfb0cb9625f1270f63f21f041ee9309250300cf89"
+            }
+        },
+        "generator": {
+            "x": {
+                "raw": "0xb681886a7f903b83d85b421e03cbcf6350d72abb8d2713e2232c25bfee68363b"
+            },
+            "y": {
+                "raw": "0xca6734e1b59c0b0359814dcf6563da421da8bc3d81a93a3a7e73c355bd2864b5"
+            }
+        },
+        "order": "0x3c4eda2e7515abed14cbe4bf75e97f534fb38975faf974bb588552f421b0f7fb",
+        "cofactor": "0x4",
+        "properties": {
             "j_invariant": "0x2089683f289cb2a9798ce7341bfedb9079106ce1d8d6810a06d07e572576e62f",
             "trace": "0x1c99c6a600321dcb15f21c46fd0b60c28",
             "embedding_degree": "0x3c4eda2e7515abed14cbe4bf75e97f534fb38975faf974bb588552f421b0f7fa",
@@ -1251,140 +1001,138 @@
         }
     },
     {
-      "form": "Weierstrass",
-      "name": "BADA55-R-256",
-      "category": "other",
-      "desc": "BADA55 curve from the https://bada55.cr.yp.to/bada55-20150927.pdf",
-      "field": {
-        "type": "Prime",
-        "p": "0xf1fd178c0b3ad58f10126de8ce42435b3961adbcabc8ca6de8fcf353d86e9c03",
-        "bits": 256
-      },
-      "params": {
-        "a": {
-          "raw": "0xf1fd178c0b3ad58f10126de8ce42435b3961adbcabc8ca6de8fcf353d86e9c00"
+        "name": "BADA55-R-256",
+        "category": "other",
+        "desc": "BADA55 curve from the https://bada55.cr.yp.to/bada55-20150927.pdf",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0xf1fd178c0b3ad58f10126de8ce42435b3961adbcabc8ca6de8fcf353d86e9c03",
+            "bits": 256
         },
-        "b": {
-          "raw": "0xbada55bada55bada55bada55bada55bada55bada55bada55bada55bada55bd48"
-        }
-      }
-      },
-      "order": "0xf1fd178c0b3ad58f10126de8ce42435a1a8e3837861aa0efa0e52aec7379c967",
-      "cofactor": "0x01"
+        "params": {
+            "a": {
+                "raw": "0xf1fd178c0b3ad58f10126de8ce42435b3961adbcabc8ca6de8fcf353d86e9c00"
+            },
+            "b": {
+                "raw": "0xbada55bada55bada55bada55bada55bada55bada55bada55bada55bada55bd48"
+            }
+        },
+        "order": "0xf1fd178c0b3ad58f10126de8ce42435a1a8e3837861aa0efa0e52aec7379c967",
+        "cofactor": "0x1"
     },
     {
-      "form": "Weierstrass",
-      "name": "BADA55-VR-224",
-      "category": "other",
-      "desc": "BADA55 curve from the https://bada55.cr.yp.to/bada55-20150927.pdf",
-      "field": {
-        "type": "Prime",
-        "p": "0xffffffffffffffffffffffffffffffff000000000000000000000001",
-        "bits": 224
-      },
-      "params": {
-        "a": {
-          "raw": "0xfffffffffffffffffffffffffffffffefffffffffffffffffffffffe"
+        "name": "BADA55-VR-224",
+        "category": "other",
+        "desc": "BADA55 curve from the https://bada55.cr.yp.to/bada55-20150927.pdf",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0xffffffffffffffffffffffffffffffff000000000000000000000001",
+            "bits": 224
         },
-        "b": {
-          "raw": "0xbada55ecfd9ca54c0738b8a6fb8cf4ccf84e916d83d6da1b78b622351e11ab4e"
+        "params": {
+            "a": {
+                "raw": "0xfffffffffffffffffffffffffffffffefffffffffffffffffffffffe"
+            },
+            "b": {
+                "raw": "0xbada55ecfd9ca54c0738b8a6fb8cf4ccf84e916d83d6da1b78b622351e11ab4e"
+            }
+        },
+        "order": "0xffffffffffffffffffffffffffff0d44ef1096b2b67b7a3dcee7b079",
+        "cofactor": "0x1",
+        "simulation": {
+            "seed": "0x3cc520e9434349df680a8f4bcadda648d693b2907b216ee55cb4853db68f9165"
         }
-      },
-      "order": "0xffffffffffffffffffffffffffff0d44ef1096b2b67b7a3dcee7b079",
-      "cofactor": "0x01",
-      "characteristics": {
-        "seed": "0x3cc520e9434349df680a8f4bcadda648d693b2907b216ee55cb4853db68f9165"
-      }
     },
     {
-      "form": "Weierstrass",
-      "name": "BADA55-VR-256",
-      "category": "other",
-      "desc": "BADA55 curve from the https://bada55.cr.yp.to/bada55-20150927.pdf",
-      "field": {
-        "type": "Prime",
-        "p": "0xffffffff00000001000000000000000000000000ffffffffffffffffffffffff",
-        "bits": 256
-      },
-      "params": {
-        "a": {
-          "raw": "0xffffffff00000001000000000000000000000000fffffffffffffffffffffffc"
+        "name": "BADA55-VR-256",
+        "category": "other",
+        "desc": "BADA55 curve from the https://bada55.cr.yp.to/bada55-20150927.pdf",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0xffffffff00000001000000000000000000000000ffffffffffffffffffffffff",
+            "bits": 256
         },
-        "b": {
-          "raw": "0xbada55ecd8bbead3add6c534f92197deb47fceb9be7e0e702a8d1dd56b5d0b0c"
+        "params": {
+            "a": {
+                "raw": "0xffffffff00000001000000000000000000000000fffffffffffffffffffffffc"
+            },
+            "b": {
+                "raw": "0xbada55ecd8bbead3add6c534f92197deb47fceb9be7e0e702a8d1dd56b5d0b0c"
+            }
+        },
+        "order": "0xffffffff00000000fffffffffffffffebedc2797003336661a49d76a903bdb91",
+        "cofactor": "0x1",
+        "simulation": {
+            "seed": "0x3adcc48e36f1d1926701417f101a75f000118a739d4686e77278325a825aa3c6"
         }
-      },
-      "order": "0xffffffff00000000fffffffffffffffebedc2797003336661a49d76a903bdb91",
-      "cofactor": "0x01",
-      "characteristics": {
-        "seed": "0x3adcc48e36f1d1926701417f101a75f000118a739d4686e77278325a825aa3c6"
-      }
     },
     {
-      "form": "Weierstrass",
-      "name": "BADA55-VR-384",
-      "category": "other",
-      "desc": "BADA55 curve from the https://bada55.cr.yp.to/bada55-20150927.pdf",
-      "field": {
-        "type": "Prime",
-        "p": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffeffffffff0000000000000000ffffffff",
-        "bits": 384
-      },
-      "params": {
-        "a": {
-          "raw": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffeffffffff0000000000000000fffffffc"
+        "name": "BADA55-VR-384",
+        "category": "other",
+        "desc": "BADA55 curve from the https://bada55.cr.yp.to/bada55-20150927.pdf",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffeffffffff0000000000000000ffffffff",
+            "bits": 384
         },
-        "b": {
-          "raw": "0xbada55ec3be2ad1f9eeea5881ecf95bbf3ac392526f01d4cd13e684c63a17cc4d5f271642ad83899113817a61006413d"
+        "params": {
+            "a": {
+                "raw": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffeffffffff0000000000000000fffffffc"
+            },
+            "b": {
+                "raw": "0xbada55ec3be2ad1f9eeea5881ecf95bbf3ac392526f01d4cd13e684c63a17cc4d5f271642ad83899113817a61006413d"
+            }
+        },
+        "order": "0xfffffffffffffffffffffffffffffffffffffffffffffffeefe1169b82ff7e5032c683f766fae57359cfc5fc25ffce37",
+        "cofactor": "0x1",
+        "simulation": {
+            "seed": "0xca9ebd338a9ee0e6862fd329062abc06a793575a1c744f0ec24503a525f5d06e"
         }
-      },
-      "order": "0xfffffffffffffffffffffffffffffffffffffffffffffffeefe1169b82ff7e5032c683f766fae57359cfc5fc25ffce37",
-      "cofactor": "0x01",
-      "characteristics": {
-        "seed": "0xca9ebd338a9ee0e6862fd329062abc06a793575a1c744f0ec24503a525f5d06e"
-      }
     },
     {
-      "form": "Weierstrass",
-      "name": "BADA55-VPR-224",
-      "category": "other",
-      "desc": "BADA55 curve from the https://bada55.cr.yp.to/bada55-20150927.pdf",
-      "field": {
-        "type": "Prime",
-        "p": "0xffffffffffffffffffffffffffffffff000000000000000000000001",
-        "bits": 224
-      },
-      "params": {
-        "a": {
-          "raw": "0x7144ba12ce8a0c3befa053edbada555a42391fc64f052376e041c7d4af23195ebd8d83625321d452e8a0c3bb0a048a26115704e45dceb346a9f4bd9741d14d49"
+        "name": "BADA55-VPR-224",
+        "category": "other",
+        "desc": "BADA55 curve from the https://bada55.cr.yp.to/bada55-20150927.pdf",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0xffffffffffffffffffffffffffffffff000000000000000000000001",
+            "bits": 224
         },
-        "b": {
-          "raw": "0x5c32ec7fc48ce1802d9b70dbc3fa574eaf015fce4e99b43ebe3468d6efb2276ba3669aff6ffc0f4c6ae4ae2e5d74c3c0af97dce17147688dda89e734b56944a2"
-        }
-      },
-      "order": "0xffffffffffffffffffffffffffff473fa5d3e9bf40a95a8d3f014add",
-      "cofactor": "0x01"
+        "params": {
+            "a": {
+                "raw": "0x7144ba12ce8a0c3befa053edbada555a42391fc64f052376e041c7d4af23195ebd8d83625321d452e8a0c3bb0a048a26115704e45dceb346a9f4bd9741d14d49"
+            },
+            "b": {
+                "raw": "0x5c32ec7fc48ce1802d9b70dbc3fa574eaf015fce4e99b43ebe3468d6efb2276ba3669aff6ffc0f4c6ae4ae2e5d74c3c0af97dce17147688dda89e734b56944a2"
+            }
+        },
+        "order": "0xffffffffffffffffffffffffffff473fa5d3e9bf40a95a8d3f014add",
+        "cofactor": "0x1"
     },
     {
-      "form": "Weierstrass",
-      "name": "BADA55-VPR2-224",
-      "category": "other",
-      "desc": "BADA55 curve from the https://bada55.cr.yp.to/bada55-20150927.pdf",
-      "field": {
-        "type": "Prime",
-        "p": "0xffffffffffffffffffffffffffffffff000000000000000000000001",
-        "bits": 224
-      },
-      "params": {
-        "a": {
-          "raw": "0x8f0ff20e1e3cf4905d492e04110683948bfc236790bbb59e6e6b33f24f348ed2e16c64ee79f9fd27e9a367ff6415b41189e4fb6bada555455dc44c4f87011eef"
+        "name": "BADA55-VPR2-224",
+        "category": "other",
+        "desc": "BADA55 curve from the https://bada55.cr.yp.to/bada55-20150927.pdf",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0xffffffffffffffffffffffffffffffff000000000000000000000001",
+            "bits": 224
         },
-        "b": {
-          "raw": "0xe85067a95547e30661c854a43ed80f36289043ffc73da78a97e37fb96a2717009088656b948865a660ff3959330d8a1ca1e4de31b7b7d496a4cde555e57d05c"
-        }
-      },
-      "order": "0xffffffffffffffffffffffffffffdf5c0319f61dc6ccebe902bc220f",
-      "cofactor": "0x01"
+        "params": {
+            "a": {
+                "raw": "0x8f0ff20e1e3cf4905d492e04110683948bfc236790bbb59e6e6b33f24f348ed2e16c64ee79f9fd27e9a367ff6415b41189e4fb6bada555455dc44c4f87011eef"
+            },
+            "b": {
+                "raw": "0xe85067a95547e30661c854a43ed80f36289043ffc73da78a97e37fb96a2717009088656b948865a660ff3959330d8a1ca1e4de31b7b7d496a4cde555e57d05c"
+            }
+        },
+        "order": "0xffffffffffffffffffffffffffffdf5c0319f61dc6ccebe902bc220f",
+        "cofactor": "0x1"
     }
-  ]
-}
+]

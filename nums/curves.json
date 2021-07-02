@@ -1,576 +1,678 @@
-{
-  "name": "NUMS",
-  "desc": "Microsoft Nothing Up My Sleeve (NUMS) curves from: <https://eprint.iacr.org/2014/130> and <https://tools.ietf.org/html/draft-black-numscurves-02>",
-  "curves": [
+[
     {
-      "form": "Weierstrass",
-      "name": "numsp256d1",
-      "category": "nums",
-      "desc": "",
-      "field": {
-        "type": "Prime",
-        "p": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff43",
-        "bits": 256
-      },
-      "params": {
-        "a": {
-          "raw": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff40"
+        "name": "numsp256d1",
+        "category": "nums",
+        "aliases": [
+            "w-256-mers"
+        ],
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff43",
+            "bits": 256
         },
-        "b": {
-          "raw": "0x25581"
-        }
-      },
-      "order": "0xffffffffffffffffffffffffffffffffe43c8275ea265c6020ab20294751a825",
-      "cofactor": "0x01",
-      "generator": {
-        "x": {
-          "raw": "0x01"
+        "params": {
+            "a": {
+                "raw": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff40"
+            },
+            "b": {
+                "raw": "0x25581"
+            }
         },
-        "y": {
-          "raw": "0x696f1853c1e466d7fc82c96cceeedd6bd02c2f9375894ec10bf46306c2b56c77"
+        "generator": {
+            "x": {
+                "raw": "0x01"
+            },
+            "y": {
+                "raw": "0x696f1853c1e466d7fc82c96cceeedd6bd02c2f9375894ec10bf46306c2b56c77"
+            }
+        },
+        "order": "0xffffffffffffffffffffffffffffffffe43c8275ea265c6020ab20294751a825",
+        "cofactor": "0x1",
+        "properties": {
+            "trace": "0x1bc37d8a15d9a39fdf54dfd6b8ae571f",
+            "j_invariant": "0x8c43cc32dc4079dfa8761741400f36982d3a0f45547fb236330d434078c619a8",
+            "embedding_degree": "0x3ffffffffffffffffffffffffffffffff90f209d7a899718082ac80a51d46a09",
+            "cm_discriminant": "-0x3fcfd2e3c6176aa1ae709e72701935753681ba4b60d8f9573cd2b4234e435e74b"
         }
-      },
-      "aliases": [
-        "w-256-mers"
-      ]
     },
     {
-      "form": "TwistedEdwards",
-      "name": "numsp256t1",
-      "category": "nums",
-      "desc": "",
-      "field": {
-        "type": "Prime",
-        "p": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff43",
-        "bits": 256
-      },
-      "params": {
-        "a": {
-          "raw": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff42"
+        "name": "numsp256t1",
+        "category": "nums",
+        "aliases": [
+            "ed-256-mers"
+        ],
+        "form": "TwistedEdwards",
+        "field": {
+            "type": "Prime",
+            "p": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff43",
+            "bits": 256
         },
-        "d": {
-          "raw": "0x3bee"
-        }
-      },
-      "order": "0x3fffffffffffffffffffffffffffffffbe6aa55ad0a6bc64e5b84e6f1122b4ad",
-      "cofactor": "0x04",
-      "generator": {
-        "x": {
-          "raw": "0x0d"
+        "params": {
+            "a": {
+                "raw": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff42"
+            },
+            "d": {
+                "raw": "0x3bee"
+            }
         },
-        "y": {
-          "raw": "0x7d0ab41e2a1276dba3d330b39fa046bfbe2a6d63824d303f707f6fb5331cadba"
+        "generator": {
+            "x": {
+                "raw": "0x0d"
+            },
+            "y": {
+                "raw": "0x7d0ab41e2a1276dba3d330b39fa046bfbe2a6d63824d303f707f6fb5331cadba"
+            }
+        },
+        "order": "0x3fffffffffffffffffffffffffffffffbe6aa55ad0a6bc64e5b84e6f1122b4ad",
+        "cofactor": "0x4",
+        "properties": {
+            "trace": "0x106556a94bd650e6c691ec643bb752c90",
+            "j_invariant": "0x51dd39b091f31b6d35d096eec5934adda361c3fc3ffa542f18f39dbbbc4484a4",
+            "embedding_degree": "0x3fffffffffffffffffffffffffffffffbe6aa55ad0a6bc64e5b84e6f1122b4ac",
+            "cm_discriminant": "-0xbccb4355e64bf786d2fb98098d7e7abecc3bd5d0265bf025a12de1f8f7278b03"
         }
-      },
-      "aliases": [
-        "ed-256-mers"
-      ]
     },
     {
-      "form": "Weierstrass",
-      "name": "numsp384d1",
-      "category": "nums",
-      "desc": "",
-      "field": {
-        "type": "Prime",
-        "p": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffec3",
-        "bits": 384
-      },
-      "params": {
-        "a": {
-          "raw": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffec0"
+        "name": "numsp384d1",
+        "category": "nums",
+        "aliases": [
+            "w-384-mers"
+        ],
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffec3",
+            "bits": 384
         },
-        "b": {
-          "raw": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff77bb"
-        }
-      },
-      "order": "0xffffffffffffffffffffffffffffffffffffffffffffffffd61eaf1eeb5d6881beda9d3d4c37e27a604d81f67b0e61b9",
-      "cofactor": "0x01",
-      "generator": {
-        "x": {
-          "raw": "0x02"
+        "params": {
+            "a": {
+                "raw": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffec0"
+            },
+            "b": {
+                "raw": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff77bb"
+            }
         },
-        "y": {
-          "raw": "0x3c9f82cb4b87b4dc71e763e0663e5dbd8034ed422f04f82673330dc58d15ffa2b4a3d0bad5d30f865bcbbf503ea66f43"
+        "generator": {
+            "x": {
+                "raw": "0x02"
+            },
+            "y": {
+                "raw": "0x3c9f82cb4b87b4dc71e763e0663e5dbd8034ed422f04f82673330dc58d15ffa2b4a3d0bad5d30f865bcbbf503ea66f43"
+            }
+        },
+        "order": "0xffffffffffffffffffffffffffffffffffffffffffffffffd61eaf1eeb5d6881beda9d3d4c37e27a604d81f67b0e61b9",
+        "cofactor": "0x1",
+        "properties": {
+            "trace": "0x29e150e114a2977e412562c2b3c81d859fb27e0984f19d0b",
+            "j_invariant": "0x43305188ddda8d563c5cafbfb6ce5aa8584d4e3d853d95e862374570fe388f26ef9415f23539d4fbade4129500dce4b1"
         }
-      },
-      "aliases": [
-        "w-384-mers"
-      ]
     },
     {
-      "form": "TwistedEdwards",
-      "name": "numsp384t1",
-      "category": "nums",
-      "desc": "",
-      "field": {
-        "type": "Prime",
-        "p": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffec3",
-        "bits": 384
-      },
-      "params": {
-        "a": {
-          "raw": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffec2"
+        "name": "numsp384t1",
+        "category": "nums",
+        "aliases": [
+            "ed-384-mers"
+        ],
+        "form": "TwistedEdwards",
+        "field": {
+            "type": "Prime",
+            "p": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffec3",
+            "bits": 384
         },
-        "d": {
-          "raw": "0x5158a"
-        }
-      },
-      "order": "0x3fffffffffffffffffffffffffffffffffffffffffffffffecd7d11ed5a259a25a13a0458e39f4e451d6d71f70426e25",
-      "cofactor": "0x04",
-      "generator": {
-        "x": {
-          "raw": "0x08"
+        "params": {
+            "a": {
+                "raw": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffec2"
+            },
+            "d": {
+                "raw": "0x5158a"
+            }
         },
-        "y": {
-          "raw": "0x749cdaba136ce9b65bd4471794aa619daa5c7b4c930bff8ebd798a8ae753c6d72f003860febabad534a4acf5fa7f5bee"
+        "generator": {
+            "x": {
+                "raw": "0x08"
+            },
+            "y": {
+                "raw": "0x749cdaba136ce9b65bd4471794aa619daa5c7b4c930bff8ebd798a8ae753c6d72f003860febabad534a4acf5fa7f5bee"
+            }
+        },
+        "order": "0x3fffffffffffffffffffffffffffffffffffffffffffffffecd7d11ed5a259a25a13a0458e39f4e451d6d71f70426e25",
+        "cofactor": "0x4",
+        "properties": {
+            "trace": "0x4ca0bb84a976997697b17ee9c7182c6eb8a4a3823ef64630",
+            "j_invariant": "0x7ac9c5fe3bba35f9844c4367e3110f7cd05aaa318b4a19efc09d686d49a2c2a38fc66487b40597c2d2ff844dea00ac88"
         }
-      },
-      "aliases": [
-        "ed-384-mers"
-      ]
     },
     {
-      "form": "Weierstrass",
-      "name": "numsp512d1",
-      "category": "nums",
-      "desc": "",
-      "field": {
-        "type": "Prime",
-        "p": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffdc7",
-        "bits": 512
-      },
-      "params": {
-        "a": {
-          "raw": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffdc4"
+        "name": "numsp512d1",
+        "category": "nums",
+        "aliases": [
+            "w-512-mers"
+        ],
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffdc7",
+            "bits": 512
         },
-        "b": {
-          "raw": "0x1d99b"
-        }
-      },
-      "order": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff5b3ca4fb94e7831b4fc258ed97d0bdc63b568b36607cd243ce153f390433555d",
-      "cofactor": "0x01",
-      "generator": {
-        "x": {
-          "raw": "0x02"
+        "params": {
+            "a": {
+                "raw": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffdc4"
+            },
+            "b": {
+                "raw": "0x1d99b"
+            }
         },
-        "y": {
-          "raw": "0x1c282eb23327f9711952c250ea61ad53fcc13031cf6dd336e0b9328433afbdd8cc5a1c1f0c716fdc724dde537c2b0adb00bb3d08dc83755b205cc30d7f83cf28"
+        "generator": {
+            "x": {
+                "raw": "0x02"
+            },
+            "y": {
+                "raw": "0x1c282eb23327f9711952c250ea61ad53fcc13031cf6dd336e0b9328433afbdd8cc5a1c1f0c716fdc724dde537c2b0adb00bb3d08dc83755b205cc30d7f83cf28"
+            }
+        },
+        "order": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff5b3ca4fb94e7831b4fc258ed97d0bdc63b568b36607cd243ce153f390433555d",
+        "cofactor": "0x1",
+        "properties": {
+            "trace": "0xa4c35b046b187ce4b03da712682f4239c4a974c99f832dbc31eac0c6fbcca86b",
+            "j_invariant": "0x772e80043b0bc6ce7a21ba4925805eab51f6614f16eff4e0c310362efa0e7bf1e20eaa6f220db343627ab8d0f8b7390b9e965790967d77b1b79d8d11a2088008"
         }
-      },
-      "aliases": [
-        "w-512-mers"
-      ]
     },
     {
-      "form": "TwistedEdwards",
-      "name": "numsp512t1",
-      "category": "nums",
-      "desc": "",
-      "field": {
-        "type": "Prime",
-        "p": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffdc7",
-        "bits": 512
-      },
-      "params": {
-        "a": {
-          "raw": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffdc6"
+        "name": "numsp512t1",
+        "category": "nums",
+        "aliases": [
+            "ed-512-mers"
+        ],
+        "form": "TwistedEdwards",
+        "field": {
+            "type": "Prime",
+            "p": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffdc7",
+            "bits": 512
         },
-        "d": {
-          "raw": "0x9baa8"
-        }
-      },
-      "order": "0x3fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa7e50809efdabbb9a624784f449545f0dcea5ff0cb800f894e78d1cb0b5f0189",
-      "cofactor": "0x04",
-      "generator": {
-        "x": {
-          "raw": "0x20"
+        "params": {
+            "a": {
+                "raw": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffdc6"
+            },
+            "d": {
+                "raw": "0x9baa8"
+            }
         },
-        "y": {
-          "raw": "0x7d67e841dc4c467b605091d80869212f9ceb124bf726973f9ff048779e1d614e62ae2ece5057b5dad96b7a897c1d72799261134638750f4f0cb91027543b1c5e"
+        "generator": {
+            "x": {
+                "raw": "0x20"
+            },
+            "y": {
+                "raw": "0x7d67e841dc4c467b605091d80869212f9ceb124bf726973f9ff048779e1d614e62ae2ece5057b5dad96b7a897c1d72799261134638750f4f0cb91027543b1c5e"
+            }
+        },
+        "order": "0x3fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa7e50809efdabbb9a624784f449545f0dcea5ff0cb800f894e78d1cb0b5f0189",
+        "cofactor": "0x4",
+        "properties": {
+            "trace": "0x1606bdfd840951119676e1ec2edaae83c8c56803cd1ffc1dac61cb8d3d283f7a4",
+            "j_invariant": "0xf372e27e3233537708ddea113e4ee5cf72010f522f0458ab617677fe1b2bd311d28f997504ac1688361695a6cd63f17cad363f40c7547addc95c6498e6915621"
         }
-      },
-      "aliases": [
-        "ed-512-mers"
-      ]
     },
     {
-      "form": "TwistedEdwards",
-      "name": "ed-256-mont",
-      "category": "nums-original",
-      "desc": "Curve from https://eprint.iacr.org/2014/130.pdf",
-      "field": {
-        "type": "Prime",
-        "p": "0xffa7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-        "bits": 256
-      },
-      "params": {
-        "a": {
-          "raw": "0xffa7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe"
+        "name": "ed-256-mont",
+        "category": "nums-original",
+        "desc": "Curve from https://eprint.iacr.org/2014/130.pdf",
+        "form": "TwistedEdwards",
+        "field": {
+            "type": "Prime",
+            "p": "0xffa7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+            "bits": 256
         },
-        "d": {
-          "raw": "0x350a"
+        "params": {
+            "a": {
+                "raw": "0xffa7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe"
+            },
+            "d": {
+                "raw": "0x350a"
+            }
+        },
+        "order": "0x3fe9ffffffffffffffffffffffffffffb154bbafb86733c966d92eded8ec7bab",
+        "cofactor": "0x4",
+        "properties": {
+            "trace": "0x13aad11411e6330da649b44849c4e1154",
+            "j_invariant": "0x518d79145010414d302bdda036cde5e5ba872b130a5dcf09e8ee5efbf18f09b8",
+            "embedding_degree": "0x3fe9ffffffffffffffffffffffffffffb154bbafb86733c966d92eded8ec7baa",
+            "cm_discriminant": "-0x9ef4bf2afb91f8dfa6e3fafa97647fec3e69b0aef222804896c8911cc3e8ef1b"
         }
-      },
-      "order": "0x3fe9ffffffffffffffffffffffffffffb154bbafb86733c966d92eded8ec7bab",
-      "cofactor": "0x04"
     },
     {
-      "form": "TwistedEdwards",
-      "name": "ed-254-mont",
-      "category": "nums-original",
-      "desc": "Curve from https://eprint.iacr.org/2014/130.pdf",
-      "field": {
-        "type": "Prime",
-        "p": "0x3f80ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-        "bits": 254
-      },
-      "params": {
-        "a": {
-          "raw": "0x3f80fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe"
+        "name": "ed-254-mont",
+        "category": "nums-original",
+        "desc": "Curve from https://eprint.iacr.org/2014/130.pdf",
+        "form": "TwistedEdwards",
+        "field": {
+            "type": "Prime",
+            "p": "0x3f80ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+            "bits": 254
         },
-        "d": {
-          "raw": "0x367b"
+        "params": {
+            "a": {
+                "raw": "0x3f80fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe"
+            },
+            "d": {
+                "raw": "0x367b"
+            }
+        },
+        "order": "0xfe03fffffffffffffffffffffffffffeb95306c8bd62fb0eaf3d3fec46e98c7",
+        "cofactor": "0x4",
+        "properties": {
+            "trace": "0x51ab3e4dd0a7413c5430b004ee459ce4",
+            "j_invariant": "0x135d79329e6c7840748ca096d3644e5e5d2d035a88caa72ace76de9395aae67e",
+            "embedding_degree": "0xfe03fffffffffffffffffffffffffffeb95306c8bd62fb0eaf3d3fec46e98c6",
+            "cm_discriminant": "-0x38fd8c019db5e8239e76824dd27c2d3447010c3f833f3715e0b5058e873c553b"
         }
-      },
-      "order": "0xfe03fffffffffffffffffffffffffffeb95306c8bd62fb0eaf3d3fec46e98c7",
-      "cofactor": "0x04"
     },
     {
-      "form": "TwistedEdwards",
-      "name": "ed-255-mers",
-      "category": "nums-original",
-      "desc": "Curve from https://eprint.iacr.org/2014/130.pdf",
-      "field": {
-        "type": "Prime",
-        "p": "0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffd03",
-        "bits": 255
-      },
-      "params": {
-        "a": {
-          "raw": "0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffd02"
+        "name": "ed-255-mers",
+        "category": "nums-original",
+        "desc": "Curve from https://eprint.iacr.org/2014/130.pdf",
+        "form": "TwistedEdwards",
+        "field": {
+            "type": "Prime",
+            "p": "0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffd03",
+            "bits": 255
         },
-        "d": {
-          "raw": "0xea97"
+        "params": {
+            "a": {
+                "raw": "0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffd02"
+            },
+            "d": {
+                "raw": "0xea97"
+            }
+        },
+        "order": "0x1fffffffffffffffffffffffffffffffdcf1a785eda6832eac49d1ed0436eb75",
+        "cofactor": "0x4",
+        "properties": {
+            "trace": "0x8c3961e84965f3454ed8b84bef244f30",
+            "j_invariant": "0x5f27924db0ae3c434896c8273161414babc5f329356c0303474178e595c90c31",
+            "embedding_degree": "0x1fffffffffffffffffffffffffffffffdcf1a785eda6832eac49d1ed0436eb74",
+            "cm_discriminant": "-0x6ccc4c034c357d085f2dc64d1654eff361611a1f206b5113bb9ff237808052c3"
         }
-      },
-      "order": "0x1fffffffffffffffffffffffffffffffdcf1a785eda6832eac49d1ed0436eb75",
-      "cofactor": "0x04"
     },
     {
-      "form": "TwistedEdwards",
-      "name": "ed-384-mont",
-      "category": "nums-original",
-      "desc": "Curve from https://eprint.iacr.org/2014/130.pdf",
-      "field": {
-        "type": "Prime",
-        "p": "0xb0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-        "bits": 384
-      },
-      "params": {
-        "a": {
-          "raw": "0xb0fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe"
+        "name": "ed-384-mont",
+        "category": "nums-original",
+        "desc": "Curve from https://eprint.iacr.org/2014/130.pdf",
+        "form": "TwistedEdwards",
+        "field": {
+            "type": "Prime",
+            "p": "0xb0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+            "bits": 384
         },
-        "d": {
-          "raw": "0x6f17"
+        "params": {
+            "a": {
+                "raw": "0xb0fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe"
+            },
+            "d": {
+                "raw": "0x6f17"
+            }
+        },
+        "order": "0x2c3ffffffffffffffffffffffffffffffffffffffffffffff56d07e24e2749cd9f6b769aec80f6fe06fe4e3a6332489b",
+        "cofactor": "0x4",
+        "properties": {
+            "trace": "0x2a4be076c762d8c9825225944dfc2407e406c7167336dd94",
+            "j_invariant": "0x537206bf00c21d5baee862c54cc66fe15e4e59b2eaed1e5d90aaa82d7ff2aefbc763a4d8773187650d9a1bb40c0374c"
         }
-      },
-      "order": "0x2c3ffffffffffffffffffffffffffffffffffffffffffffff56d07e24e2749cd9f6b769aec80f6fe06fe4e3a6332489b",
-      "cofactor": "0x04"
     },
     {
-      "form": "TwistedEdwards",
-      "name": "ed-382-mont",
-      "category": "nums-original",
-      "desc": "Curve from https://eprint.iacr.org/2014/130.pdf",
-      "field": {
-        "type": "Prime",
-        "p": "0x3ffaffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-        "bits": 382
-      },
-      "params": {
-        "a": {
-          "raw": "0x3ffafffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe"
+        "name": "ed-382-mont",
+        "category": "nums-original",
+        "desc": "Curve from https://eprint.iacr.org/2014/130.pdf",
+        "form": "TwistedEdwards",
+        "field": {
+            "type": "Prime",
+            "p": "0x3ffaffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+            "bits": 382
         },
-        "d": {
-          "raw": "0xaf381"
+        "params": {
+            "a": {
+                "raw": "0x3ffafffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe"
+            },
+            "d": {
+                "raw": "0xaf381"
+            }
+        },
+        "order": "0xffebfffffffffffffffffffffffffffffffffffffffffffd31afaa1520dc177d8c1605c481e068269880369e5f3fa61",
+        "cofactor": "0x4",
+        "properties": {
+            "trace": "0xb394157ab7c8fa209cfa7e8edf87e5f659dff2586830167c",
+            "j_invariant": "0xca7a7e821e9e780fec8f382519f34ac2d92b9c4ef1a36566c23ecad8a420be99872735008cbd0065cda4b356be6cc11"
         }
-      },
-      "order": "0xffebfffffffffffffffffffffffffffffffffffffffffffd31afaa1520dc177d8c1605c481e068269880369e5f3fa61",
-      "cofactor": "0x04"
     },
     {
-      "form": "TwistedEdwards",
-      "name": "ed-383-mers",
-      "category": "nums-original",
-      "desc": "Curve from https://eprint.iacr.org/2014/130.pdf",
-      "field": {
-        "type": "Prime",
-        "p": "0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe5b",
-        "bits": 383
-      },
-      "params": {
-        "a": {
-          "raw": "0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe5a"
+        "name": "ed-383-mers",
+        "category": "nums-original",
+        "desc": "Curve from https://eprint.iacr.org/2014/130.pdf",
+        "form": "TwistedEdwards",
+        "field": {
+            "type": "Prime",
+            "p": "0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe5b",
+            "bits": 383
         },
-        "d": {
-          "raw": "0x7fed6"
+        "params": {
+            "a": {
+                "raw": "0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe5a"
+            },
+            "d": {
+                "raw": "0x7fed6"
+            }
+        },
+        "order": "0x1ffffffffffffffffffffffffffffffffffffffffffffffff1109704e73d9fbbbcd5687c9eaca2206ffebcec1ba7c81d",
+        "cofactor": "0x4",
+        "properties": {
+            "trace": "0x3bbda3ec630981110caa5e0d854d777e40050c4f9160dde8",
+            "j_invariant": "0x1009575ea00fe1506252fd0824cafd104ba005000a1beeaf41c711e40718045b53f1e0e0739558c580abf51cc070c22f"
         }
-      },
-      "order": "0x1ffffffffffffffffffffffffffffffffffffffffffffffff1109704e73d9fbbbcd5687c9eaca2206ffebcec1ba7c81d",
-      "cofactor": "0x04"
     },
     {
-      "form": "TwistedEdwards",
-      "name": "ed-512-mont",
-      "category": "nums-original",
-      "desc": "Curve from https://eprint.iacr.org/2014/130.pdf",
-      "field": {
-        "type": "Prime",
-        "p": "0xfe14ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-        "bits": 512
-      },
-      "params": {
-        "a": {
-          "raw": "0xfe14fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe"
+        "name": "ed-512-mont",
+        "category": "nums-original",
+        "desc": "Curve from https://eprint.iacr.org/2014/130.pdf",
+        "form": "TwistedEdwards",
+        "field": {
+            "type": "Prime",
+            "p": "0xfe14ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+            "bits": 512
         },
-        "d": {
-          "raw": "0x12a9c"
+        "params": {
+            "a": {
+                "raw": "0xfe14fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe"
+            },
+            "d": {
+                "raw": "0x12a9c"
+            }
+        },
+        "order": "0x3f853fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffcccfd59cdc33470d103060513f6def4d37d9af21b2b2701fa331487ecb8db605",
+        "cofactor": "0x4",
+        "properties": {
+            "trace": "0xccc0a98c8f32e3cbbf3e7ebb024842cb2099437935363f81733ade04d1c927ec",
+            "j_invariant": "0xcda9233a5135668daa95aecf615d3de755bef0f5e9be3c3c630af4a986c701d0f7e96570e595d6d5f14f57c807143c6f196221dc3c9b7ebdce5f445445871263"
         }
-      },
-      "order": "0x3f853fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffcccfd59cdc33470d103060513f6def4d37d9af21b2b2701fa331487ecb8db605",
-      "cofactor": "0x04"
     },
     {
-      "form": "TwistedEdwards",
-      "name": "ed-510-mont",
-      "category": "nums-original",
-      "desc": "Curve from https://eprint.iacr.org/2014/130.pdf",
-      "field": {
-        "type": "Prime",
-        "p": "0x3eddffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-        "bits": 510
-      },
-      "params": {
-        "a": {
-          "raw": "0x3eddfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe"
+        "name": "ed-510-mont",
+        "category": "nums-original",
+        "desc": "Curve from https://eprint.iacr.org/2014/130.pdf",
+        "form": "TwistedEdwards",
+        "field": {
+            "type": "Prime",
+            "p": "0x3eddffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+            "bits": 510
         },
-        "d": {
-          "raw": "0x8da1e"
+        "params": {
+            "a": {
+                "raw": "0x3eddfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe"
+            },
+            "d": {
+                "raw": "0x8da1e"
+            }
+        },
+        "order": "0xfb77fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffd7ced11e7c2f1abf716df42a6c246080b5fcc20917e59a42c85821cdf36d51b1",
+        "cofactor": "0x4",
+        "properties": {
+            "trace": "0xa0c4bb860f4395023a482f564f6e7dfd280cf7dba06996f4de9f78c8324ab93c",
+            "j_invariant": "0x254391c7d08bafb2322725fd17ea39ef08eb3cb826dbb27f592956b10b874a5fa6b1783affd6e41c2db7740e5e52c82f24393bbc8c2be94770176e8c6e7c0199"
         }
-      },
-      "order": "0xfb77fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffd7ced11e7c2f1abf716df42a6c246080b5fcc20917e59a42c85821cdf36d51b1",
-      "cofactor": "0x04"
     },
     {
-      "form": "TwistedEdwards",
-      "name": "ed-511-mers",
-      "category": "nums-original",
-      "desc": "Curve from https://eprint.iacr.org/2014/130.pdf",
-      "field": {
-        "type": "Prime",
-        "p": "0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe1f",
-        "bits": 511
-      },
-      "params": {
-        "a": {
-          "raw": "0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe1e"
+        "name": "ed-511-mers",
+        "category": "nums-original",
+        "desc": "Curve from https://eprint.iacr.org/2014/130.pdf",
+        "form": "TwistedEdwards",
+        "field": {
+            "type": "Prime",
+            "p": "0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe1f",
+            "bits": 511
         },
-        "d": {
-          "raw": "0x10bf7d"
+        "params": {
+            "a": {
+                "raw": "0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe1e"
+            },
+            "d": {
+                "raw": "0x10bf7d"
+            }
+        },
+        "order": "0x1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffea7c34182e41e2e9baa930e478c489b72542706bec5f32194f7c2e8f8d142f11",
+        "cofactor": "0x4",
+        "properties": {
+            "trace": "0x560f2f9f46f87459155b3c6e1cedd9236af63e504e83379ac20f45c1cbaf41dc",
+            "j_invariant": "0x6b981e37d43b3b5947e5fc7ebb6f6777a4cdb7c4fdd5ed19ac8f788ce94c57cdd5643c34cd35172acffa8dfbddf1881922a63699700fc6554b1fe7dce73c0d75"
         }
-      },
-      "order": "0x1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffea7c34182e41e2e9baa930e478c489b72542706bec5f32194f7c2e8f8d142f11",
-      "cofactor": "0x04"
     },
     {
-      "form": "Weierstrass",
-      "name": "w-256-mont",
-      "category": "nums-original",
-      "desc": "Curve from https://eprint.iacr.org/2014/130.pdf",
-      "field": {
-        "type": "Prime",
-        "p": "0xffa7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-        "bits": 256
-      },
-      "params": {
-        "a": {
-          "raw": "0xffa7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc"
+        "name": "w-256-mont",
+        "category": "nums-original",
+        "desc": "Curve from https://eprint.iacr.org/2014/130.pdf",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0xffa7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+            "bits": 256
         },
-        "b": {
-          "raw": "0x14e6a"
+        "params": {
+            "a": {
+                "raw": "0xffa7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc"
+            },
+            "b": {
+                "raw": "0x14e6a"
+            }
+        },
+        "order": "0xffa7fffffffffffffffffffffffffffffc517513e6e5074b9d10c5e1a79857eb",
+        "cofactor": "0x1",
+        "properties": {
+            "trace": "0x3ae8aec191af8b462ef3a1e5867a815",
+            "j_invariant": "0xbdd11a669cf91ff7ba81bd7a3159895c9af1a2ae722e0dd0a63e11de0d5777a0",
+            "embedding_degree": "0x7fd3fffffffffffffffffffffffffffffe28ba89f37283a5ce8862f0d3cc2bf5",
+            "cm_discriminant": "-0x3fe9271bd5313d8b2502498c5435cb527c270b363ccc4c09445cda98ce0be6e43"
         }
-      },
-      "order": "0xffa7fffffffffffffffffffffffffffffc517513e6e5074b9d10c5e1a79857eb",
-      "cofactor": "0x01"
     },
     {
-      "form": "Weierstrass",
-      "name": "w-254-mont",
-      "category": "nums-original",
-      "desc": "Curve from https://eprint.iacr.org/2014/130.pdf",
-      "field": {
-        "type": "Prime",
-        "p": "0x3f80ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-        "bits": 254
-      },
-      "params": {
-        "a": {
-          "raw": "0x3f80fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc"
+        "name": "w-254-mont",
+        "category": "nums-original",
+        "desc": "Curve from https://eprint.iacr.org/2014/130.pdf",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0x3f80ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+            "bits": 254
         },
-        "b": {
-          "raw": "-0x2f72"
+        "params": {
+            "a": {
+                "raw": "0x3f80fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc"
+            },
+            "b": {
+                "raw": "-0x2f72"
+            }
+        },
+        "order": "0x3f80ffffffffffffffffffffffffffffeb818bea0da375c06fa419c4af8df83f",
+        "cofactor": "0x1",
+        "properties": {
+            "trace": "0x147e7415f25c8a3f905be63b507207c1",
+            "j_invariant": "0x241bdb147c4142e61d7b9951a5890233884e3b890c9b6933f01b832cb776362",
+            "embedding_degree": "0xcb36666666666666666666666666666624d1bfb9c53e459afed9ec0efe931a6",
+            "cm_discriminant": "-0xfc5fff6617e311c874f4297b4c0b5f269ab3a1cac911feec4904296677dfe07b"
         }
-      },
-      "order": "0x3f80ffffffffffffffffffffffffffffeb818bea0da375c06fa419c4af8df83f",
-      "cofactor": "0x01"
     },
     {
-      "form": "Weierstrass",
-      "name": "w-255-mers",
-      "category": "nums-original",
-      "desc": "Curve from https://eprint.iacr.org/2014/130.pdf",
-      "field": {
-        "type": "Prime",
-        "p": "0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffd03",
-        "bits": 255
-      },
-      "params": {
-        "a": {
-          "raw": "0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffd00"
+        "name": "w-255-mers",
+        "category": "nums-original",
+        "desc": "Curve from https://eprint.iacr.org/2014/130.pdf",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffd03",
+            "bits": 255
         },
-        "b": {
-          "raw": "-0x51bd"
+        "params": {
+            "a": {
+                "raw": "0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffd00"
+            },
+            "b": {
+                "raw": "-0x51bd"
+            }
+        },
+        "order": "0x7fffffffffffffffffffffffffffffff864a38283ad2b3dfab8fac983c594aeb",
+        "cofactor": "0x1",
+        "properties": {
+            "trace": "0x79b5c7d7c52d4c2054705367c3a6b219",
+            "j_invariant": "0x661734f09b8540109c7681cdde324ef2080bff3ca6ef898c0002ffb7060110ba",
+            "embedding_degree": "0x3fffffffffffffffffffffffffffffffc3251c141d6959efd5c7d64c1e2ca575",
+            "cm_discriminant": "-0x1c622a801d47d31929427898fe6049161ccb6472bd76d9816a4f91a0475ad2d9b"
         }
-      },
-      "order": "0x7fffffffffffffffffffffffffffffff864a38283ad2b3dfab8fac983c594aeb",
-      "cofactor": "0x01"
     },
     {
-      "form": "Weierstrass",
-      "name": "w-384-mont",
-      "category": "nums-original",
-      "desc": "Curve from https://eprint.iacr.org/2014/130.pdf",
-      "field": {
-        "type": "Prime",
-        "p": "0xb0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-        "bits": 384
-      },
-      "params": {
-        "a": {
-          "raw": "0xb0fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc"
+        "name": "w-384-mont",
+        "category": "nums-original",
+        "desc": "Curve from https://eprint.iacr.org/2014/130.pdf",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0xb0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+            "bits": 384
         },
-        "b": {
-          "raw": "0x6c96"
+        "params": {
+            "a": {
+                "raw": "0xb0fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc"
+            },
+            "b": {
+                "raw": "0x6c96"
+            }
+        },
+        "order": "0xb0ffffffffffffffffffffffffffffffffffffffffffffffba9b7f14ca7512537a4edcd38a7c41da29be4894b298eebb",
+        "cofactor": "0x1",
+        "properties": {
+            "trace": "0x456480eb358aedac85b1232c7583be25d641b76b4d671145",
+            "j_invariant": "0x3d01bf71194313e5bc0b2ace28c9f389cdeb62b7c7d842fc45bcdea37f7324f26d5e42f81ebc4797eba9173cede2623e"
         }
-      },
-      "order": "0xb0ffffffffffffffffffffffffffffffffffffffffffffffba9b7f14ca7512537a4edcd38a7c41da29be4894b298eebb",
-      "cofactor": "0x01"
     },
     {
-      "form": "Weierstrass",
-      "name": "w-382-mont",
-      "category": "nums-original",
-      "desc": "Curve from https://eprint.iacr.org/2014/130.pdf",
-      "field": {
-        "type": "Prime",
-        "p": "0x3ffaffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-        "bits": 382
-      },
-      "params": {
-        "a": {
-          "raw": "0x3ffafffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc"
+        "name": "w-382-mont",
+        "category": "nums-original",
+        "desc": "Curve from https://eprint.iacr.org/2014/130.pdf",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0x3ffaffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+            "bits": 382
         },
-        "b": {
-          "raw": "-0x20a72"
+        "params": {
+            "a": {
+                "raw": "0x3ffafffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc"
+            },
+            "b": {
+                "raw": "-0x20a72"
+            }
+        },
+        "order": "0x3ffaffffffffffffffffffffffffffffffffffffffffffffa6eb1cff4bde214d73b321ffd8e82cd160ab86803ebb301d",
+        "cofactor": "0x1",
+        "properties": {
+            "trace": "0x5914e300b421deb28c4cde002717d32e9f54797fc144cfe3",
+            "j_invariant": "0x7c1c7dcbbb7ac08a19e2c0907ee9189c5968fb6b296fa9dbd654c012f15a4f2649518c3caf514201d2d8887faad1f64"
         }
-      },
-      "order": "0x3ffaffffffffffffffffffffffffffffffffffffffffffffa6eb1cff4bde214d73b321ffd8e82cd160ab86803ebb301d",
-      "cofactor": "0x01"
     },
     {
-      "form": "Weierstrass",
-      "name": "w-383-mers",
-      "category": "nums-original",
-      "desc": "Curve from https://eprint.iacr.org/2014/130.pdf",
-      "field": {
-        "type": "Prime",
-        "p": "0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe5b",
-        "bits": 383
-      },
-      "params": {
-        "a": {
-          "raw": "0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe58"
+        "name": "w-383-mers",
+        "category": "nums-original",
+        "desc": "Curve from https://eprint.iacr.org/2014/130.pdf",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe5b",
+            "bits": 383
         },
-        "b": {
-          "raw": "0x17dbc"
+        "params": {
+            "a": {
+                "raw": "0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe58"
+            },
+            "b": {
+                "raw": "0x17dbc"
+            }
+        },
+        "order": "0x7fffffffffffffffffffffffffffffffffffffffffffffffa9caf814a8a116ad9fb0b4035417aaf319297fc0bb7a439f",
+        "cofactor": "0x1",
+        "properties": {
+            "trace": "0x563507eb575ee952604f4bfcabe8550ce6d6803f4485babd",
+            "j_invariant": "0x4c6dafb9b071be8dcf501e229ccf718a7db00cdffe463355a1709a1538edae59f50e16fd89261cfb138db23400f32fbd"
         }
-      },
-      "order": "0x7fffffffffffffffffffffffffffffffffffffffffffffffa9caf814a8a116ad9fb0b4035417aaf319297fc0bb7a439f",
-      "cofactor": "0x01"
     },
     {
-      "form": "Weierstrass",
-      "name": "w-512-mont",
-      "category": "nums-original",
-      "desc": "Curve from https://eprint.iacr.org/2014/130.pdf",
-      "field": {
-        "type": "Prime",
-        "p": "0xfe14ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-        "bits": 512
-      },
-      "params": {
-        "a": {
-          "raw": "0xfe14fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc"
+        "name": "w-512-mont",
+        "category": "nums-original",
+        "desc": "Curve from https://eprint.iacr.org/2014/130.pdf",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0xfe14ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+            "bits": 512
         },
-        "b": {
-          "raw": "0x185ed"
+        "params": {
+            "a": {
+                "raw": "0xfe14fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc"
+            },
+            "b": {
+                "raw": "0x185ed"
+            }
+        },
+        "order": "0xfe14ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff638a8d792ee750298064aaf0b8498e61df3d3995064ed73b939628f17e98fdc9",
+        "cofactor": "0x1",
+        "properties": {
+            "trace": "0x9c757286d118afd67f9b550f47b6719e20c2c66af9b128c46c69d70e81670237",
+            "j_invariant": "0x933e68652c792de1b06fd603ed749716736c131dad92f7ec405100a1d547dd29af0d63806b170386a81ef1fcf76e63680bb1218d047f36a46c114890a763489e"
         }
-      },
-      "order": "0xfe14ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff638a8d792ee750298064aaf0b8498e61df3d3995064ed73b939628f17e98fdc9",
-      "cofactor": "0x01"
     },
     {
-      "form": "Weierstrass",
-      "name": "w-510-mont",
-      "category": "nums-original",
-      "desc": "Curve from https://eprint.iacr.org/2014/130.pdf",
-      "field": {
-        "type": "Prime",
-        "p": "0x3eddffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-        "bits": 510
-      },
-      "params": {
-        "a": {
-          "raw": "0x3eddfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc"
+        "name": "w-510-mont",
+        "category": "nums-original",
+        "desc": "Curve from https://eprint.iacr.org/2014/130.pdf",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0x3eddffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+            "bits": 510
         },
-        "b": {
-          "raw": "0x988d"
+        "params": {
+            "a": {
+                "raw": "0x3eddfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc"
+            },
+            "b": {
+                "raw": "0x988d"
+            }
+        },
+        "order": "0x3eddffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb9146ccde150ef33747ab29d1e6573d8d22de95e322303f3a00b200986fa9a2d",
+        "cofactor": "0x1",
+        "properties": {
+            "trace": "0x46eb93321eaf10cc8b854d62e19a8c272dd216a1cddcfc0c5ff4dff6790565d3",
+            "j_invariant": "0x243063c1052f01002754a0b67ab8c46f9cf001ca12e81aa08295593eb3f9b4524ead8ef2416ed9ac4b0ac69dbecdceefec505eee0f153139805293078f617e02"
         }
-      },
-      "order": "0x3eddffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb9146ccde150ef33747ab29d1e6573d8d22de95e322303f3a00b200986fa9a2d",
-      "cofactor": "0x01"
     },
     {
-      "form": "Weierstrass",
-      "name": "w-511-mers",
-      "category": "nums-original",
-      "desc": "Curve from https://eprint.iacr.org/2014/130.pdf",
-      "field": {
-        "type": "Prime",
-        "p": "0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe1f",
-        "bits": 511
-      },
-      "params": {
-        "a": {
-          "raw": "0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe1c"
+        "name": "w-511-mers",
+        "category": "nums-original",
+        "desc": "Curve from https://eprint.iacr.org/2014/130.pdf",
+        "form": "Weierstrass",
+        "field": {
+            "type": "Prime",
+            "p": "0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe1f",
+            "bits": 511
         },
-        "b": {
-          "raw": "0x879da"
+        "params": {
+            "a": {
+                "raw": "0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe1c"
+            },
+            "b": {
+                "raw": "0x879da"
+            }
+        },
+        "order": "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff8dbefa3f5ed9d839a2d4fe6ff516e87fa8d3e656a0f99fa1f0105f73b3b9d19f",
+        "cofactor": "0x1",
+        "properties": {
+            "trace": "0x724105c0a12627c65d2b01900ae91780572c19a95f06605e0fefa08c4c462c81",
+            "j_invariant": "0x6ebb653b932f9624f3cb17bda956ae317e2d850ae2d7662ead52e87ba272a41f060ce3279d0215c60fa2ab203be316c8e63508856621e690c00017fe748859c2"
         }
-      },
-      "order": "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff8dbefa3f5ed9d839a2d4fe6ff516e87fa8d3e656a0f99fa1f0105f73b3b9d19f",
-      "cofactor": "0x01"
     }
-  ]
-}
+]
