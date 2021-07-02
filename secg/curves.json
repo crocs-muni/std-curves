@@ -1,1467 +1,1665 @@
-[
+{
+  "name": "SECG",
+  "desc": "SEC 2: Recommended Elliptic Curve Domain Parameters version 2.0  January 27, 2010",
+  "curves":
+  [
     {
-        "name": "secp112r1",
-        "category": "secg",
-        "aliases": [
-            "wtls/wap-wsg-idm-ecid-wtls6"
-        ],
-        "oid": "1.3.132.0.6",
-        "desc": "A randomly generated curve. [SEC2v1](https://www.secg.org/SEC2-Ver-1.0.pdf) states 'E was chosen verifiably at random as specified in ANSI X9.62 [1] from the seed'.",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Prime",
-            "p": "0xdb7c2abf62e35e668076bead208b",
-            "bits": 112
+      "name": "secp112r1",
+      "category": "secg",
+      "aliases": [
+        "wtls/wap-wsg-idm-ecid-wtls6"
+      ],
+      "oid": "1.3.132.0.6",
+      "desc": "A randomly generated curve. [SEC2v1](https://www.secg.org/SEC2-Ver-1.0.pdf) states 'E was chosen verifiably at random as specified in ANSI X9.62 [1] from the seed'.",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Prime",
+        "p": "0xdb7c2abf62e35e668076bead208b",
+        "bits": 112
+      },
+      "params": {
+        "a": {
+          "raw": "0xdb7c2abf62e35e668076bead2088"
         },
-        "params": {
-            "a": {
-                "raw": "0xdb7c2abf62e35e668076bead2088"
-            },
-            "b": {
-                "raw": "0x659ef8ba043916eede8911702b22"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0x09487239995a5ee76b55f9c2f098"
-            },
-            "y": {
-                "raw": "0xa89ce5af8724c0a23e0e0ff77500"
-            }
-        },
-        "order": "0xdb7c2abf62e35e7628dfac6561c5",
-        "cofactor": "0x1",
-        "simulation": {
-            "seed": "0xf50b028e4d696e676875615175290472783fb1"
+        "b": {
+          "raw": "0x659ef8ba043916eede8911702b22"
         }
-    },
-    {
-        "name": "secp112r2",
-        "category": "secg",
-        "oid": "1.3.132.0.7",
-        "desc": "A randomly generated curve. [SEC2v1](https://www.secg.org/SEC2-Ver-1.0.pdf) states 'E was chosen verifiably at random as specified in ANSI X9.62 [1] from the seed'.",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Prime",
-            "p": "0xdb7c2abf62e35e668076bead208b",
-            "bits": 112
+      },
+      "generator": {
+        "x": {
+          "raw": "0x09487239995a5ee76b55f9c2f098"
         },
-        "params": {
-            "a": {
-                "raw": "0x6127c24c05f38a0aaaf65c0ef02c"
-            },
-            "b": {
-                "raw": "0x51def1815db5ed74fcc34c85d709"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0x4ba30ab5e892b4e1649dd0928643"
-            },
-            "y": {
-                "raw": "0xadcd46f5882e3747def36e956e97"
-            }
-        },
-        "order": "0x36df0aafd8b8d7597ca10520d04b",
-        "cofactor": "0x4",
-        "simulation": {
-            "seed": "0x2757a1114d696e6768756151755316c05e0bd4"
+        "y": {
+          "raw": "0xa89ce5af8724c0a23e0e0ff77500"
         }
+      },
+      "order": "0xdb7c2abf62e35e7628dfac6561c5",
+      "cofactor": "0x1",
+      "standard": true,
+      "simulation": {
+        "seed": "0xf50b028e4d696e676875615175290472783fb1"
+      },
+      "properties": {
+        "trace": "-0xfa868edb84139",
+        "j_invariant": "0xadad8cacc8dd210422960337beca",
+        "embedding_degree": "0xdb7c2abf62e35e7628dfac6561c4",
+        "cm_discriminant": "-0x36cfb7fe7ccf1fcdd86299e26837b"
+      }
     },
     {
-        "name": "secp128r1",
-        "category": "secg",
-        "oid": "1.3.132.0.28",
-        "desc": "A randomly generated curve. [SEC2v1](https://www.secg.org/SEC2-Ver-1.0.pdf) states 'E was chosen verifiably at random as specified in ANSI X9.62 [1] from the seed'.",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Prime",
-            "p": "0xfffffffdffffffffffffffffffffffff",
-            "bits": 128
+      "name": "secp112r2",
+      "category": "secg",
+      "oid": "1.3.132.0.7",
+      "desc": "A randomly generated curve. [SEC2v1](https://www.secg.org/SEC2-Ver-1.0.pdf) states 'E was chosen verifiably at random as specified in ANSI X9.62 [1] from the seed'.",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Prime",
+        "p": "0xdb7c2abf62e35e668076bead208b",
+        "bits": 112
+      },
+      "params": {
+        "a": {
+          "raw": "0x6127c24c05f38a0aaaf65c0ef02c"
         },
-        "params": {
-            "a": {
-                "raw": "0xfffffffdfffffffffffffffffffffffc"
-            },
-            "b": {
-                "raw": "0xe87579c11079f43dd824993c2cee5ed3"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0x161ff7528b899b2d0c28607ca52c5b86"
-            },
-            "y": {
-                "raw": "0xcf5ac8395bafeb13c02da292dded7a83"
-            }
-        },
-        "order": "0xfffffffe0000000075a30d1b9038a115",
-        "cofactor": "0x1",
-        "simulation": {
-            "seed": "0xe0d4d696e6768756151750cc03a4473d03679"
+        "b": {
+          "raw": "0x51def1815db5ed74fcc34c85d709"
         }
-    },
-    {
-        "name": "secp128r2",
-        "category": "secg",
-        "oid": "1.3.132.0.29",
-        "desc": "A randomly generated curve. [SEC2v1](https://www.secg.org/SEC2-Ver-1.0.pdf) states 'E was chosen verifiably at random as specified in ANSI X9.62 [1] from the seed'.",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Prime",
-            "p": "0xfffffffdffffffffffffffffffffffff",
-            "bits": 128
+      },
+      "generator": {
+        "x": {
+          "raw": "0x4ba30ab5e892b4e1649dd0928643"
         },
-        "params": {
-            "a": {
-                "raw": "0xd6031998d1b3bbfebf59cc9bbff9aee1"
-            },
-            "b": {
-                "raw": "0x5eeefca380d02919dc2c6558bb6d8a5d"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0x7b6aa5d85e572983e6fb32a7cdebc140"
-            },
-            "y": {
-                "raw": "0x27b6916a894d3aee7106fe805fc34b44"
-            }
-        },
-        "order": "0x3fffffff7fffffffbe0024720613b5a3",
-        "cofactor": "0x4",
-        "simulation": {
-            "seed": "0x4d696e67687561517512d8f03431fce63b88f4"
+        "y": {
+          "raw": "0xadcd46f5882e3747def36e956e97"
         }
+      },
+      "order": "0x36df0aafd8b8d7597ca10520d04b",
+      "cofactor": "0x4",
+      "standard": true,
+      "simulation": {
+        "seed": "0x2757a1114d696e6768756151755316c05e0bd4"
+      },
+      "properties": {
+        "trace": "0x1008df2aa29df60",
+        "j_invariant": "0x597e254b44d77100b6eb01a0fecc",
+        "embedding_degree": "0x124a58e5483d9d1dd435ac60456e",
+        "cm_discriminant": "-0x9b351dbd00959c5113358ac3078b"
+      }
     },
     {
-        "name": "secp160k1",
-        "category": "secg",
-        "aliases": [
-            "x963/ansip160k1"
-        ],
-        "oid": "1.3.132.0.9",
-        "desc": "A Koblitz curve.",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Prime",
-            "p": "0xfffffffffffffffffffffffffffffffeffffac73",
-            "bits": 160
+      "name": "secp128r1",
+      "category": "secg",
+      "oid": "1.3.132.0.28",
+      "desc": "A randomly generated curve. [SEC2v1](https://www.secg.org/SEC2-Ver-1.0.pdf) states 'E was chosen verifiably at random as specified in ANSI X9.62 [1] from the seed'.",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Prime",
+        "p": "0xfffffffdffffffffffffffffffffffff",
+        "bits": 128
+      },
+      "params": {
+        "a": {
+          "raw": "0xfffffffdfffffffffffffffffffffffc"
         },
-        "params": {
-            "a": {
-                "raw": "0x0000000000000000000000000000000000000000"
-            },
-            "b": {
-                "raw": "0x0000000000000000000000000000000000000007"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0x3b4c382ce37aa192a4019e763036f4f5dd4d7ebb"
-            },
-            "y": {
-                "raw": "0x938cf935318fdced6bc28286531733c3f03c4fee"
-            }
-        },
-        "order": "0x100000000000000000001b8fa16dfab9aca16b6b3",
-        "cofactor": "0x1"
-    },
-    {
-        "name": "secp160r1",
-        "category": "secg",
-        "aliases": [
-            "wtls/wap-wsg-idm-ecid-wtls7",
-            "x963/ansip160r1"
-        ],
-        "oid": "1.3.132.0.8",
-        "desc": "A randomly generated curve. [SEC2v1](https://www.secg.org/SEC2-Ver-1.0.pdf) states 'E was chosen verifiably at random as specified in ANSI X9.62 [1] from the seed'.",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Prime",
-            "p": "0xffffffffffffffffffffffffffffffff7fffffff",
-            "bits": 160
-        },
-        "params": {
-            "a": {
-                "raw": "0xffffffffffffffffffffffffffffffff7ffffffc"
-            },
-            "b": {
-                "raw": "0x1c97befc54bd7a8b65acf89f81d4d4adc565fa45"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0x4a96b5688ef573284664698968c38bb913cbfc82"
-            },
-            "y": {
-                "raw": "0x23a628553168947d59dcc912042351377ac5fb32"
-            }
-        },
-        "order": "0x100000000000000000001f4c8f927aed3ca752257",
-        "cofactor": "0x1",
-        "simulation": {
-            "seed": "0x1053cde42c14d696e67687561517533bf3f83345"
+        "b": {
+          "raw": "0xe87579c11079f43dd824993c2cee5ed3"
         }
-    },
-    {
-        "name": "secp160r2",
-        "category": "secg",
-        "aliases": [
-            "x963/ansip160r2"
-        ],
-        "oid": "1.3.132.0.30",
-        "desc": "A randomly generated curve. [SEC2v1](https://www.secg.org/SEC2-Ver-1.0.pdf) states 'E was chosen verifiably at random as specified in ANSI X9.62 [1] from the seed'.",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Prime",
-            "p": "0xfffffffffffffffffffffffffffffffeffffac73",
-            "bits": 160
+      },
+      "generator": {
+        "x": {
+          "raw": "0x161ff7528b899b2d0c28607ca52c5b86"
         },
-        "params": {
-            "a": {
-                "raw": "0xfffffffffffffffffffffffffffffffeffffac70"
-            },
-            "b": {
-                "raw": "0xb4e134d3fb59eb8bab57274904664d5af50388ba"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0x52dcb034293a117e1f4ff11b30f7199d3144ce6d"
-            },
-            "y": {
-                "raw": "0xfeaffef2e331f296e071fa0df9982cfea7d43f2e"
-            }
-        },
-        "order": "0x100000000000000000000351ee786a818f3a1a16b",
-        "cofactor": "0x1",
-        "simulation": {
-            "seed": "0xb99b99b099b323e02709a4d696e6768756151751"
+        "y": {
+          "raw": "0xcf5ac8395bafeb13c02da292dded7a83"
         }
+      },
+      "order": "0xfffffffe0000000075a30d1b9038a115",
+      "cofactor": "0x1",
+      "standard": true,
+      "simulation": {
+        "seed": "0xe0d4d696e6768756151750cc03a4473d03679"
+      },
+      "properties": {
+        "trace": "-0x75a30d1b9038a115",
+        "j_invariant": "0x6b324db0e738c0b1281f6a261980a579",
+        "embedding_degree": "0x7fffffff000000003ad1868dc81c508a",
+        "cm_discriminant": "-0x3c9f18e231c66c5082fb421d381749443"
+      }
     },
     {
-        "name": "secp192k1",
-        "category": "secg",
-        "aliases": [
-            "x963/ansip192k1"
-        ],
-        "oid": "1.3.132.0.31",
-        "desc": "A Koblitz curve.",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Prime",
-            "p": "0xfffffffffffffffffffffffffffffffffffffffeffffee37",
-            "bits": 192
+      "name": "secp128r2",
+      "category": "secg",
+      "oid": "1.3.132.0.29",
+      "desc": "A randomly generated curve. [SEC2v1](https://www.secg.org/SEC2-Ver-1.0.pdf) states 'E was chosen verifiably at random as specified in ANSI X9.62 [1] from the seed'.",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Prime",
+        "p": "0xfffffffdffffffffffffffffffffffff",
+        "bits": 128
+      },
+      "params": {
+        "a": {
+          "raw": "0xd6031998d1b3bbfebf59cc9bbff9aee1"
         },
-        "params": {
-            "a": {
-                "raw": "0x000000000000000000000000000000000000000000000000"
-            },
-            "b": {
-                "raw": "0x000000000000000000000000000000000000000000000003"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0xdb4ff10ec057e9ae26b07d0280b7f4341da5d1b1eae06c7d"
-            },
-            "y": {
-                "raw": "0x9b2f2f6d9c5628a7844163d015be86344082aa88d95e2f9d"
-            }
-        },
-        "order": "0xfffffffffffffffffffffffe26f2fc170f69466a74defd8d",
-        "cofactor": "0x1"
-    },
-    {
-        "name": "secp192r1",
-        "category": "secg",
-        "aliases": [
-            "nist/P-192",
-            "x962/prime192v1"
-        ],
-        "oid": "1.2.840.10045.3.1.1",
-        "desc": "A randomly generated curve. [SEC2v1](https://www.secg.org/SEC2-Ver-1.0.pdf) states 'E was chosen verifiably at random as specified in ANSI X9.62 [1] from the seed'.",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Prime",
-            "p": "0xfffffffffffffffffffffffffffffffeffffffffffffffff",
-            "bits": 192
-        },
-        "params": {
-            "a": {
-                "raw": "0xfffffffffffffffffffffffffffffffefffffffffffffffc"
-            },
-            "b": {
-                "raw": "0x64210519e59c80e70fa7e9ab72243049feb8deecc146b9b1"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0x188da80eb03090f67cbf20eb43a18800f4ff0afd82ff1012"
-            },
-            "y": {
-                "raw": "0x07192b95ffc8da78631011ed6b24cdd573f977a11e794811"
-            }
-        },
-        "order": "0xffffffffffffffffffffffff99def836146bc9b1b4d22831",
-        "cofactor": "0x1",
-        "simulation": {
-            "seed": "0x3045ae6fc8422f64ed579528d38120eae12196d5"
+        "b": {
+          "raw": "0x5eeefca380d02919dc2c6558bb6d8a5d"
         }
-    },
-    {
-        "name": "secp224k1",
-        "category": "secg",
-        "aliases": [
-            "x963/ansip224k1"
-        ],
-        "oid": "1.3.132.0.32",
-        "desc": "A Koblitz curve.",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Prime",
-            "p": "0xfffffffffffffffffffffffffffffffffffffffffffffffeffffe56d",
-            "bits": 224
+      },
+      "generator": {
+        "x": {
+          "raw": "0x7b6aa5d85e572983e6fb32a7cdebc140"
         },
-        "params": {
-            "a": {
-                "raw": "0x00000000000000000000000000000000000000000000000000000000"
-            },
-            "b": {
-                "raw": "0x00000000000000000000000000000000000000000000000000000005"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0xa1455b334df099df30fc28a169a467e9e47075a90f7e650eb6b7a45c"
-            },
-            "y": {
-                "raw": "0x7e089fed7fba344282cafbd6f7e319f7c0b0bd59e2ca4bdb556d61a5"
-            }
-        },
-        "order": "0x10000000000000000000000000001dce8d2ec6184caf0a971769fb1f7",
-        "cofactor": "0x1"
-    },
-    {
-        "name": "secp224r1",
-        "category": "secg",
-        "aliases": [
-            "nist/P-224",
-            "wtls/wap-wsg-idm-ecid-wtls12",
-            "x963/ansip224r1"
-        ],
-        "oid": "1.3.132.0.33",
-        "desc": "A randomly generated curve. [SEC2v1](https://www.secg.org/SEC2-Ver-1.0.pdf) states 'E was chosen verifiably at random as specified in ANSI X9.62 [1] from the seed'.",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Prime",
-            "p": "0xffffffffffffffffffffffffffffffff000000000000000000000001",
-            "bits": 224
-        },
-        "params": {
-            "a": {
-                "raw": "0xfffffffffffffffffffffffffffffffefffffffffffffffffffffffe"
-            },
-            "b": {
-                "raw": "0xb4050a850c04b3abf54132565044b0b7d7bfd8ba270b39432355ffb4"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0xb70e0cbd6bb4bf7f321390b94a03c1d356c21122343280d6115c1d21"
-            },
-            "y": {
-                "raw": "0xbd376388b5f723fb4c22dfe6cd4375a05a07476444d5819985007e34"
-            }
-        },
-        "order": "0xffffffffffffffffffffffffffff16a2e0b8f03e13dd29455c5c2a3d",
-        "cofactor": "0x1",
-        "simulation": {
-            "seed": "0xbd71344799d5c7fcdc45b59fa3b9ab8f6a948bc5"
+        "y": {
+          "raw": "0x27b6916a894d3aee7106fe805fc34b44"
         }
+      },
+      "order": "0x3fffffff7fffffffbe0024720613b5a3",
+      "cofactor": "0x4",
+      "standard": true,
+      "simulation": {
+        "seed": "0x4d696e67687561517512d8f03431fce63b88f4"
+      },
+      "properties": {
+        "trace": "0x107ff6e37e7b12974",
+        "j_invariant": "0x92a06b59be064918b6fdd808c5363c53",
+        "embedding_degree": "0x2e8ba2e85d1745d1445d31c74a3ce13",
+        "cm_discriminant": "-0xbbf04b2917c794a45cddd32f93b868db"
+      }
     },
     {
-        "name": "secp256k1",
-        "category": "secg",
-        "aliases": [
-            "x963/ansip256k1"
-        ],
-        "oid": "1.3.132.0.10",
-        "desc": "A Koblitz curve.",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Prime",
-            "p": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f",
-            "bits": 256
+      "name": "secp160k1",
+      "category": "secg",
+      "aliases": [
+        "x963/ansip160k1"
+      ],
+      "oid": "1.3.132.0.9",
+      "desc": "A Koblitz curve.",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Prime",
+        "p": "0xfffffffffffffffffffffffffffffffeffffac73",
+        "bits": 160
+      },
+      "params": {
+        "a": {
+          "raw": "0x0000000000000000000000000000000000000000"
         },
-        "params": {
-            "a": {
-                "raw": "0x0000000000000000000000000000000000000000000000000000000000000000"
-            },
-            "b": {
-                "raw": "0x0000000000000000000000000000000000000000000000000000000000000007"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0x79be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798"
-            },
-            "y": {
-                "raw": "0x483ada7726a3c4655da4fbfc0e1108a8fd17b448a68554199c47d08ffb10d4b8"
-            }
-        },
-        "order": "0xfffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364141",
-        "cofactor": "0x1"
-    },
-    {
-        "name": "secp256r1",
-        "category": "secg",
-        "aliases": [
-            "nist/P-256",
-            "x962/prime256v1"
-        ],
-        "desc": "A randomly generated curve. [SEC2v1](https://www.secg.org/SEC2-Ver-1.0.pdf) states 'E was chosen verifiably at random as specified in ANSI X9.62 [1] from the seed'.",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Prime",
-            "p": "0xffffffff00000001000000000000000000000000ffffffffffffffffffffffff",
-            "bits": 256
-        },
-        "params": {
-            "a": {
-                "raw": "0xffffffff00000001000000000000000000000000fffffffffffffffffffffffc"
-            },
-            "b": {
-                "raw": "0x5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0x6b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c296"
-            },
-            "y": {
-                "raw": "0x4fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5"
-            }
-        },
-        "order": "0xffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
-        "cofactor": "0x1",
-        "simulation": {
-            "seed": "0xc49d360886e704936a6678e1139d26b7819f7e90"
+        "b": {
+          "raw": "0x0000000000000000000000000000000000000007"
         }
-    },
-    {
-        "name": "secp384r1",
-        "category": "secg",
-        "aliases": [
-            "nist/P-384",
-            "x963/ansip384r1"
-        ],
-        "oid": "1.3.132.0.34",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Prime",
-            "p": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffeffffffff0000000000000000ffffffff",
-            "bits": 384
+      },
+      "generator": {
+        "x": {
+          "raw": "0x3b4c382ce37aa192a4019e763036f4f5dd4d7ebb"
         },
-        "params": {
-            "a": {
-                "raw": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffeffffffff0000000000000000fffffffc"
-            },
-            "b": {
-                "raw": "0xb3312fa7e23ee7e4988e056be3f82d19181d9c6efe8141120314088f5013875ac656398d8a2ed19d2a85c8edd3ec2aef"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0xaa87ca22be8b05378eb1c71ef320ad746e1d3b628ba79b9859f741e082542a385502f25dbf55296c3a545e3872760ab7"
-            },
-            "y": {
-                "raw": "0x3617de4a96262c6f5d9e98bf9292dc29f8f41dbd289a147ce9da3113b5f0b8c00a60b1ce1d7e819d7a431d7c90ea0e5f"
-            }
-        },
-        "order": "0xffffffffffffffffffffffffffffffffffffffffffffffffc7634d81f4372ddf581a0db248b0a77aecec196accc52973",
-        "cofactor": "0x1",
-        "simulation": {
-            "seed": "0xa335926aa319a27a1d00896a6773a4827acdac73"
+        "y": {
+          "raw": "0x938cf935318fdced6bc28286531733c3f03c4fee"
         }
+      },
+      "order": "0x100000000000000000001b8fa16dfab9aca16b6b3",
+      "cofactor": "0x1",
+      "standard": true,
+      "properties": {
+        "trace": "-0x1b8fa16dfab9bca170a3f",
+        "j_invariant": "0x0",
+        "embedding_degree": "0x80000000000000000000dc7d0b6fd5cd650b5b59",
+        "cm_discriminant": "-0x3"
+      }
     },
     {
-        "name": "secp521r1",
-        "category": "secg",
-        "aliases": [
-            "nist/P-521",
-            "x963/ansip521r1"
-        ],
-        "oid": "1.3.132.0.35",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Prime",
-            "p": "0x01ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-            "bits": 521
+      "name": "secp160r1",
+      "category": "secg",
+      "aliases": [
+        "wtls/wap-wsg-idm-ecid-wtls7",
+        "x963/ansip160r1"
+      ],
+      "oid": "1.3.132.0.8",
+      "desc": "A randomly generated curve. [SEC2v1](https://www.secg.org/SEC2-Ver-1.0.pdf) states 'E was chosen verifiably at random as specified in ANSI X9.62 [1] from the seed'.",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Prime",
+        "p": "0xffffffffffffffffffffffffffffffff7fffffff",
+        "bits": 160
+      },
+      "params": {
+        "a": {
+          "raw": "0xffffffffffffffffffffffffffffffff7ffffffc"
         },
-        "params": {
-            "a": {
-                "raw": "0x01fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc"
-            },
-            "b": {
-                "raw": "0x0051953eb9618e1c9a1f929a21a0b68540eea2da725b99b315f3b8b489918ef109e156193951ec7e937b1652c0bd3bb1bf073573df883d2c34f1ef451fd46b503f00"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0x00c6858e06b70404e9cd9e3ecb662395b4429c648139053fb521f828af606b4d3dbaa14b5e77efe75928fe1dc127a2ffa8de3348b3c1856a429bf97e7e31c2e5bd66"
-            },
-            "y": {
-                "raw": "0x011839296a789a3bc0045c8a5fb42c7d1bd998f54449579b446817afbd17273e662c97ee72995ef42640c550b9013fad0761353c7086a272c24088be94769fd16650"
-            }
-        },
-        "order": "0x1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa51868783bf2f966b7fcc0148f709a5d03bb5c9b8899c47aebb6fb71e91386409",
-        "cofactor": "0x1",
-        "simulation": {
-            "seed": "0xd09e8800291cb85396cc6717393284aaa0da64ba"
+        "b": {
+          "raw": "0x1c97befc54bd7a8b65acf89f81d4d4adc565fa45"
         }
-    },
-    {
-        "name": "sect113r1",
-        "category": "secg",
-        "aliases": [
-            "wtls/wap-wsg-idm-ecid-wtls4"
-        ],
-        "oid": "1.3.132.0.4",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Binary",
-            "bits": 113,
-            "poly": [
-                {
-                    "power": 113,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 9,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 0,
-                    "coeff": "0x01"
-                }
-            ],
-            "degree": 113,
-            "basis": "poly"
+      },
+      "generator": {
+        "x": {
+          "raw": "0x4a96b5688ef573284664698968c38bb913cbfc82"
         },
-        "params": {
-            "a": {
-                "raw": "0x003088250ca6e7c7fe649ce85820f7"
-            },
-            "b": {
-                "raw": "0x00e8bee4d3e2260744188be0e9c723"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0x009d73616f35f4ab1407d73562c10f"
-            },
-            "y": {
-                "raw": "0x00a52830277958ee84d1315ed31886"
-            }
-        },
-        "order": "0x100000000000000d9ccec8a39e56f",
-        "cofactor": "0x2"
-    },
-    {
-        "name": "sect113r2",
-        "category": "secg",
-        "oid": "1.3.132.0.5",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Binary",
-            "bits": 113,
-            "poly": [
-                {
-                    "power": 113,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 9,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 0,
-                    "coeff": "0x01"
-                }
-            ],
-            "degree": 113,
-            "basis": "poly"
-        },
-        "params": {
-            "a": {
-                "raw": "0x00689918dbec7e5a0dd6dfc0aa55c7"
-            },
-            "b": {
-                "raw": "0x0095e9a9ec9b297bd4bf36e059184f"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0x01a57a6a7b26ca5ef52fcdb8164797"
-            },
-            "y": {
-                "raw": "0x00b3adc94ed1fe674c06e695baba1d"
-            }
-        },
-        "order": "0x10000000000000108789b2496af93",
-        "cofactor": "0x2"
-    },
-    {
-        "name": "sect131r1",
-        "category": "secg",
-        "oid": "1.3.132.0.22",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Binary",
-            "bits": 131,
-            "poly": [
-                {
-                    "power": 131,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 8,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 3,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 2,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 0,
-                    "coeff": "0x01"
-                }
-            ],
-            "degree": 131,
-            "basis": "poly"
-        },
-        "params": {
-            "a": {
-                "raw": "0x07a11b09a76b562144418ff3ff8c2570b8"
-            },
-            "b": {
-                "raw": "0x0217c05610884b63b9c6c7291678f9d341"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0x0081baf91fdf9833c40f9c181343638399"
-            },
-            "y": {
-                "raw": "0x078c6e7ea38c001f73c8134b1b4ef9e150"
-            }
-        },
-        "order": "0x400000000000000023123953a9464b54d",
-        "cofactor": "0x2"
-    },
-    {
-        "name": "sect131r2",
-        "category": "secg",
-        "oid": "1.3.132.0.23",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Binary",
-            "bits": 131,
-            "poly": [
-                {
-                    "power": 131,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 8,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 3,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 2,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 0,
-                    "coeff": "0x01"
-                }
-            ],
-            "degree": 131,
-            "basis": "poly"
-        },
-        "params": {
-            "a": {
-                "raw": "0x03e5a88919d7cafcbf415f07c2176573b2"
-            },
-            "b": {
-                "raw": "0x04b8266a46c55657ac734ce38f018f2192"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0x0356dcd8f2f95031ad652d23951bb366a8"
-            },
-            "y": {
-                "raw": "0x0648f06d867940a5366d9e265de9eb240f"
-            }
-        },
-        "order": "0x400000000000000016954a233049ba98f",
-        "cofactor": "0x2"
-    },
-    {
-        "name": "sect163k1",
-        "category": "secg",
-        "aliases": [
-            "nist/K-163",
-            "x963/ansit163k1",
-            "wtls/wap-wsg-idm-ecid-wtls3"
-        ],
-        "oid": "1.3.132.0.1",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Binary",
-            "poly": [
-                {
-                    "power": 163,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 7,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 6,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 3,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 0,
-                    "coeff": "0x01"
-                }
-            ],
-            "bits": 163,
-            "degree": 163,
-            "basis": "poly"
-        },
-        "params": {
-            "a": {
-                "raw": "0x000000000000000000000000000000000000000001"
-            },
-            "b": {
-                "raw": "0x000000000000000000000000000000000000000001"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0x02fe13c0537bbc11acaa07d793de4e6d5e5c94eee8"
-            },
-            "y": {
-                "raw": "0x0289070fb05d38ff58321f2e800536d538ccdaa3d9"
-            }
-        },
-        "order": "0x4000000000000000000020108a2e0cc0d99f8a5ef",
-        "cofactor": "0x2"
-    },
-    {
-        "name": "sect163r1",
-        "category": "secg",
-        "aliases": [
-            "x963/ansit163r1"
-        ],
-        "oid": "1.3.132.0.2",
-        "desc": "A randomly generated curve, using the SECG/X9.62 method. 'However for historical reasons the method used to generate E from S differs slightly from the method described in ANSI X9.62 [X9.62]. Specifically the coefficient b produced from S is the reverse of the coefficient that would have been produced by the method described in ANSI X9.62.'",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Binary",
-            "poly": [
-                {
-                    "power": 163,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 7,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 6,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 3,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 0,
-                    "coeff": "0x01"
-                }
-            ],
-            "bits": 163,
-            "degree": 163,
-            "basis": "poly"
-        },
-        "params": {
-            "a": {
-                "raw": "0x07b6882caaefa84f9554ff8428bd88e246d2782ae2"
-            },
-            "b": {
-                "raw": "0x0713612dcddcb40aab946bda29ca91f73af958afd9"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0x0369979697ab43897789566789567f787a7876a654"
-            },
-            "y": {
-                "raw": "0x00435edb42efafb2989d51fefce3c80988f41ff883"
-            }
-        },
-        "order": "0x3ffffffffffffffffffff48aab689c29ca710279b",
-        "cofactor": "0x2",
-        "simulation": {
-            "seed": "0x24b7b137c8a14d696e6768756151756fd0da2e5c"
+        "y": {
+          "raw": "0x23a628553168947d59dcc912042351377ac5fb32"
         }
+      },
+      "order": "0x100000000000000000001f4c8f927aed3ca752257",
+      "cofactor": "0x1",
+      "standard": true,
+      "simulation": {
+        "seed": "0x1053cde42c14d696e67687561517533bf3f83345"
+      },
+      "properties": {
+        "trace": "-0x1f4c8f927aed44a752257",
+        "j_invariant": "0xfce63f3745bfae104ff7852383d66f97ba3dec5e",
+        "embedding_degree": "0x100000000000000000001f4c8f927aed3ca752256",
+        "cm_discriminant": "-0x2c5e54f6bc93593265eaae4fa926ee734bdec66b"
+      }
     },
     {
-        "name": "sect163r2",
-        "category": "secg",
-        "aliases": [
-            "nist/B-163",
-            "x963/ansit163r2"
-        ],
-        "oid": "1.3.132.0.15",
-        "desc": "A randomly generated curve. 'E was selected from S as specified in ANSI X9.62 [X9.62] in normal basis representation and converted into polynomial basis representation.'",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Binary",
-            "poly": [
-                {
-                    "power": 163,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 7,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 6,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 3,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 0,
-                    "coeff": "0x01"
-                }
-            ],
-            "bits": 163,
-            "degree": 163,
-            "basis": "poly"
+      "name": "secp160r2",
+      "category": "secg",
+      "aliases": [
+        "x963/ansip160r2"
+      ],
+      "oid": "1.3.132.0.30",
+      "desc": "A randomly generated curve. [SEC2v1](https://www.secg.org/SEC2-Ver-1.0.pdf) states 'E was chosen verifiably at random as specified in ANSI X9.62 [1] from the seed'.",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Prime",
+        "p": "0xfffffffffffffffffffffffffffffffeffffac73",
+        "bits": 160
+      },
+      "params": {
+        "a": {
+          "raw": "0xfffffffffffffffffffffffffffffffeffffac70"
         },
-        "params": {
-            "a": {
-                "raw": "0x000000000000000000000000000000000000000001"
-            },
-            "b": {
-                "raw": "0x020a601907b8c953ca1481eb10512f78744a3205fd"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0x03f0eba16286a2d57ea0991168d4994637e8343e36"
-            },
-            "y": {
-                "raw": "0x00d51fbc6c71a0094fa2cdd545b11c5c0c797324f1"
-            }
-        },
-        "order": "0x40000000000000000000292fe77e70c12a4234c33",
-        "cofactor": "0x2",
-        "simulation": {
-            "seed": "0x85e25bfe5c86226cdb12016f7553f9d0e693a268"
+        "b": {
+          "raw": "0xb4e134d3fb59eb8bab57274904664d5af50388ba"
         }
-    },
-    {
-        "name": "sect193r1",
-        "category": "secg",
-        "aliases": [
-            "x963/ansit193r1"
-        ],
-        "oid": "1.3.132.0.24",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Binary",
-            "bits": 193,
-            "poly": [
-                {
-                    "power": 193,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 15,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 0,
-                    "coeff": "0x01"
-                }
-            ],
-            "degree": 193,
-            "basis": "poly"
+      },
+      "generator": {
+        "x": {
+          "raw": "0x52dcb034293a117e1f4ff11b30f7199d3144ce6d"
         },
-        "params": {
-            "a": {
-                "raw": "0x0017858feb7a98975169e171f77b4087de098ac8a911df7b01"
-            },
-            "b": {
-                "raw": "0x00fdfb49bfe6c3a89facadaa7a1e5bbc7cc1c2e5d831478814"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0x01f481bc5f0ff84a74ad6cdf6fdef4bf6179625372d8c0c5e1"
-            },
-            "y": {
-                "raw": "0x0025e399f2903712ccf3ea9e3a1ad17fb0b3201b6af7ce1b05"
-            }
-        },
-        "order": "0x1000000000000000000000000c7f34a778f443acc920eba49",
-        "cofactor": "0x2"
-    },
-    {
-        "name": "sect193r2",
-        "category": "secg",
-        "aliases": [
-            "x963/ansit193r2"
-        ],
-        "oid": "1.3.132.0.25",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Binary",
-            "bits": 193,
-            "poly": [
-                {
-                    "power": 193,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 15,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 0,
-                    "coeff": "0x01"
-                }
-            ],
-            "degree": 193,
-            "basis": "poly"
-        },
-        "params": {
-            "a": {
-                "raw": "0x0163f35a5137c2ce3ea6ed8667190b0bc43ecd69977702709b"
-            },
-            "b": {
-                "raw": "0x00c9bb9e8927d4d64c377e2ab2856a5b16e3efb7f61d4316ae"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0x00d9b67d192e0367c803f39e1a7e82ca14a651350aae617e8f"
-            },
-            "y": {
-                "raw": "0x01ce94335607c304ac29e7defbd9ca01f596f927224cdecf6c"
-            }
-        },
-        "order": "0x10000000000000000000000015aab561b005413ccd4ee99d5",
-        "cofactor": "0x2"
-    },
-    {
-        "name": "sect233k1",
-        "category": "secg",
-        "aliases": [
-            "nist/K-233",
-            "wtls/wap-wsg-idm-ecid-wtls10",
-            "x963/ansit233k1"
-        ],
-        "oid": "1.3.132.0.26",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Binary",
-            "poly": [
-                {
-                    "power": 233,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 74,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 0,
-                    "coeff": "0x01"
-                }
-            ],
-            "bits": 233,
-            "degree": 233,
-            "basis": "poly"
-        },
-        "params": {
-            "a": {
-                "raw": "0x000000000000000000000000000000000000000000000000000000000000"
-            },
-            "b": {
-                "raw": "0x000000000000000000000000000000000000000000000000000000000001"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0x017232ba853a7e731af129f22ff4149563a419c26bf50a4c9d6eefad6126"
-            },
-            "y": {
-                "raw": "0x01db537dece819b7f70f555a67c427a8cd9bf18aeb9b56e0c11056fae6a3"
-            }
-        },
-        "order": "0x8000000000000000000000000000069d5bb915bcd46efb1ad5f173abdf",
-        "cofactor": "0x4"
-    },
-    {
-        "name": "sect233r1",
-        "category": "secg",
-        "aliases": [
-            "nist/B-233",
-            "wtls/wap-wsg-idm-ecid-wtls11",
-            "x963/ansit233r1"
-        ],
-        "oid": "1.3.132.0.27",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Binary",
-            "poly": [
-                {
-                    "power": 233,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 74,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 0,
-                    "coeff": "0x01"
-                }
-            ],
-            "bits": 233,
-            "degree": 233,
-            "basis": "poly"
-        },
-        "params": {
-            "a": {
-                "raw": "0x000000000000000000000000000000000000000000000000000000000001"
-            },
-            "b": {
-                "raw": "0x0066647ede6c332c7f8c0923bb58213b333b20e9ce4281fe115f7d8f90ad"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0x00fac9dfcbac8313bb2139f1bb755fef65bc391f8b36f8f8eb7371fd558b"
-            },
-            "y": {
-                "raw": "0x01006a08a41903350678e58528bebf8a0beff867a7ca36716f7e01f81052"
-            }
-        },
-        "order": "0x1000000000000000000000000000013e974e72f8a6922031d2603cfe0d7",
-        "cofactor": "0x2",
-        "simulation": {
-            "seed": "0x74d59ff07f6b413d0ea14b344b20a2db049b50c3"
+        "y": {
+          "raw": "0xfeaffef2e331f296e071fa0df9982cfea7d43f2e"
         }
+      },
+      "order": "0x100000000000000000000351ee786a818f3a1a16b",
+      "cofactor": "0x1",
+      "standard": true,
+      "simulation": {
+        "seed": "0xb99b99b099b323e02709a4d696e6768756151751"
+      },
+      "properties": {
+        "trace": "-0x351ee786a819f3a1f4f7",
+        "j_invariant": "0xb3e6e6ec627556928cb0ebd0f934efaddc70f163",
+        "embedding_degree": "0x800000000000000000001a8f73c3540c79d0d0b5",
+        "cm_discriminant": "-0x3f4fa3067297190d69760e813bc691a3b0ce8eb7b"
+      }
     },
     {
-        "name": "sect239k1",
-        "category": "secg",
-        "aliases": [
-            "x963/ansit239k1"
-        ],
-        "oid": "1.3.132.0.3",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Binary",
-            "poly": [
-                {
-                    "power": 239,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 158,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 0,
-                    "coeff": "0x01"
-                }
-            ],
-            "bits": 239,
-            "degree": 239,
-            "basis": "poly"
+      "name": "secp192k1",
+      "category": "secg",
+      "aliases": [
+        "x963/ansip192k1"
+      ],
+      "oid": "1.3.132.0.31",
+      "desc": "A Koblitz curve.",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Prime",
+        "p": "0xfffffffffffffffffffffffffffffffffffffffeffffee37",
+        "bits": 192
+      },
+      "params": {
+        "a": {
+          "raw": "0x000000000000000000000000000000000000000000000000"
         },
-        "params": {
-            "a": {
-                "raw": "0x000000000000000000000000000000000000000000000000000000000000"
-            },
-            "b": {
-                "raw": "0x000000000000000000000000000000000000000000000000000000000001"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0x29a0b6a887a983e9730988a68727a8b2d126c44cc2cc7b2a6555193035dc"
-            },
-            "y": {
-                "raw": "0x76310804f12e549bdb011c103089e73510acb275fc312a5dc6b76553f0ca"
-            }
-        },
-        "order": "0x2000000000000000000000000000005a79fec67cb6e91f1c1da800e478a5",
-        "cofactor": "0x4"
-    },
-    {
-        "name": "sect283k1",
-        "category": "secg",
-        "aliases": [
-            "nist/K-283",
-            "x963/ansit283k1"
-        ],
-        "oid": "1.3.132.0.16",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Binary",
-            "poly": [
-                {
-                    "power": 283,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 12,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 7,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 5,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 0,
-                    "coeff": "0x01"
-                }
-            ],
-            "bits": 283,
-            "degree": 283,
-            "basis": "poly"
-        },
-        "params": {
-            "a": {
-                "raw": "0x000000000000000000000000000000000000000000000000000000000000000000000000"
-            },
-            "b": {
-                "raw": "0x000000000000000000000000000000000000000000000000000000000000000000000001"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0x0503213f78ca44883f1a3b8162f188e553cd265f23c1567a16876913b0c2ac2458492836"
-            },
-            "y": {
-                "raw": "0x01ccda380f1c9e318d90f95d07e5426fe87e45c0e8184698e45962364e34116177dd2259"
-            }
-        },
-        "order": "0x1ffffffffffffffffffffffffffffffffffe9ae2ed07577265dff7f94451e061e163c61",
-        "cofactor": "0x4"
-    },
-    {
-        "name": "sect283r1",
-        "category": "secg",
-        "aliases": [
-            "nist/B-283",
-            "x963/ansit283r1"
-        ],
-        "oid": "1.3.132.0.17",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Binary",
-            "poly": [
-                {
-                    "power": 283,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 12,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 7,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 5,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 0,
-                    "coeff": "0x01"
-                }
-            ],
-            "bits": 283,
-            "degree": 283,
-            "basis": "poly"
-        },
-        "params": {
-            "a": {
-                "raw": "0x000000000000000000000000000000000000000000000000000000000000000000000001"
-            },
-            "b": {
-                "raw": "0x027b680ac8b8596da5a4af8a19a0303fca97fd7645309fa2a581485af6263e313b79a2f5"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0x05f939258db7dd90e1934f8c70b0dfec2eed25b8557eac9c80e2e198f8cdbecd86b12053"
-            },
-            "y": {
-                "raw": "0x03676854fe24141cb98fe6d4b20d02b4516ff702350eddb0826779c813f0df45be8112f4"
-            }
-        },
-        "order": "0x3ffffffffffffffffffffffffffffffffffef90399660fc938a90165b042a7cefadb307",
-        "cofactor": "0x2",
-        "simulation": {
-            "seed": "0x77e2b07370eb0f832a6dd5b62dfc88cd06bb84be"
+        "b": {
+          "raw": "0x000000000000000000000000000000000000000000000003"
         }
-    },
-    {
-        "name": "sect409k1",
-        "category": "secg",
-        "aliases": [
-            "nist/K-409",
-            "x963/ansit409k1"
-        ],
-        "oid": "1.3.132.0.36",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Binary",
-            "poly": [
-                {
-                    "power": 409,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 87,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 0,
-                    "coeff": "0x01"
-                }
-            ],
-            "bits": 409,
-            "degree": 409,
-            "basis": "poly"
+      },
+      "generator": {
+        "x": {
+          "raw": "0xdb4ff10ec057e9ae26b07d0280b7f4341da5d1b1eae06c7d"
         },
-        "params": {
-            "a": {
-                "raw": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-            },
-            "b": {
-                "raw": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0x0060f05f658f49c1ad3ab1890f7184210efd0987e307c84c27accfb8f9f67cc2c460189eb5aaaa62ee222eb1b35540cfe9023746"
-            },
-            "y": {
-                "raw": "0x01e369050b7c4e42acba1dacbf04299c3460782f918ea427e6325165e9ea10e3da5f6c42e9c55215aa9ca27a5863ec48d8e0286b"
-            }
-        },
-        "order": "0x7ffffffffffffffffffffffffffffffffffffffffffffffffffe5f83b2d4ea20400ec4557d5ed3e3e7ca5b4b5c83b8e01e5fcf",
-        "cofactor": "0x4"
-    },
-    {
-        "name": "sect409r1",
-        "category": "secg",
-        "aliases": [
-            "nist/B-409",
-            "x963/ansit409r1"
-        ],
-        "oid": "1.3.132.0.37",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Binary",
-            "poly": [
-                {
-                    "power": 409,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 87,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 0,
-                    "coeff": "0x01"
-                }
-            ],
-            "bits": 409,
-            "degree": 409,
-            "basis": "poly"
-        },
-        "params": {
-            "a": {
-                "raw": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001"
-            },
-            "b": {
-                "raw": "0x0021a5c2c8ee9feb5c4b9a753b7b476b7fd6422ef1f3dd674761fa99d6ac27c8a9a197b272822f6cd57a55aa4f50ae317b13545f"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0x015d4860d088ddb3496b0c6064756260441cde4af1771d4db01ffe5b34e59703dc255a868a1180515603aeab60794e54bb7996a7"
-            },
-            "y": {
-                "raw": "0x0061b1cfab6be5f32bbfa78324ed106a7636b9c5a7bd198d0158aa4f5488d08f38514f1fdf4b4f40d2181b3681c364ba0273c706"
-            }
-        },
-        "order": "0x10000000000000000000000000000000000000000000000000001e2aad6a612f33307be5fa47c3c9e052f838164cd37d9a21173",
-        "cofactor": "0x2",
-        "simulation": {
-            "seed": "0x4099b5a457f9d69f79213d094c4bcd4d4262210b"
+        "y": {
+          "raw": "0x9b2f2f6d9c5628a7844163d015be86344082aa88d95e2f9d"
         }
+      },
+      "order": "0xfffffffffffffffffffffffe26f2fc170f69466a74defd8d",
+      "cofactor": "0x1",
+      "standard": true,
+      "properties": {
+        "trace": "0x1d90d03e8f096b9948b20f0ab",
+        "j_invariant": "0x0",
+        "embedding_degree": "0x7fffffffffffffffffffffff13797e0b87b4a3353a6f7ec6",
+        "cm_discriminant": "-0x3"
+      }
     },
     {
-        "name": "sect571k1",
-        "category": "secg",
-        "aliases": [
-            "nist/K-571",
-            "x963/ansit571k1"
-        ],
-        "oid": "1.3.132.0.38",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Binary",
-            "poly": [
-                {
-                    "power": 571,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 10,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 5,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 2,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 0,
-                    "coeff": "0x01"
-                }
-            ],
-            "bits": 571,
-            "degree": 571,
-            "basis": "poly"
+      "name": "secp192r1",
+      "category": "secg",
+      "aliases": [
+        "nist/P-192",
+        "x962/prime192v1"
+      ],
+      "oid": "1.2.840.10045.3.1.1",
+      "desc": "A randomly generated curve. [SEC2v1](https://www.secg.org/SEC2-Ver-1.0.pdf) states 'E was chosen verifiably at random as specified in ANSI X9.62 [1] from the seed'.",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Prime",
+        "p": "0xfffffffffffffffffffffffffffffffeffffffffffffffff",
+        "bits": 192
+      },
+      "params": {
+        "a": {
+          "raw": "0xfffffffffffffffffffffffffffffffefffffffffffffffc"
         },
-        "params": {
-            "a": {
-                "raw": "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-            },
-            "b": {
-                "raw": "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0x026eb7a859923fbc82189631f8103fe4ac9ca2970012d5d46024804801841ca44370958493b205e647da304db4ceb08cbbd1ba39494776fb988b47174dca88c7e2945283a01c8972"
-            },
-            "y": {
-                "raw": "0x0349dc807f4fbf374f4aeade3bca95314dd58cec9f307a54ffc61efc006d8a2c9d4979c0ac44aea74fbebbb9f772aedcb620b01a7ba7af1b320430c8591984f601cd4c143ef1c7a3"
-            }
-        },
-        "order": "0x20000000000000000000000000000000000000000000000000000000000000000000000131850e1f19a63e4b391a8db917f4138b630d84be5d639381e91deb45cfe778f637c1001",
-        "cofactor": "0x4"
-    },
-    {
-        "name": "sect571r1",
-        "category": "secg",
-        "aliases": [
-            "nist/B-571",
-            "x963/ansit571r1"
-        ],
-        "oid": "1.3.132.0.39",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Binary",
-            "poly": [
-                {
-                    "power": 571,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 10,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 5,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 2,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 0,
-                    "coeff": "0x01"
-                }
-            ],
-            "bits": 571,
-            "degree": 571,
-            "basis": "poly"
-        },
-        "params": {
-            "a": {
-                "raw": "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001"
-            },
-            "b": {
-                "raw": "0x02f40e7e2221f295de297117b7f3d62f5c6a97ffcb8ceff1cd6ba8ce4a9a18ad84ffabbd8efa59332be7ad6756a66e294afd185a78ff12aa520e4de739baca0c7ffeff7f2955727a"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0x0303001d34b856296c16c0d40d3cd7750a93d1d2955fa80aa5f40fc8db7b2abdbde53950f4c0d293cdd711a35b67fb1499ae60038614f1394abfa3b4c850d927e1e7769c8eec2d19"
-            },
-            "y": {
-                "raw": "0x037bf27342da639b6dccfffeb73d69d78c6c27a6009cbbca1980f8533921e8a684423e43bab08a576291af8f461bb2a8b3531d2f0485c19b16e2f1516e23dd3c1a4827af1b8ac15b"
-            }
-        },
-        "order": "0x3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe661ce18ff55987308059b186823851ec7dd9ca1161de93d5174d66e8382e9bb2fe84e47",
-        "cofactor": "0x2",
-        "simulation": {
-            "seed": "0x2aa058f73a0e33ab486b0f610410c53a7f132310"
+        "b": {
+          "raw": "0x64210519e59c80e70fa7e9ab72243049feb8deecc146b9b1"
         }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x188da80eb03090f67cbf20eb43a18800f4ff0afd82ff1012"
+        },
+        "y": {
+          "raw": "0x07192b95ffc8da78631011ed6b24cdd573f977a11e794811"
+        }
+      },
+      "order": "0xffffffffffffffffffffffff99def836146bc9b1b4d22831",
+      "cofactor": "0x1",
+      "standard": true,
+      "simulation": {
+        "seed": "0x3045ae6fc8422f64ed579528d38120eae12196d5"
+      },
+      "properties": {
+        "trace": "0x662107c8eb94364e4b2dd7cf",
+        "j_invariant": "0xfe40fc48ef4b5633d091b1a2707da063644b08bb896f560b",
+        "embedding_degree": "0x1999999999999999999999998f6318d2353dfa91c5483738",
+        "cm_discriminant": "-0x3d741a988e23c8df090918240db2143ab31994533214ca69b"
+      }
+    },
+    {
+      "name": "secp224k1",
+      "category": "secg",
+      "aliases": [
+        "x963/ansip224k1"
+      ],
+      "oid": "1.3.132.0.32",
+      "desc": "A Koblitz curve.",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Prime",
+        "p": "0xfffffffffffffffffffffffffffffffffffffffffffffffeffffe56d",
+        "bits": 224
+      },
+      "params": {
+        "a": {
+          "raw": "0x00000000000000000000000000000000000000000000000000000000"
+        },
+        "b": {
+          "raw": "0x00000000000000000000000000000000000000000000000000000005"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0xa1455b334df099df30fc28a169a467e9e47075a90f7e650eb6b7a45c"
+        },
+        "y": {
+          "raw": "0x7e089fed7fba344282cafbd6f7e319f7c0b0bd59e2ca4bdb556d61a5"
+        }
+      },
+      "order": "0x10000000000000000000000000001dce8d2ec6184caf0a971769fb1f7",
+      "cofactor": "0x1",
+      "standard": true,
+      "properties": {
+        "trace": "-0x1dce8d2ec6184caf0a972769fcc89",
+        "j_invariant": "0x0",
+        "embedding_degree": "0x2aaaaaaaaaaaaaaaaaaaaaaaaaaafa26cdd21040cc7d7192e91a9da9",
+        "cm_discriminant": "-0x3"
+      }
+    },
+    {
+      "name": "secp224r1",
+      "category": "secg",
+      "aliases": [
+        "nist/P-224",
+        "wtls/wap-wsg-idm-ecid-wtls12",
+        "x963/ansip224r1"
+      ],
+      "oid": "1.3.132.0.33",
+      "desc": "A randomly generated curve. [SEC2v1](https://www.secg.org/SEC2-Ver-1.0.pdf) states 'E was chosen verifiably at random as specified in ANSI X9.62 [1] from the seed'.",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Prime",
+        "p": "0xffffffffffffffffffffffffffffffff000000000000000000000001",
+        "bits": 224
+      },
+      "params": {
+        "a": {
+          "raw": "0xfffffffffffffffffffffffffffffffefffffffffffffffffffffffe"
+        },
+        "b": {
+          "raw": "0xb4050a850c04b3abf54132565044b0b7d7bfd8ba270b39432355ffb4"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0xb70e0cbd6bb4bf7f321390b94a03c1d356c21122343280d6115c1d21"
+        },
+        "y": {
+          "raw": "0xbd376388b5f723fb4c22dfe6cd4375a05a07476444d5819985007e34"
+        }
+      },
+      "order": "0xffffffffffffffffffffffffffff16a2e0b8f03e13dd29455c5c2a3d",
+      "cofactor": "0x1",
+      "standard": true,
+      "simulation": {
+        "seed": "0xbd71344799d5c7fcdc45b59fa3b9ab8f6a948bc5"
+      },
+      "properties": {
+        "trace": "0xe95c1f470fc1ec22d6baa3a3d5c5",
+        "j_invariant": "0xc55630164a29a17b465f4a532fa010aabe1ffc9fdea639fc47307d75",
+        "embedding_degree": "0x5555555555555555555555555555078ba03da56a069f0dc1c9740e14",
+        "cm_discriminant": "-0x5a245a6f599a2778760a3eacdf9b0b9c6f78b867c3f4a9a10611d7d3"
+      }
+    },
+    {
+      "name": "secp256k1",
+      "category": "secg",
+      "aliases": [
+        "x963/ansip256k1"
+      ],
+      "oid": "1.3.132.0.10",
+      "desc": "A Koblitz curve.",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Prime",
+        "p": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f",
+        "bits": 256
+      },
+      "params": {
+        "a": {
+          "raw": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "b": {
+          "raw": "0x0000000000000000000000000000000000000000000000000000000000000007"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x79be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798"
+        },
+        "y": {
+          "raw": "0x483ada7726a3c4655da4fbfc0e1108a8fd17b448a68554199c47d08ffb10d4b8"
+        }
+      },
+      "order": "0xfffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364141",
+      "cofactor": "0x1",
+      "standard": true,
+      "properties": {
+        "trace": "0x14551231950b75fc4402da1722fc9baef",
+        "j_invariant": "0x0",
+        "embedding_degree": "0x2aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa74727a26728c1ab49ff8651778090ae0",
+        "cm_discriminant": "-0x3"
+      }
+    },
+    {
+      "name": "secp256r1",
+      "category": "secg",
+      "aliases": [
+        "nist/P-256",
+        "x962/prime256v1"
+      ],
+      "desc": "A randomly generated curve. [SEC2v1](https://www.secg.org/SEC2-Ver-1.0.pdf) states 'E was chosen verifiably at random as specified in ANSI X9.62 [1] from the seed'.",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Prime",
+        "p": "0xffffffff00000001000000000000000000000000ffffffffffffffffffffffff",
+        "bits": 256
+      },
+      "params": {
+        "a": {
+          "raw": "0xffffffff00000001000000000000000000000000fffffffffffffffffffffffc"
+        },
+        "b": {
+          "raw": "0x5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x6b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c296"
+        },
+        "y": {
+          "raw": "0x4fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5"
+        }
+      },
+      "order": "0xffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+      "cofactor": "0x1",
+      "standard": true,
+      "simulation": {
+        "seed": "0xc49d360886e704936a6678e1139d26b7819f7e90"
+      },
+      "properties": {
+        "trace": "0x4319055358e8617b0c46353d039cdaaf",
+        "j_invariant": "0x1198954424ebb0f8479de43131caece8ee0a9b13a558c21e0b2f74e3fcd36aa3",
+        "embedding_degree": "0x555555550000000055555555555555553ef7a8e48d07df81a693439654210c70",
+        "cm_discriminant": "-0x3ee69e4c05512a2feb42c40318a014ae4c618ec481b963d8454f2455ea5e97c5b"
+      }
+    },
+    {
+      "name": "secp384r1",
+      "category": "secg",
+      "aliases": [
+        "nist/P-384",
+        "x963/ansip384r1"
+      ],
+      "oid": "1.3.132.0.34",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Prime",
+        "p": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffeffffffff0000000000000000ffffffff",
+        "bits": 384
+      },
+      "params": {
+        "a": {
+          "raw": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffeffffffff0000000000000000fffffffc"
+        },
+        "b": {
+          "raw": "0xb3312fa7e23ee7e4988e056be3f82d19181d9c6efe8141120314088f5013875ac656398d8a2ed19d2a85c8edd3ec2aef"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0xaa87ca22be8b05378eb1c71ef320ad746e1d3b628ba79b9859f741e082542a385502f25dbf55296c3a545e3872760ab7"
+        },
+        "y": {
+          "raw": "0x3617de4a96262c6f5d9e98bf9292dc29f8f41dbd289a147ce9da3113b5f0b8c00a60b1ce1d7e819d7a431d7c90ea0e5f"
+        }
+      },
+      "order": "0xffffffffffffffffffffffffffffffffffffffffffffffffc7634d81f4372ddf581a0db248b0a77aecec196accc52973",
+      "cofactor": "0x1",
+      "standard": true,
+      "simulation": {
+        "seed": "0xa335926aa319a27a1d00896a6773a4827acdac73"
+      },
+      "properties": {
+        "trace": "0x389cb27e0bc8d21fa7e5f24cb74f58851313e696333ad68d",
+        "j_invariant": "0x518a082af8607c03213839c2b6efae43d5cd8c65cd5865926ed9160babd0375237286aca1f65c23db03a303b04a2855b"
+      }
+    },
+    {
+      "name": "secp521r1",
+      "category": "secg",
+      "aliases": [
+        "nist/P-521",
+        "x963/ansip521r1"
+      ],
+      "oid": "1.3.132.0.35",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Prime",
+        "p": "0x01ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "bits": 521
+      },
+      "params": {
+        "a": {
+          "raw": "0x01fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc"
+        },
+        "b": {
+          "raw": "0x0051953eb9618e1c9a1f929a21a0b68540eea2da725b99b315f3b8b489918ef109e156193951ec7e937b1652c0bd3bb1bf073573df883d2c34f1ef451fd46b503f00"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x00c6858e06b70404e9cd9e3ecb662395b4429c648139053fb521f828af606b4d3dbaa14b5e77efe75928fe1dc127a2ffa8de3348b3c1856a429bf97e7e31c2e5bd66"
+        },
+        "y": {
+          "raw": "0x011839296a789a3bc0045c8a5fb42c7d1bd998f54449579b446817afbd17273e662c97ee72995ef42640c550b9013fad0761353c7086a272c24088be94769fd16650"
+        }
+      },
+      "order": "0x1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa51868783bf2f966b7fcc0148f709a5d03bb5c9b8899c47aebb6fb71e91386409",
+      "cofactor": "0x1",
+      "standard": true,
+      "simulation": {
+        "seed": "0xd09e8800291cb85396cc6717393284aaa0da64ba"
+      },
+      "properties": {
+        "trace": "0x5ae79787c40d069948033feb708f65a2fc44a36477663b851449048e16ec79bf7",
+        "j_invariant": "0x10dec9284c5dafd5ade693a4b878916bbf99b97b51a91684867740b8730466241c32a294645557b3915d9c1a5c1c9cf144f3b79a41c70f8bc76ed5928da5e3f69cd"
+      }
+    },
+    {
+      "name": "sect113r1",
+      "category": "secg",
+      "aliases": [
+        "wtls/wap-wsg-idm-ecid-wtls4"
+      ],
+      "oid": "1.3.132.0.4",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Binary",
+        "bits": 113,
+        "poly": [
+          {
+            "power": 113,
+            "coeff": "0x01"
+          },
+          {
+            "power": 9,
+            "coeff": "0x01"
+          },
+          {
+            "power": 0,
+            "coeff": "0x01"
+          }
+        ],
+        "degree": 113,
+        "basis": "poly"
+      },
+      "params": {
+        "a": {
+          "raw": "0x003088250ca6e7c7fe649ce85820f7"
+        },
+        "b": {
+          "raw": "0x00e8bee4d3e2260744188be0e9c723"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x009d73616f35f4ab1407d73562c10f"
+        },
+        "y": {
+          "raw": "0x00a52830277958ee84d1315ed31886"
+        }
+      },
+      "order": "0x100000000000000d9ccec8a39e56f",
+      "cofactor": "0x2",
+      "standard": true,
+      "properties": {
+        "trace": "-0x1b399d91473cadd",
+        "j_invariant": "0x6942e38fc45c62366c09aa8204cd"
+      }
+    },
+    {
+      "name": "sect113r2",
+      "category": "secg",
+      "oid": "1.3.132.0.5",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Binary",
+        "bits": 113,
+        "poly": [
+          {
+            "power": 113,
+            "coeff": "0x01"
+          },
+          {
+            "power": 9,
+            "coeff": "0x01"
+          },
+          {
+            "power": 0,
+            "coeff": "0x01"
+          }
+        ],
+        "degree": 113,
+        "basis": "poly"
+      },
+      "params": {
+        "a": {
+          "raw": "0x00689918dbec7e5a0dd6dfc0aa55c7"
+        },
+        "b": {
+          "raw": "0x0095e9a9ec9b297bd4bf36e059184f"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x01a57a6a7b26ca5ef52fcdb8164797"
+        },
+        "y": {
+          "raw": "0x00b3adc94ed1fe674c06e695baba1d"
+        }
+      },
+      "order": "0x10000000000000108789b2496af93",
+      "cofactor": "0x2",
+      "standard": true,
+      "properties": {
+        "trace": "-0x210f136492d5f25",
+        "j_invariant": "0xc18e0ce25a96ff3462e467b97828"
+      }
+    },
+    {
+      "name": "sect131r1",
+      "category": "secg",
+      "oid": "1.3.132.0.22",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Binary",
+        "bits": 131,
+        "poly": [
+          {
+            "power": 131,
+            "coeff": "0x01"
+          },
+          {
+            "power": 8,
+            "coeff": "0x01"
+          },
+          {
+            "power": 3,
+            "coeff": "0x01"
+          },
+          {
+            "power": 2,
+            "coeff": "0x01"
+          },
+          {
+            "power": 0,
+            "coeff": "0x01"
+          }
+        ],
+        "degree": 131,
+        "basis": "poly"
+      },
+      "params": {
+        "a": {
+          "raw": "0x07a11b09a76b562144418ff3ff8c2570b8"
+        },
+        "b": {
+          "raw": "0x0217c05610884b63b9c6c7291678f9d341"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x0081baf91fdf9833c40f9c181343638399"
+        },
+        "y": {
+          "raw": "0x078c6e7ea38c001f73c8134b1b4ef9e150"
+        }
+      },
+      "order": "0x400000000000000023123953a9464b54d",
+      "cofactor": "0x2",
+      "standard": true,
+      "properties": {
+        "trace": "-0x462472a7528c96a99",
+        "j_invariant": "0x6feec1f6a4aff5a546d69743c10579ce8"
+      }
+    },
+    {
+      "name": "sect131r2",
+      "category": "secg",
+      "oid": "1.3.132.0.23",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Binary",
+        "bits": 131,
+        "poly": [
+          {
+            "power": 131,
+            "coeff": "0x01"
+          },
+          {
+            "power": 8,
+            "coeff": "0x01"
+          },
+          {
+            "power": 3,
+            "coeff": "0x01"
+          },
+          {
+            "power": 2,
+            "coeff": "0x01"
+          },
+          {
+            "power": 0,
+            "coeff": "0x01"
+          }
+        ],
+        "degree": 131,
+        "basis": "poly"
+      },
+      "params": {
+        "a": {
+          "raw": "0x03e5a88919d7cafcbf415f07c2176573b2"
+        },
+        "b": {
+          "raw": "0x04b8266a46c55657ac734ce38f018f2192"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x0356dcd8f2f95031ad652d23951bb366a8"
+        },
+        "y": {
+          "raw": "0x0648f06d867940a5366d9e265de9eb240f"
+        }
+      },
+      "order": "0x400000000000000016954a233049ba98f",
+      "cofactor": "0x2",
+      "standard": true,
+      "properties": {
+        "trace": "-0x2d2a944660937531d",
+        "j_invariant": "0x2a2ea45050ea133dcbdc6d293d0d2b9a6"
+      }
+    },
+    {
+      "name": "sect163k1",
+      "category": "secg",
+      "aliases": [
+        "nist/K-163",
+        "x963/ansit163k1",
+        "wtls/wap-wsg-idm-ecid-wtls3"
+      ],
+      "oid": "1.3.132.0.1",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Binary",
+        "poly": [
+          {
+            "power": 163,
+            "coeff": "0x01"
+          },
+          {
+            "power": 7,
+            "coeff": "0x01"
+          },
+          {
+            "power": 6,
+            "coeff": "0x01"
+          },
+          {
+            "power": 3,
+            "coeff": "0x01"
+          },
+          {
+            "power": 0,
+            "coeff": "0x01"
+          }
+        ],
+        "bits": 163,
+        "degree": 163,
+        "basis": "poly"
+      },
+      "params": {
+        "a": {
+          "raw": "0x000000000000000000000000000000000000000001"
+        },
+        "b": {
+          "raw": "0x000000000000000000000000000000000000000001"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x02fe13c0537bbc11acaa07d793de4e6d5e5c94eee8"
+        },
+        "y": {
+          "raw": "0x0289070fb05d38ff58321f2e800536d538ccdaa3d9"
+        }
+      },
+      "order": "0x4000000000000000000020108a2e0cc0d99f8a5ef",
+      "cofactor": "0x2",
+      "standard": true,
+      "properties": {
+        "trace": "-0x4021145c1981b33f14bdd",
+        "j_invariant": "0x1"
+      }
+    },
+    {
+      "name": "sect163r1",
+      "category": "secg",
+      "aliases": [
+        "x963/ansit163r1"
+      ],
+      "oid": "1.3.132.0.2",
+      "desc": "A randomly generated curve, using the SECG/X9.62 method. 'However for historical reasons the method used to generate E from S differs slightly from the method described in ANSI X9.62 [X9.62]. Specifically the coefficient b produced from S is the reverse of the coefficient that would have been produced by the method described in ANSI X9.62.'",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Binary",
+        "poly": [
+          {
+            "power": 163,
+            "coeff": "0x01"
+          },
+          {
+            "power": 7,
+            "coeff": "0x01"
+          },
+          {
+            "power": 6,
+            "coeff": "0x01"
+          },
+          {
+            "power": 3,
+            "coeff": "0x01"
+          },
+          {
+            "power": 0,
+            "coeff": "0x01"
+          }
+        ],
+        "bits": 163,
+        "degree": 163,
+        "basis": "poly"
+      },
+      "params": {
+        "a": {
+          "raw": "0x07b6882caaefa84f9554ff8428bd88e246d2782ae2"
+        },
+        "b": {
+          "raw": "0x0713612dcddcb40aab946bda29ca91f73af958afd9"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x0369979697ab43897789566789567f787a7876a654"
+        },
+        "y": {
+          "raw": "0x00435edb42efafb2989d51fefce3c80988f41ff883"
+        }
+      },
+      "order": "0x3ffffffffffffffffffff48aab689c29ca710279b",
+      "cofactor": "0x2",
+      "standard": true,
+      "simulation": {
+        "seed": "0x24b7b137c8a14d696e6768756151756fd0da2e5c"
+      },
+      "properties": {
+        "trace": "0x16eaa92ec7ac6b1dfb0cb",
+        "j_invariant": "0x4a718e63a51514ae413202b0a58d245fc28e76d75"
+      }
+    },
+    {
+      "name": "sect163r2",
+      "category": "secg",
+      "aliases": [
+        "nist/B-163",
+        "x963/ansit163r2"
+      ],
+      "oid": "1.3.132.0.15",
+      "desc": "A randomly generated curve. 'E was selected from S as specified in ANSI X9.62 [X9.62] in normal basis representation and converted into polynomial basis representation.'",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Binary",
+        "poly": [
+          {
+            "power": 163,
+            "coeff": "0x01"
+          },
+          {
+            "power": 7,
+            "coeff": "0x01"
+          },
+          {
+            "power": 6,
+            "coeff": "0x01"
+          },
+          {
+            "power": 3,
+            "coeff": "0x01"
+          },
+          {
+            "power": 0,
+            "coeff": "0x01"
+          }
+        ],
+        "bits": 163,
+        "degree": 163,
+        "basis": "poly"
+      },
+      "params": {
+        "a": {
+          "raw": "0x000000000000000000000000000000000000000001"
+        },
+        "b": {
+          "raw": "0x020a601907b8c953ca1481eb10512f78744a3205fd"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x03f0eba16286a2d57ea0991168d4994637e8343e36"
+        },
+        "y": {
+          "raw": "0x00d51fbc6c71a0094fa2cdd545b11c5c0c797324f1"
+        }
+      },
+      "order": "0x40000000000000000000292fe77e70c12a4234c33",
+      "cofactor": "0x2",
+      "standard": true,
+      "simulation": {
+        "seed": "0x85e25bfe5c86226cdb12016f7553f9d0e693a268"
+      },
+      "properties": {
+        "trace": "-0x525fcefce182548469865",
+        "j_invariant": "0xa1f9aabdf28d9e1ae61dfdf41a22011cfdd17e82"
+      }
+    },
+    {
+      "name": "sect193r1",
+      "category": "secg",
+      "aliases": [
+        "x963/ansit193r1"
+      ],
+      "oid": "1.3.132.0.24",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Binary",
+        "bits": 193,
+        "poly": [
+          {
+            "power": 193,
+            "coeff": "0x01"
+          },
+          {
+            "power": 15,
+            "coeff": "0x01"
+          },
+          {
+            "power": 0,
+            "coeff": "0x01"
+          }
+        ],
+        "degree": 193,
+        "basis": "poly"
+      },
+      "params": {
+        "a": {
+          "raw": "0x0017858feb7a98975169e171f77b4087de098ac8a911df7b01"
+        },
+        "b": {
+          "raw": "0x00fdfb49bfe6c3a89facadaa7a1e5bbc7cc1c2e5d831478814"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x01f481bc5f0ff84a74ad6cdf6fdef4bf6179625372d8c0c5e1"
+        },
+        "y": {
+          "raw": "0x0025e399f2903712ccf3ea9e3a1ad17fb0b3201b6af7ce1b05"
+        }
+      },
+      "order": "0x1000000000000000000000000c7f34a778f443acc920eba49",
+      "cofactor": "0x2",
+      "standard": true,
+      "properties": {
+        "trace": "-0x18fe694ef1e887599241d7491",
+        "j_invariant": "0x1b2e142390ba9f2932e5d76d9d9f31ae157a8d508b5870df4"
+      }
+    },
+    {
+      "name": "sect193r2",
+      "category": "secg",
+      "aliases": [
+        "x963/ansit193r2"
+      ],
+      "oid": "1.3.132.0.25",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Binary",
+        "bits": 193,
+        "poly": [
+          {
+            "power": 193,
+            "coeff": "0x01"
+          },
+          {
+            "power": 15,
+            "coeff": "0x01"
+          },
+          {
+            "power": 0,
+            "coeff": "0x01"
+          }
+        ],
+        "degree": 193,
+        "basis": "poly"
+      },
+      "params": {
+        "a": {
+          "raw": "0x0163f35a5137c2ce3ea6ed8667190b0bc43ecd69977702709b"
+        },
+        "b": {
+          "raw": "0x00c9bb9e8927d4d64c377e2ab2856a5b16e3efb7f61d4316ae"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x00d9b67d192e0367c803f39e1a7e82ca14a651350aae617e8f"
+        },
+        "y": {
+          "raw": "0x01ce94335607c304ac29e7defbd9ca01f596f927224cdecf6c"
+        }
+      },
+      "order": "0x10000000000000000000000015aab561b005413ccd4ee99d5",
+      "cofactor": "0x2",
+      "standard": true,
+      "properties": {
+        "trace": "-0x2b556ac3600a82799a9dd33a9",
+        "j_invariant": "0xce147980b1a2d9cfdee35522b9e478f7ec16744e16fdf051"
+      }
+    },
+    {
+      "name": "sect233k1",
+      "category": "secg",
+      "aliases": [
+        "nist/K-233",
+        "wtls/wap-wsg-idm-ecid-wtls10",
+        "x963/ansit233k1"
+      ],
+      "oid": "1.3.132.0.26",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Binary",
+        "poly": [
+          {
+            "power": 233,
+            "coeff": "0x01"
+          },
+          {
+            "power": 74,
+            "coeff": "0x01"
+          },
+          {
+            "power": 0,
+            "coeff": "0x01"
+          }
+        ],
+        "bits": 233,
+        "degree": 233,
+        "basis": "poly"
+      },
+      "params": {
+        "a": {
+          "raw": "0x000000000000000000000000000000000000000000000000000000000000"
+        },
+        "b": {
+          "raw": "0x000000000000000000000000000000000000000000000000000000000001"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x017232ba853a7e731af129f22ff4149563a419c26bf50a4c9d6eefad6126"
+        },
+        "y": {
+          "raw": "0x01db537dece819b7f70f555a67c427a8cd9bf18aeb9b56e0c11056fae6a3"
+        }
+      },
+      "order": "0x8000000000000000000000000000069d5bb915bcd46efb1ad5f173abdf",
+      "cofactor": "0x4",
+      "standard": true,
+      "properties": {
+        "trace": "-0x1a756ee456f351bbec6b57c5ceaf7b",
+        "j_invariant": "0x1"
+      }
+    },
+    {
+      "name": "sect233r1",
+      "category": "secg",
+      "aliases": [
+        "nist/B-233",
+        "wtls/wap-wsg-idm-ecid-wtls11",
+        "x963/ansit233r1"
+      ],
+      "oid": "1.3.132.0.27",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Binary",
+        "poly": [
+          {
+            "power": 233,
+            "coeff": "0x01"
+          },
+          {
+            "power": 74,
+            "coeff": "0x01"
+          },
+          {
+            "power": 0,
+            "coeff": "0x01"
+          }
+        ],
+        "bits": 233,
+        "degree": 233,
+        "basis": "poly"
+      },
+      "params": {
+        "a": {
+          "raw": "0x000000000000000000000000000000000000000000000000000000000001"
+        },
+        "b": {
+          "raw": "0x0066647ede6c332c7f8c0923bb58213b333b20e9ce4281fe115f7d8f90ad"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x00fac9dfcbac8313bb2139f1bb755fef65bc391f8b36f8f8eb7371fd558b"
+        },
+        "y": {
+          "raw": "0x01006a08a41903350678e58528bebf8a0beff867a7ca36716f7e01f81052"
+        }
+      },
+      "order": "0x1000000000000000000000000000013e974e72f8a6922031d2603cfe0d7",
+      "cofactor": "0x2",
+      "standard": true,
+      "simulation": {
+        "seed": "0x74d59ff07f6b413d0ea14b344b20a2db049b50c3"
+      },
+      "properties": {
+        "trace": "-0x27d2e9ce5f14d244063a4c079fc1ad",
+        "j_invariant": "0x9fc7d572facc759be39facf5bb89cbb8c3f2b63f723f4f57460600bf5e"
+      }
+    },
+    {
+      "name": "sect239k1",
+      "category": "secg",
+      "aliases": [
+        "x963/ansit239k1"
+      ],
+      "oid": "1.3.132.0.3",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Binary",
+        "poly": [
+          {
+            "power": 239,
+            "coeff": "0x01"
+          },
+          {
+            "power": 158,
+            "coeff": "0x01"
+          },
+          {
+            "power": 0,
+            "coeff": "0x01"
+          }
+        ],
+        "bits": 239,
+        "degree": 239,
+        "basis": "poly"
+      },
+      "params": {
+        "a": {
+          "raw": "0x000000000000000000000000000000000000000000000000000000000000"
+        },
+        "b": {
+          "raw": "0x000000000000000000000000000000000000000000000000000000000001"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x29a0b6a887a983e9730988a68727a8b2d126c44cc2cc7b2a6555193035dc"
+        },
+        "y": {
+          "raw": "0x76310804f12e549bdb011c103089e73510acb275fc312a5dc6b76553f0ca"
+        }
+      },
+      "order": "0x2000000000000000000000000000005a79fec67cb6e91f1c1da800e478a5",
+      "cofactor": "0x4",
+      "standard": true,
+      "properties": {
+        "trace": "-0x169e7fb19f2dba47c7076a00391e293",
+        "j_invariant": "0x1"
+      }
+    },
+    {
+      "name": "sect283k1",
+      "category": "secg",
+      "aliases": [
+        "nist/K-283",
+        "x963/ansit283k1"
+      ],
+      "oid": "1.3.132.0.16",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Binary",
+        "poly": [
+          {
+            "power": 283,
+            "coeff": "0x01"
+          },
+          {
+            "power": 12,
+            "coeff": "0x01"
+          },
+          {
+            "power": 7,
+            "coeff": "0x01"
+          },
+          {
+            "power": 5,
+            "coeff": "0x01"
+          },
+          {
+            "power": 0,
+            "coeff": "0x01"
+          }
+        ],
+        "bits": 283,
+        "degree": 283,
+        "basis": "poly"
+      },
+      "params": {
+        "a": {
+          "raw": "0x000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "b": {
+          "raw": "0x000000000000000000000000000000000000000000000000000000000000000000000001"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x0503213f78ca44883f1a3b8162f188e553cd265f23c1567a16876913b0c2ac2458492836"
+        },
+        "y": {
+          "raw": "0x01ccda380f1c9e318d90f95d07e5426fe87e45c0e8184698e45962364e34116177dd2259"
+        }
+      },
+      "order": "0x1ffffffffffffffffffffffffffffffffffe9ae2ed07577265dff7f94451e061e163c61",
+      "cofactor": "0x4",
+      "standard": true,
+      "properties": {
+        "trace": "0x594744be2a2366880201aeeb87e787a70e7d",
+        "j_invariant": "0x1"
+      }
+    },
+    {
+      "name": "sect283r1",
+      "category": "secg",
+      "aliases": [
+        "nist/B-283",
+        "x963/ansit283r1"
+      ],
+      "oid": "1.3.132.0.17",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Binary",
+        "poly": [
+          {
+            "power": 283,
+            "coeff": "0x01"
+          },
+          {
+            "power": 12,
+            "coeff": "0x01"
+          },
+          {
+            "power": 7,
+            "coeff": "0x01"
+          },
+          {
+            "power": 5,
+            "coeff": "0x01"
+          },
+          {
+            "power": 0,
+            "coeff": "0x01"
+          }
+        ],
+        "bits": 283,
+        "degree": 283,
+        "basis": "poly"
+      },
+      "params": {
+        "a": {
+          "raw": "0x000000000000000000000000000000000000000000000000000000000000000000000001"
+        },
+        "b": {
+          "raw": "0x027b680ac8b8596da5a4af8a19a0303fca97fd7645309fa2a581485af6263e313b79a2f5"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x05f939258db7dd90e1934f8c70b0dfec2eed25b8557eac9c80e2e198f8cdbecd86b12053"
+        },
+        "y": {
+          "raw": "0x03676854fe24141cb98fe6d4b20d02b4516ff702350eddb0826779c813f0df45be8112f4"
+        }
+      },
+      "order": "0x3ffffffffffffffffffffffffffffffffffef90399660fc938a90165b042a7cefadb307",
+      "cofactor": "0x2",
+      "standard": true,
+      "simulation": {
+        "seed": "0x77e2b07370eb0f832a6dd5b62dfc88cd06bb84be"
+      },
+      "properties": {
+        "trace": "0x20df8cd33e06d8eadfd349f7ab0620a499f3",
+        "j_invariant": "0x52b93729f30766131413473e14639b58a99eace4f5c4cf1e3cc939dab79766b75e0c63"
+      }
+    },
+    {
+      "name": "sect409k1",
+      "category": "secg",
+      "aliases": [
+        "nist/K-409",
+        "x963/ansit409k1"
+      ],
+      "oid": "1.3.132.0.36",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Binary",
+        "poly": [
+          {
+            "power": 409,
+            "coeff": "0x01"
+          },
+          {
+            "power": 87,
+            "coeff": "0x01"
+          },
+          {
+            "power": 0,
+            "coeff": "0x01"
+          }
+        ],
+        "bits": 409,
+        "degree": 409,
+        "basis": "poly"
+      },
+      "params": {
+        "a": {
+          "raw": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "b": {
+          "raw": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x0060f05f658f49c1ad3ab1890f7184210efd0987e307c84c27accfb8f9f67cc2c460189eb5aaaa62ee222eb1b35540cfe9023746"
+        },
+        "y": {
+          "raw": "0x01e369050b7c4e42acba1dacbf04299c3460782f918ea427e6325165e9ea10e3da5f6c42e9c55215aa9ca27a5863ec48d8e0286b"
+        }
+      },
+      "order": "0x7ffffffffffffffffffffffffffffffffffffffffffffffffffe5f83b2d4ea20400ec4557d5ed3e3e7ca5b4b5c83b8e01e5fcf",
+      "cofactor": "0x4",
+      "standard": true,
+      "properties": {
+        "trace": "0x681f134ac577effc4eeaa0a84b07060d692d28df11c7f8680c5",
+        "j_invariant": "0x1"
+      }
+    },
+    {
+      "name": "sect409r1",
+      "category": "secg",
+      "aliases": [
+        "nist/B-409",
+        "x963/ansit409r1"
+      ],
+      "oid": "1.3.132.0.37",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Binary",
+        "poly": [
+          {
+            "power": 409,
+            "coeff": "0x01"
+          },
+          {
+            "power": 87,
+            "coeff": "0x01"
+          },
+          {
+            "power": 0,
+            "coeff": "0x01"
+          }
+        ],
+        "bits": 409,
+        "degree": 409,
+        "basis": "poly"
+      },
+      "params": {
+        "a": {
+          "raw": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001"
+        },
+        "b": {
+          "raw": "0x0021a5c2c8ee9feb5c4b9a753b7b476b7fd6422ef1f3dd674761fa99d6ac27c8a9a197b272822f6cd57a55aa4f50ae317b13545f"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x015d4860d088ddb3496b0c6064756260441cde4af1771d4db01ffe5b34e59703dc255a868a1180515603aeab60794e54bb7996a7"
+        },
+        "y": {
+          "raw": "0x0061b1cfab6be5f32bbfa78324ed106a7636b9c5a7bd198d0158aa4f5488d08f38514f1fdf4b4f40d2181b3681c364ba0273c706"
+        }
+      },
+      "order": "0x10000000000000000000000000000000000000000000000000001e2aad6a612f33307be5fa47c3c9e052f838164cd37d9a21173",
+      "cofactor": "0x2",
+      "standard": true,
+      "simulation": {
+        "seed": "0x4099b5a457f9d69f79213d094c4bcd4d4262210b"
+      },
+      "properties": {
+        "trace": "-0x3c555ad4c25e6660f7cbf48f8793c0a5f0702c99a6fb34422e5",
+        "j_invariant": "0x1241bb84d965baff2ce60aab16c00a576e9cea905ed5a81d279e52da527227f8ec486be36047eb65b91fd822420b2959a0b4a09"
+      }
+    },
+    {
+      "name": "sect571k1",
+      "category": "secg",
+      "aliases": [
+        "nist/K-571",
+        "x963/ansit571k1"
+      ],
+      "oid": "1.3.132.0.38",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Binary",
+        "poly": [
+          {
+            "power": 571,
+            "coeff": "0x01"
+          },
+          {
+            "power": 10,
+            "coeff": "0x01"
+          },
+          {
+            "power": 5,
+            "coeff": "0x01"
+          },
+          {
+            "power": 2,
+            "coeff": "0x01"
+          },
+          {
+            "power": 0,
+            "coeff": "0x01"
+          }
+        ],
+        "bits": 571,
+        "degree": 571,
+        "basis": "poly"
+      },
+      "params": {
+        "a": {
+          "raw": "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "b": {
+          "raw": "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x026eb7a859923fbc82189631f8103fe4ac9ca2970012d5d46024804801841ca44370958493b205e647da304db4ceb08cbbd1ba39494776fb988b47174dca88c7e2945283a01c8972"
+        },
+        "y": {
+          "raw": "0x0349dc807f4fbf374f4aeade3bca95314dd58cec9f307a54ffc61efc006d8a2c9d4979c0ac44aea74fbebbb9f772aedcb620b01a7ba7af1b320430c8591984f601cd4c143ef1c7a3"
+        }
+      },
+      "order": "0x20000000000000000000000000000000000000000000000000000000000000000000000131850e1f19a63e4b391a8db917f4138b630d84be5d639381e91deb45cfe778f637c1001",
+      "cofactor": "0x4",
+      "standard": true,
+      "properties": {
+        "trace": "-0x4c614387c6698f92ce46a36e45fd04e2d8c3612f9758e4e07a477ad173f9de3d8df04003",
+        "j_invariant": "0x1"
+      }
+    },
+    {
+      "name": "sect571r1",
+      "category": "secg",
+      "aliases": [
+        "nist/B-571",
+        "x963/ansit571r1"
+      ],
+      "oid": "1.3.132.0.39",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Binary",
+        "poly": [
+          {
+            "power": 571,
+            "coeff": "0x01"
+          },
+          {
+            "power": 10,
+            "coeff": "0x01"
+          },
+          {
+            "power": 5,
+            "coeff": "0x01"
+          },
+          {
+            "power": 2,
+            "coeff": "0x01"
+          },
+          {
+            "power": 0,
+            "coeff": "0x01"
+          }
+        ],
+        "bits": 571,
+        "degree": 571,
+        "basis": "poly"
+      },
+      "params": {
+        "a": {
+          "raw": "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001"
+        },
+        "b": {
+          "raw": "0x02f40e7e2221f295de297117b7f3d62f5c6a97ffcb8ceff1cd6ba8ce4a9a18ad84ffabbd8efa59332be7ad6756a66e294afd185a78ff12aa520e4de739baca0c7ffeff7f2955727a"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x0303001d34b856296c16c0d40d3cd7750a93d1d2955fa80aa5f40fc8db7b2abdbde53950f4c0d293cdd711a35b67fb1499ae60038614f1394abfa3b4c850d927e1e7769c8eec2d19"
+        },
+        "y": {
+          "raw": "0x037bf27342da639b6dccfffeb73d69d78c6c27a6009cbbca1980f8533921e8a684423e43bab08a576291af8f461bb2a8b3531d2f0485c19b16e2f1516e23dd3c1a4827af1b8ac15b"
+        }
+      },
+      "order": "0x3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe661ce18ff55987308059b186823851ec7dd9ca1161de93d5174d66e8382e9bb2fe84e47",
+      "cofactor": "0x2",
+      "standard": true,
+      "simulation": {
+        "seed": "0x2aa058f73a0e33ab486b0f610410c53a7f132310"
+      },
+      "properties": {
+        "trace": "0x333c63ce0154cf19eff4c9cf2fb8f5c27044c6bdd3c42d855d165322f8fa2c89a02f6373",
+        "j_invariant": "0x45cbb32ced5555aa026b3b1728cec729c0d032e61381d4aae04bd3974ab437328b3d7123043021cc53b9e834f5cc04fde6ccbc0e9f4adb71d18678796b42848a95446bb29ef5928"
+      }
     }
-]
+  ]
+
+
+}

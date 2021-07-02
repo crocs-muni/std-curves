@@ -1,253 +1,270 @@
-[
+
+{
+  "name": "Oakley",
+  "desc": "Oakley groups from <https://tools.ietf.org/html/rfc2409> and <https://tools.ietf.org/html/rfc5114>",
+  "curves":
+  [
     {
-        "name": "Oakley Group 3",
-        "category": "oakley",
-        "desc": "Defined in IETF in RFC2409",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Binary",
-            "poly": [
-                {
-                    "power": 155,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 62,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 0,
-                    "coeff": "0x01"
-                }
-            ],
-            "bits": 155,
-            "degree": 155,
-            "basis": "poly"
+      "name": "Oakley Group 3",
+      "category": "oakley",
+      "desc": "Defined in IETF in RFC2409",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Binary",
+        "poly": [
+          {
+            "power": 155,
+            "coeff": "0x01"
+          },
+          {
+            "power": 62,
+            "coeff": "0x01"
+          },
+          {
+            "power": 0,
+            "coeff": "0x01"
+          }
+        ],
+        "bits": 155,
+        "degree": 155,
+        "basis": "poly"
+      },
+      "params": {
+        "a": {
+          "raw": "0x0"
         },
-        "params": {
-            "a": {
-                "raw": "0x0"
-            },
-            "b": {
-                "raw": "0x07338f"
-            }
-        },
-        "order": "0x800000000000000000057db5698537193aef944",
-        "cofactor": "0x1",
-        "properties": {
-            "trace": "-0x57db5698537193aef943",
-            "j_invariant": "0x61a2976b585b70cc897ad03a7f74a4ecc23bf4a"
+        "b": {
+          "raw": "0x07338f"
         }
+      },
+      "order": "0x800000000000000000057db5698537193aef944",
+      "cofactor": "0x1",
+      "standard": true,
+      "properties": {
+        "trace": "-0x57db5698537193aef943"
+      }
     },
     {
-        "name": "Oakley Group 4",
-        "category": "oakley",
-        "desc": "Defined in IETF in RFC2409",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Binary",
-            "poly": [
-                {
-                    "power": 185,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 69,
-                    "coeff": "0x01"
-                },
-                {
-                    "power": 0,
-                    "coeff": "0x01"
-                }
-            ],
-            "bits": 185,
-            "degree": 185,
-            "basis": "poly"
+      "name": "Oakley Group 4",
+      "category": "oakley",
+      "desc": "Defined in IETF in RFC2409",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Binary",
+        "poly": [
+          {
+            "power": 185,
+            "coeff": "0x01"
+          },
+          {
+            "power": 69,
+            "coeff": "0x01"
+          },
+          {
+            "power": 0,
+            "coeff": "0x01"
+          }
+        ],
+        "bits": 185,
+        "degree": 185,
+        "basis": "poly"
+      },
+      "params": {
+        "a": {
+          "raw": "0x0"
         },
-        "params": {
-            "a": {
-                "raw": "0x0"
-            },
-            "b": {
-                "raw": "0x1ee9"
-            }
-        },
-        "order": "0x1ffffffffffffffffffffffdbf2f889b73e484175f94ebc",
-        "cofactor": "0x1",
-        "properties": {
-            "trace": "0x240d077648c1b7be8a06b145",
-            "j_invariant": "0x11b8d70a71b758a2ab8fcdeb3f81b2ad738e934d2dfbaf7"
+        "b": {
+          "raw": "0x1ee9"
         }
+      },
+      "order": "0x1ffffffffffffffffffffffdbf2f889b73e484175f94ebc",
+      "cofactor": "0x1",
+      "standard": true,
+      "properties": {
+        "trace": "0x240d077648c1b7be8a06b145"
+      }
     },
     {
-        "name": "192-bit Random ECP Group",
-        "category": "oakley",
-        "desc": "Defined in IETF in RFC5114",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Prime",
-            "p": "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFFFFFFFFFFFF",
-            "bits": 192
+      "name": "192-bit Random ECP Group",
+      "category": "oakley",
+      "desc": "Defined in IETF in RFC5114",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Prime",
+        "p": "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFFFFFFFFFFFF",
+        "bits": 192
+      },
+      "params": {
+        "a": {
+          "raw": "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFFFFFFFFFFFC"
         },
-        "params": {
-            "a": {
-                "raw": "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFFFFFFFFFFFC"
-            },
-            "b": {
-                "raw": "0x64210519E59C80E70FA7E9AB72243049FEB8DEECC146B9B1"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0x188DA80EB03090F67CBF20EB43A18800F4FF0AFD82FF1012"
-            },
-            "y": {
-                "raw": "0x07192B95FFC8DA78631011ED6B24CDD573F977A11E794811"
-            }
-        },
-        "order": "0xffffffffffffffffffffffff99def836146bc9b1b4d22831",
-        "cofactor": "0x1",
-        "properties": {
-            "trace": "0x662107c8eb94364e4b2dd7cf",
-            "j_invariant": "0xfe40fc48ef4b5633d091b1a2707da063644b08bb896f560b",
-            "embedding_degree": "0x1999999999999999999999998f6318d2353dfa91c5483738",
-            "cm_discriminant": "-0x3d741a988e23c8df090918240db2143ab31994533214ca69b"
+        "b": {
+          "raw": "0x64210519E59C80E70FA7E9AB72243049FEB8DEECC146B9B1"
         }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x188DA80EB03090F67CBF20EB43A18800F4FF0AFD82FF1012"
+        },
+        "y": {
+          "raw": "0x07192B95FFC8DA78631011ED6B24CDD573F977A11E794811"
+        }
+      },
+      "order": "0xffffffffffffffffffffffff99def836146bc9b1b4d22831",
+      "cofactor": "0x1",
+      "standard": true,
+      "properties": {
+        "j_invariant": "0xfe40fc48ef4b5633d091b1a2707da063644b08bb896f560b",
+        "trace": "0x662107c8eb94364e4b2dd7cf",
+        "embedding_degree": "0x1999999999999999999999998f6318d2353dfa91c5483738",
+        "cm_discriminant": "-0x3d741a988e23c8df090918240db2143ab31994533214ca69b"
+      }
     },
     {
-        "name": "224-bit Random ECP Group",
-        "category": "oakley",
-        "desc": "Defined in IETF in RFC5114",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Prime",
-            "p": "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000000000000001",
-            "bits": 224
+      "name": "224-bit Random ECP Group",
+      "category": "oakley",
+      "desc": "Defined in IETF in RFC5114",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Prime",
+        "p": "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000000000000001",
+        "bits": 224
+      },
+      "params": {
+        "a": {
+          "raw": "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFFFFFFFFFFFFFFFFFFFE"
         },
-        "params": {
-            "a": {
-                "raw": "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFFFFFFFFFFFFFFFFFFFE"
-            },
-            "b": {
-                "raw": "0xB4050A850C04B3ABF54132565044B0B7D7BFD8BA270B39432355FFB4"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0xB70E0CBD6BB4BF7F321390B94A03C1D356C21122343280D6115C1D21"
-            },
-            "y": {
-                "raw": "0xBD376388B5F723FB4C22DFE6CD4375A05A07476444D5819985007E34"
-            }
-        },
-        "order": "0xffffffffffffffffffffffffffff16a2e0b8f03e13dd29455c5c2a3d",
-        "cofactor": "0x1",
-        "properties": {
-            "trace": "0xe95c1f470fc1ec22d6baa3a3d5c5",
-            "j_invariant": "0xc55630164a29a17b465f4a532fa010aabe1ffc9fdea639fc47307d75",
-            "embedding_degree": "0x5555555555555555555555555555078ba03da56a069f0dc1c9740e14",
-            "cm_discriminant": "-0x5a245a6f599a2778760a3eacdf9b0b9c6f78b867c3f4a9a10611d7d3"
+        "b": {
+          "raw": "0xB4050A850C04B3ABF54132565044B0B7D7BFD8BA270B39432355FFB4"
         }
+      },
+      "generator": {
+        "x": {
+          "raw": "0xB70E0CBD6BB4BF7F321390B94A03C1D356C21122343280D6115C1D21"
+        },
+        "y": {
+          "raw": "0xBD376388B5F723FB4C22DFE6CD4375A05A07476444D5819985007E34"
+        }
+      },
+      "order": "0xffffffffffffffffffffffffffff16a2e0b8f03e13dd29455c5c2a3d",
+      "cofactor": "0x1",
+      "standard": true,
+      "properties": {
+        "j_invariant": "0xc55630164a29a17b465f4a532fa010aabe1ffc9fdea639fc47307d75",
+        "trace": "0xe95c1f470fc1ec22d6baa3a3d5c5",
+        "embedding_degree": "0x5555555555555555555555555555078ba03da56a069f0dc1c9740e14",
+        "cm_discriminant": "-0x5a245a6f599a2778760a3eacdf9b0b9c6f78b867c3f4a9a10611d7d3"
+      }
     },
     {
-        "name": "256-bit Random ECP Group",
-        "category": "oakley",
-        "desc": "Defined in IETF in RFC5114",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Prime",
-            "p": "0xFFFFFFFF00000001000000000000000000000000FFFFFFFFFFFFFFFFFFFFFFFF",
-            "bits": 256
+      "name": "256-bit Random ECP Group",
+      "category": "oakley",
+      "desc": "Defined in IETF in RFC5114",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Prime",
+        "p": "0xFFFFFFFF00000001000000000000000000000000FFFFFFFFFFFFFFFFFFFFFFFF",
+        "bits": 256
+      },
+      "params": {
+        "a": {
+          "raw": "0xFFFFFFFF00000001000000000000000000000000FFFFFFFFFFFFFFFFFFFFFFFC"
         },
-        "params": {
-            "a": {
-                "raw": "0xFFFFFFFF00000001000000000000000000000000FFFFFFFFFFFFFFFFFFFFFFFC"
-            },
-            "b": {
-                "raw": "0x5AC635D8AA3A93E7B3EBBD55769886BC651D06B0CC53B0F63BCE3C3E27D2604B"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0x6B17D1F2E12C4247F8BCE6E563A440F277037D812DEB33A0F4A13945D898C296"
-            },
-            "y": {
-                "raw": "0x4FE342E2FE1A7F9B8EE7EB4A7C0F9E162BCE33576B315ECECBB6406837BF51F5"
-            }
-        },
-        "order": "0xffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
-        "cofactor": "0x1",
-        "properties": {
-            "trace": "0x4319055358e8617b0c46353d039cdaaf",
-            "j_invariant": "0x1198954424ebb0f8479de43131caece8ee0a9b13a558c21e0b2f74e3fcd36aa3",
-            "embedding_degree": "0x555555550000000055555555555555553ef7a8e48d07df81a693439654210c70",
-            "cm_discriminant": "-0x3ee69e4c05512a2feb42c40318a014ae4c618ec481b963d8454f2455ea5e97c5b"
+        "b": {
+          "raw": "0x5AC635D8AA3A93E7B3EBBD55769886BC651D06B0CC53B0F63BCE3C3E27D2604B"
         }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x6B17D1F2E12C4247F8BCE6E563A440F277037D812DEB33A0F4A13945D898C296"
+        },
+        "y": {
+          "raw": "0x4FE342E2FE1A7F9B8EE7EB4A7C0F9E162BCE33576B315ECECBB6406837BF51F5"
+        }
+      },
+      "order": "0xffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+      "cofactor": "0x1",
+      "standard": true,
+      "properties": {
+        "j_invariant": "0x1198954424ebb0f8479de43131caece8ee0a9b13a558c21e0b2f74e3fcd36aa3",
+        "trace": "0x4319055358e8617b0c46353d039cdaaf",
+        "embedding_degree": "0x555555550000000055555555555555553ef7a8e48d07df81a693439654210c70",
+        "cm_discriminant": "-0x3ee69e4c05512a2feb42c40318a014ae4c618ec481b963d8454f2455ea5e97c5b"
+      }
     },
     {
-        "name": "384-bit Random ECP Group",
-        "category": "oakley",
-        "desc": "Defined in IETF in RFC5114",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Prime",
-            "p": "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFFFF0000000000000000FFFFFFFF",
-            "bits": 384
+      "name": "384-bit Random ECP Group",
+      "category": "oakley",
+      "desc": "Defined in IETF in RFC5114",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Prime",
+        "p": "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFFFF0000000000000000FFFFFFFF",
+        "bits": 384
+      },
+      "params": {
+        "a": {
+          "raw": "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFFFF0000000000000000FFFFFFFC"
         },
-        "params": {
-            "a": {
-                "raw": "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFFFF0000000000000000FFFFFFFC"
-            },
-            "b": {
-                "raw": "0xB3312FA7E23EE7E4988E056BE3F82D19181D9C6EFE8141120314088F5013875AC656398D8A2ED19D2A85C8EDD3EC2AEF"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0xAA87CA22BE8B05378EB1C71EF320AD746E1D3B628BA79B9859F741E082542A385502F25DBF55296C3A545E3872760AB7"
-            },
-            "y": {
-                "raw": "0x3617DE4A96262C6F5D9E98BF9292DC29F8F41DBD289A147CE9DA3113B5F0B8C00A60B1CE1D7E819D7A431D7C90EA0E5F"
-            }
-        },
-        "order": "0xffffffffffffffffffffffffffffffffffffffffffffffffc7634d81f4372ddf581a0db248b0a77aecec196accc52973",
-        "cofactor": "0x1",
-        "properties": {
-            "trace": "0x389cb27e0bc8d21fa7e5f24cb74f58851313e696333ad68d",
-            "j_invariant": "0x518a082af8607c03213839c2b6efae43d5cd8c65cd5865926ed9160babd0375237286aca1f65c23db03a303b04a2855b"
+        "b": {
+          "raw": "0xB3312FA7E23EE7E4988E056BE3F82D19181D9C6EFE8141120314088F5013875AC656398D8A2ED19D2A85C8EDD3EC2AEF"
         }
+      },
+      "generator": {
+        "x": {
+          "raw": "0xAA87CA22BE8B05378EB1C71EF320AD746E1D3B628BA79B9859F741E082542A385502F25DBF55296C3A545E3872760AB7"
+        },
+        "y": {
+          "raw": "0x3617DE4A96262C6F5D9E98BF9292DC29F8F41DBD289A147CE9DA3113B5F0B8C00A60B1CE1D7E819D7A431D7C90EA0E5F"
+        }
+      },
+      "order": "0xffffffffffffffffffffffffffffffffffffffffffffffffc7634d81f4372ddf581a0db248b0a77aecec196accc52973",
+      "cofactor": "0x1",
+      "standard": true,
+      "properties": {
+        "j_invariant": "0x518a082af8607c03213839c2b6efae43d5cd8c65cd5865926ed9160babd0375237286aca1f65c23db03a303b04a2855b",
+        "trace": "0x389cb27e0bc8d21fa7e5f24cb74f58851313e696333ad68d",
+        "embedding_degree": "0x1249249249249249249249249249249249249249249249248e3df34023bacc6b61b8b7d5e09ee764357e9419ea0e153f",
+        "cm_discriminant": "-0x3f37b11fed4c640df3189098260a4a0a693503fc3028613e2c0f691ba40196c5ef8997a25fabd8ebb6c58b7c5e64bf653"
+      }
     },
     {
-        "name": "521-bit Random ECP Group",
-        "category": "oakley",
-        "desc": "Defined in IETF in RFC5114",
-        "form": "Weierstrass",
-        "field": {
-            "type": "Prime",
-            "p": "0x000001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
-            "bits": 521
+      "name": "521-bit Random ECP Group",
+      "category": "oakley",
+      "desc": "Defined in IETF in RFC5114",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Prime",
+        "p": "0x000001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+        "bits": 521
+      },
+      "params": {
+        "a": {
+          "raw": "0x000001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFC"
         },
-        "params": {
-            "a": {
-                "raw": "0x000001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFC"
-            },
-            "b": {
-                "raw": "0x00000051953EB9618E1C9A1F929A21A0B68540EEA2DA725B99B315F3B8B489918EF109E156193951EC7E937B1652C0BD3BB1BF073573DF883D2C34F1EF451FD46B503F00"
-            }
-        },
-        "generator": {
-            "x": {
-                "raw": "0x000000C6858E06B70404E9CD9E3ECB662395B4429C648139053FB521F828AF606B4D3DBAA14B5E77EFE75928FE1DC127A2FFA8DE3348B3C1856A429BF97E7E31C2E5BD66"
-            },
-            "y": {
-                "raw": "0x0000011839296A789A3BC0045C8A5FB42C7D1BD998F54449579B446817AFBD17273E662C97EE72995EF42640C550B9013FAD0761353C7086A272C24088BE94769FD16650"
-            }
-        },
-        "order": "0x1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa51868783bf2f966b7fcc0148f709a5d03bb5c9b8899c47aebb6fb71e91386409",
-        "cofactor": "0x1",
-        "properties": {
-            "trace": "0x5ae79787c40d069948033feb708f65a2fc44a36477663b851449048e16ec79bf7",
-            "j_invariant": "0x10dec9284c5dafd5ade693a4b878916bbf99b97b51a91684867740b8730466241c32a294645557b3915d9c1a5c1c9cf144f3b79a41c70f8bc76ed5928da5e3f69cd"
+        "b": {
+          "raw": "0x00000051953EB9618E1C9A1F929A21A0B68540EEA2DA725B99B315F3B8B489918EF109E156193951EC7E937B1652C0BD3BB1BF073573DF883D2C34F1EF451FD46B503F00"
         }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x000000C6858E06B70404E9CD9E3ECB662395B4429C648139053FB521F828AF606B4D3DBAA14B5E77EFE75928FE1DC127A2FFA8DE3348B3C1856A429BF97E7E31C2E5BD66"
+        },
+        "y": {
+          "raw": "0x0000011839296A789A3BC0045C8A5FB42C7D1BD998F54449579B446817AFBD17273E662C97EE72995EF42640C550B9013FAD0761353C7086A272C24088BE94769FD16650"
+        }
+      },
+      "order": "0x1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa51868783bf2f966b7fcc0148f709a5d03bb5c9b8899c47aebb6fb71e91386409",
+      "cofactor": "0x1",
+      "standard": true,
+      "properties": {
+        "j_invariant": "0x10dec9284c5dafd5ade693a4b878916bbf99b97b51a91684867740b8730466241c32a294645557b3915d9c1a5c1c9cf144f3b79a41c70f8bc76ed5928da5e3f69cd",
+        "trace": "0x5ae79787c40d069948033feb708f65a2fc44a36477663b851449048e16ec79bf7",
+        "embedding_degree": "0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe9461a1e0efcbe59adff300523dc269740eed726e226711ebaedbedc7a44e1902",
+        "cm_discriminant": "-0x7dfb857f1b9719692971405ceef1f0b49c7f0badb4bcaea90ce4a795c6a610cc03116a848f2a996c919a4850d0c90d4de29e5c470e2cb3bfd731f94c225e2f8f7ab"
+      }
     }
-]
+  ]
+
+
+}
