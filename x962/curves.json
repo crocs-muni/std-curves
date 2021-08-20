@@ -8,10 +8,11 @@
       "category": "x962",
       "aliases": [
         "secg/secp192r1",
-        "nist/P-192"
+        "x962/P-192"
       ],
       "oid": "1.2.840.10045.3.1.1",
       "form": "Weierstrass",
+      "desc":"example",
       "field": {
         "type": "Prime",
         "p": "0xfffffffffffffffffffffffffffffffeffffffffffffffff",
@@ -51,6 +52,7 @@
       "category": "x962",
       "oid": "1.2.840.10045.3.1.2",
       "form": "Weierstrass",
+      "desc":"example",
       "field": {
         "type": "Prime",
         "p": "0xfffffffffffffffffffffffffffffffeffffffffffffffff",
@@ -90,6 +92,7 @@
       "category": "x962",
       "oid": "1.2.840.10045.3.1.3",
       "form": "Weierstrass",
+      "desc":"example",
       "field": {
         "type": "Prime",
         "p": "0xfffffffffffffffffffffffffffffffeffffffffffffffff",
@@ -129,6 +132,7 @@
       "category": "x962",
       "oid": "1.2.840.10045.3.1.4",
       "form": "Weierstrass",
+      "desc":"example",
       "field": {
         "type": "Prime",
         "p": "0x7fffffffffffffffffffffff7fffffffffff8000000000007fffffffffff",
@@ -168,6 +172,7 @@
       "category": "x962",
       "oid": "1.2.840.10045.3.1.5",
       "form": "Weierstrass",
+      "desc":"example",
       "field": {
         "type": "Prime",
         "p": "0x7fffffffffffffffffffffff7fffffffffff8000000000007fffffffffff",
@@ -207,6 +212,7 @@
       "category": "x962",
       "oid": "1.2.840.10045.3.1.6",
       "form": "Weierstrass",
+      "desc":"example",
       "field": {
         "type": "Prime",
         "p": "0x7fffffffffffffffffffffff7fffffffffff8000000000007fffffffffff",
@@ -244,9 +250,10 @@
     {
       "name": "prime256v1",
       "category": "x962",
+      "desc":"example",
       "aliases": [
         "secg/secp256r1",
-        "nist/P-256"
+        "x962/P-256"
       ],
       "oid": "1.2.840.10045.3.1.7",
       "form": "Weierstrass",
@@ -288,6 +295,7 @@
       "name": "c2pnb176w1",
       "category": "x962",
       "form": "Weierstrass",
+      "desc":"example",
       "field": {
         "type": "Binary",
         "bits": 176,
@@ -348,6 +356,7 @@
       ],
       "oid": "1.2.840.10045.3.0.1",
       "form": "Weierstrass",
+      "desc":"example",
       "field": {
         "type": "Binary",
         "bits": 163,
@@ -408,6 +417,7 @@
       "category": "x962",
       "oid": "1.2.840.10045.3.0.2",
       "form": "Weierstrass",
+      "desc":"example",
       "field": {
         "type": "Binary",
         "bits": 163,
@@ -468,6 +478,7 @@
       "category": "x962",
       "oid": "1.2.840.10045.3.0.3",
       "form": "Weierstrass",
+      "desc":"example",
       "field": {
         "type": "Binary",
         "bits": 163,
@@ -528,6 +539,7 @@
       "category": "x962",
       "oid": "1.2.840.10045.3.0.10",
       "form": "Weierstrass",
+      "desc":"example",
       "field": {
         "type": "Binary",
         "bits": 208,
@@ -585,6 +597,7 @@
       "category": "x962",
       "oid": "1.2.840.10045.3.0.7",
       "form": "Weierstrass",
+      "desc":"example",
       "field": {
         "type": "Binary",
         "bits": 191,
@@ -637,6 +650,7 @@
       "category": "x962",
       "oid": "1.2.840.10045.3.0.6",
       "form": "Weierstrass",
+      "desc":"example",
       "field": {
         "type": "Binary",
         "bits": 191,
@@ -689,6 +703,7 @@
       "category": "x962",
       "oid": "1.2.840.10045.3.0.5",
       "form": "Weierstrass",
+      "desc":"example",
       "field": {
         "type": "Binary",
         "bits": 191,
@@ -741,6 +756,7 @@
       "category": "x962",
       "oid": "1.2.840.10045.3.0.13",
       "form": "Weierstrass",
+      "desc":"example",
       "field": {
         "type": "Binary",
         "bits": 239,
@@ -793,6 +809,7 @@
       "category": "x962",
       "oid": "1.2.840.10045.3.0.12",
       "form": "Weierstrass",
+      "desc":"example",
       "field": {
         "type": "Binary",
         "bits": 239,
@@ -845,6 +862,7 @@
       "category": "x962",
       "oid": "1.2.840.10045.3.0.11",
       "form": "Weierstrass",
+      "desc":"example",
       "field": {
         "type": "Binary",
         "bits": 239,
@@ -897,6 +915,7 @@
       "category": "x962",
       "oid": "1.2.840.10045.3.0.16",
       "form": "Weierstrass",
+      "desc":"example",
       "field": {
         "type": "Binary",
         "bits": 272,
@@ -953,6 +972,7 @@
       "name": "c2pnb304w1",
       "category": "x962",
       "form": "Weierstrass",
+      "desc":"example",
       "field": {
         "type": "Binary",
         "bits": 304,
@@ -1009,6 +1029,7 @@
       "name": "c2pnb368w1",
       "category": "x962",
       "oid": "1.2.840.10045.3.0.19",
+      "desc":"example",
       "form": "Weierstrass",
       "field": {
         "type": "Binary",
@@ -1066,6 +1087,7 @@
       "name": "c2tnb359v1",
       "category": "x962",
       "oid": "1.2.840.10045.3.0.18",
+      "desc":"example",
       "form": "Weierstrass",
       "field": {
         "type": "Binary",
@@ -1118,6 +1140,7 @@
       "name": "c2tnb431r1",
       "category": "x962",
       "oid": "1.2.840.10045.3.0.20",
+      "desc": "example",
       "form": "Weierstrass",
       "field": {
         "type": "Binary",
@@ -1167,7 +1190,7 @@
       "name": "c2onb191v4",
       "category": "x962",
       "oid": "1.2.840.10045.3.0.8",
-      "desc": "A binary-field curve in optimal normal basis",
+      "desc": "A binary-field curve in optimal normal basis, example",
       "form": "Weierstrass",
       "field": {
         "type": "Binary",
@@ -1260,7 +1283,7 @@
       "name": "c2onb191v5",
       "category": "x962",
       "oid": "1.2.840.10045.3.0.9",
-      "desc": "A binary-field curve in optimal normal basis",
+      "desc": "A binary-field curve in optimal normal basis, example",
       "form": "Weierstrass",
       "field": {
         "type": "Binary",
@@ -1353,7 +1376,7 @@
       "name": "c2onb239v4",
       "category": "x962",
       "oid": "1.2.840.10045.3.0.14",
-      "desc": "A binary-field curve in optimal normal basis",
+      "desc": "A binary-field curve in optimal normal basis, example",
       "form": "Weierstrass",
       "field": {
         "type": "Binary",
@@ -1478,7 +1501,7 @@
       "name": "c2onb239v5",
       "category": "x962",
       "oid": "1.2.840.10045.3.0.15",
-      "desc": "A binary-field curve in optimal normal basis",
+      "desc": "A binary-field curve in optimal normal basis, example",
       "form": "Weierstrass",
       "field": {
         "type": "Binary",
@@ -1597,6 +1620,782 @@
       "properties": {
         "trace": "-0x14dccde2e213aeff738518564e10a11",
         "j_invariant": "0x73f252a3530846173b8480f33ed933610d76ec17f10d1abdbf3ce653ffd9"
+      }
+    },
+    {
+      "name": "ansix9p192r1",
+      "category": "x962",
+      "aliases": [
+        "secg/secp192r1"
+      ],
+      "form": "Weierstrass",
+      "field": {
+        "type": "Prime",
+        "p": "0xfffffffffffffffffffffffffffffffeffffffffffffffff",
+        "bits": 192
+      },
+      "params": {
+        "a": {
+          "raw": "0xfffffffffffffffffffffffffffffffefffffffffffffffc"
+        },
+        "b": {
+          "raw": "0x64210519e59c80e70fa7e9ab72243049feb8deecc146b9b1"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x188da80eb03090f67cbf20eb43a18800f4ff0afd82ff1012"
+        },
+        "y": {
+          "raw": "0x07192b95ffc8da78631011ed6b24cdd573f977a11e794811"
+        }
+      },
+      "order": "0xffffffffffffffffffffffff99def836146bc9b1b4d22831",
+      "cofactor": "0x1",
+      "standard": true,
+      "simulation": {
+        "seed": "0x3045ae6fc8422f64ed579528d38120eae12196d5"
+      },
+      "properties": {
+        "j_invariant": "0xfe40fc48ef4b5633d091b1a2707da063644b08bb896f560b",
+        "trace": "0x662107c8eb94364e4b2dd7cf",
+        "embedding_degree": "0x1999999999999999999999998f6318d2353dfa91c5483738",
+        "cm_discriminant": "-0x3d741a988e23c8df090918240db2143ab31994533214ca69b"
+      }
+    },
+    {
+      "name": "ansip224r1",
+      "category": "x962",
+      "aliases": [
+        "secg/secp224r1",
+        "wtls/wap-wsg-idm-ecid-wtls12"
+      ],
+      "form": "Weierstrass",
+      "field": {
+        "type": "Prime",
+        "p": "0xffffffffffffffffffffffffffffffff000000000000000000000001",
+        "bits": 224
+      },
+      "params": {
+        "a": {
+          "raw": "0xfffffffffffffffffffffffffffffffefffffffffffffffffffffffe"
+        },
+        "b": {
+          "raw": "0xb4050a850c04b3abf54132565044b0b7d7bfd8ba270b39432355ffb4"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0xb70e0cbd6bb4bf7f321390b94a03c1d356c21122343280d6115c1d21"
+        },
+        "y": {
+          "raw": "0xbd376388b5f723fb4c22dfe6cd4375a05a07476444d5819985007e34"
+        }
+      },
+      "order": "0xffffffffffffffffffffffffffff16a2e0b8f03e13dd29455c5c2a3d",
+      "cofactor": "0x1",
+      "standard": true,
+      "simulation": {
+        "seed": "0xbd71344799d5c7fcdc45b59fa3b9ab8f6a948bc5"
+      },
+      "properties": {
+        "j_invariant": "0xc55630164a29a17b465f4a532fa010aabe1ffc9fdea639fc47307d75",
+        "trace": "0xe95c1f470fc1ec22d6baa3a3d5c5",
+        "embedding_degree": "0x5555555555555555555555555555078ba03da56a069f0dc1c9740e14",
+        "cm_discriminant": "-0x5a245a6f599a2778760a3eacdf9b0b9c6f78b867c3f4a9a10611d7d3"
+      }
+    },
+    {
+      "name": "ansix9p256r1",
+      "category": "x962",
+      "aliases": [
+        "secg/secp256r1"
+      ],
+      "form": "Weierstrass",
+      "field": {
+        "type": "Prime",
+        "p": "0xffffffff00000001000000000000000000000000ffffffffffffffffffffffff",
+        "bits": 256
+      },
+      "params": {
+        "a": {
+          "raw": "0xffffffff00000001000000000000000000000000fffffffffffffffffffffffc"
+        },
+        "b": {
+          "raw": "0x5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x6b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c296"
+        },
+        "y": {
+          "raw": "0x4fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5"
+        }
+      },
+      "order": "0xffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+      "cofactor": "0x1",
+      "standard": true,
+      "simulation": {
+        "seed": "0xc49d360886e704936a6678e1139d26b7819f7e90"
+      },
+      "properties": {
+        "j_invariant": "0x1198954424ebb0f8479de43131caece8ee0a9b13a558c21e0b2f74e3fcd36aa3",
+        "trace": "0x4319055358e8617b0c46353d039cdaaf",
+        "embedding_degree": "0x555555550000000055555555555555553ef7a8e48d07df81a693439654210c70",
+        "cm_discriminant": "-0x3ee69e4c05512a2feb42c40318a014ae4c618ec481b963d8454f2455ea5e97c5b"
+      }
+    },
+    {
+      "name": "ansip384r1",
+      "category": "x962",
+      "aliases": [
+        "secg/secp384r1"
+      ],
+      "form": "Weierstrass",
+      "field": {
+        "type": "Prime",
+        "p": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffeffffffff0000000000000000ffffffff",
+        "bits": 384
+      },
+      "params": {
+        "a": {
+          "raw": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffeffffffff0000000000000000fffffffc"
+        },
+        "b": {
+          "raw": "0xb3312fa7e23ee7e4988e056be3f82d19181d9c6efe8141120314088f5013875ac656398d8a2ed19d2a85c8edd3ec2aef"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0xaa87ca22be8b05378eb1c71ef320ad746e1d3b628ba79b9859f741e082542a385502f25dbf55296c3a545e3872760ab7"
+        },
+        "y": {
+          "raw": "0x3617de4a96262c6f5d9e98bf9292dc29f8f41dbd289a147ce9da3113b5f0b8c00a60b1ce1d7e819d7a431d7c90ea0e5f"
+        }
+      },
+      "order": "0xffffffffffffffffffffffffffffffffffffffffffffffffc7634d81f4372ddf581a0db248b0a77aecec196accc52973",
+      "cofactor": "0x1",
+      "standard": true,
+      "simulation": {
+        "seed": "0xa335926aa319a27a1d00896a6773a4827acdac73"
+      },
+      "properties": {
+        "j_invariant": "0x518a082af8607c03213839c2b6efae43d5cd8c65cd5865926ed9160babd0375237286aca1f65c23db03a303b04a2855b",
+        "trace": "0x389cb27e0bc8d21fa7e5f24cb74f58851313e696333ad68d",
+        "embedding_degree": "0x1249249249249249249249249249249249249249249249248e3df34023bacc6b61b8b7d5e09ee764357e9419ea0e153f",
+        "cm_discriminant": "-0x3f37b11fed4c640df3189098260a4a0a693503fc3028613e2c0f691ba40196c5ef8997a25fabd8ebb6c58b7c5e64bf653"
+      }
+    },
+    {
+      "name": "ansip521r1",
+      "category": "x962",
+      "aliases": [
+        "secg/secp521r1"
+      ],
+      "form": "Weierstrass",
+      "field": {
+        "type": "Prime",
+        "p": "0x01ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "bits": 521
+      },
+      "params": {
+        "a": {
+          "raw": "0x01fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc"
+        },
+        "b": {
+          "raw": "0x0051953eb9618e1c9a1f929a21a0b68540eea2da725b99b315f3b8b489918ef109e156193951ec7e937b1652c0bd3bb1bf073573df883d2c34f1ef451fd46b503f00"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x00c6858e06b70404e9cd9e3ecb662395b4429c648139053fb521f828af606b4d3dbaa14b5e77efe75928fe1dc127a2ffa8de3348b3c1856a429bf97e7e31c2e5bd66"
+        },
+        "y": {
+          "raw": "0x011839296a789a3bc0045c8a5fb42c7d1bd998f54449579b446817afbd17273e662c97ee72995ef42640c550b9013fad0761353c7086a272c24088be94769fd16650"
+        }
+      },
+      "order": "0x1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa51868783bf2f966b7fcc0148f709a5d03bb5c9b8899c47aebb6fb71e91386409",
+      "cofactor": "0x1",
+      "standard": true,
+      "simulation": {
+        "seed": "0xd09e8800291cb85396cc6717393284aaa0da64ba"
+      },
+      "properties": {
+        "j_invariant": "0x10dec9284c5dafd5ade693a4b878916bbf99b97b51a91684867740b8730466241c32a294645557b3915d9c1a5c1c9cf144f3b79a41c70f8bc76ed5928da5e3f69cd",
+        "trace": "0x5ae79787c40d069948033feb708f65a2fc44a36477663b851449048e16ec79bf7",
+        "embedding_degree": "0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe9461a1e0efcbe59adff300523dc269740eed726e226711ebaedbedc7a44e1902",
+        "cm_discriminant": "-0x7dfb857f1b9719692971405ceef1f0b49c7f0badb4bcaea90ce4a795c6a610cc03116a848f2a996c919a4850d0c90d4de29e5c470e2cb3bfd731f94c225e2f8f7ab"
+      }
+    },
+    {
+      "name": "ansix9t163k1",
+      "category": "x962",
+      "aliases": [
+        "secg/sect163k1"
+      ],
+      "desc": "Koblitz curve.",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Binary",
+        "poly": [
+          {
+            "power": 163,
+            "coeff": "0x01"
+          },
+          {
+            "power": 7,
+            "coeff": "0x01"
+          },
+          {
+            "power": 6,
+            "coeff": "0x01"
+          },
+          {
+            "power": 3,
+            "coeff": "0x01"
+          },
+          {
+            "power": 0,
+            "coeff": "0x01"
+          }
+        ],
+        "bits": 163,
+        "degree": 163,
+        "basis": "poly"
+      },
+      "params": {
+        "a": {
+          "raw": "0x000000000000000000000000000000000000000001"
+        },
+        "b": {
+          "raw": "0x000000000000000000000000000000000000000001"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x02fe13c0537bbc11acaa07d793de4e6d5e5c94eee8"
+        },
+        "y": {
+          "raw": "0x0289070fb05d38ff58321f2e800536d538ccdaa3d9"
+        }
+      },
+      "order": "0x4000000000000000000020108a2e0cc0d99f8a5ef",
+      "cofactor": "0x2",
+      "standard": true,
+      "properties": {
+        "trace": "-0x4021145c1981b33f14bdd"
+      }
+    },
+    {
+      "name": "ansit163r2",
+      "category": "x962",
+      "aliases": [
+        "secg/sect163r2"
+      ],
+      "form": "Weierstrass",
+      "field": {
+        "type": "Binary",
+        "poly": [
+          {
+            "power": 163,
+            "coeff": "0x01"
+          },
+          {
+            "power": 7,
+            "coeff": "0x01"
+          },
+          {
+            "power": 6,
+            "coeff": "0x01"
+          },
+          {
+            "power": 3,
+            "coeff": "0x01"
+          },
+          {
+            "power": 0,
+            "coeff": "0x01"
+          }
+        ],
+        "bits": 163,
+        "degree": 163,
+        "basis": "poly"
+      },
+      "params": {
+        "a": {
+          "raw": "0x000000000000000000000000000000000000000001"
+        },
+        "b": {
+          "raw": "0x020a601907b8c953ca1481eb10512f78744a3205fd"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x03f0eba16286a2d57ea0991168d4994637e8343e36"
+        },
+        "y": {
+          "raw": "0x00d51fbc6c71a0094fa2cdd545b11c5c0c797324f1"
+        }
+      },
+      "order": "0x40000000000000000000292fe77e70c12a4234c33",
+      "cofactor": "0x2",
+      "standard": true,
+      "simulation": {
+        "seed": "0x85e25bfe5c86226cdb12016f7553f9d0e693a268"
+      },
+      "properties": {
+        "trace": "-0x525fcefce182548469865"
+      }
+    },
+    {
+      "name": "ansit233k1",
+      "category": "x962",
+      "aliases": [
+        "secg/sect233k1",
+        "wtls/wap-wsg-idm-ecid-wtls10"
+      ],
+      "desc": "Koblitz curve.",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Binary",
+        "poly": [
+          {
+            "power": 233,
+            "coeff": "0x01"
+          },
+          {
+            "power": 74,
+            "coeff": "0x01"
+          },
+          {
+            "power": 0,
+            "coeff": "0x01"
+          }
+        ],
+        "bits": 233,
+        "degree": 233,
+        "basis": "poly"
+      },
+      "params": {
+        "a": {
+          "raw": "0x000000000000000000000000000000000000000000000000000000000000"
+        },
+        "b": {
+          "raw": "0x000000000000000000000000000000000000000000000000000000000001"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x017232ba853a7e731af129f22ff4149563a419c26bf50a4c9d6eefad6126"
+        },
+        "y": {
+          "raw": "0x01db537dece819b7f70f555a67c427a8cd9bf18aeb9b56e0c11056fae6a3"
+        }
+      },
+      "order": "0x8000000000000000000000000000069d5bb915bcd46efb1ad5f173abdf",
+      "cofactor": "0x4",
+      "standard": true,
+      "properties": {
+        "trace": "-0x1a756ee456f351bbec6b57c5ceaf7b"
+      }
+    },
+    {
+      "name": "ansit233r1",
+      "category": "x962",
+      "aliases": [
+        "secg/sect233r1",
+        "wtls/wap-wsg-idm-ecid-wtls11"
+      ],
+      "form": "Weierstrass",
+      "field": {
+        "type": "Binary",
+        "poly": [
+          {
+            "power": 233,
+            "coeff": "0x01"
+          },
+          {
+            "power": 74,
+            "coeff": "0x01"
+          },
+          {
+            "power": 0,
+            "coeff": "0x01"
+          }
+        ],
+        "bits": 233,
+        "degree": 233,
+        "basis": "poly"
+      },
+      "params": {
+        "a": {
+          "raw": "0x000000000000000000000000000000000000000000000000000000000001"
+        },
+        "b": {
+          "raw": "0x0066647ede6c332c7f8c0923bb58213b333b20e9ce4281fe115f7d8f90ad"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x00fac9dfcbac8313bb2139f1bb755fef65bc391f8b36f8f8eb7371fd558b"
+        },
+        "y": {
+          "raw": "0x01006a08a41903350678e58528bebf8a0beff867a7ca36716f7e01f81052"
+        }
+      },
+      "order": "0x1000000000000000000000000000013e974e72f8a6922031d2603cfe0d7",
+      "cofactor": "0x2",
+      "standard": true,
+      "simulation": {
+        "seed": "0x74d59ff07f6b413d0ea14b344b20a2db049b50c3"
+      },
+      "properties": {
+        "trace": "-0x27d2e9ce5f14d244063a4c079fc1ad"
+      }
+    },
+    {
+      "name": "ansit283k1",
+      "category": "x962",
+      "aliases": [
+        "secg/sect283k1"
+      ],
+      "desc": "Koblitz curve.",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Binary",
+        "poly": [
+          {
+            "power": 283,
+            "coeff": "0x01"
+          },
+          {
+            "power": 12,
+            "coeff": "0x01"
+          },
+          {
+            "power": 7,
+            "coeff": "0x01"
+          },
+          {
+            "power": 5,
+            "coeff": "0x01"
+          },
+          {
+            "power": 0,
+            "coeff": "0x01"
+          }
+        ],
+        "bits": 283,
+        "degree": 283,
+        "basis": "poly"
+      },
+      "params": {
+        "a": {
+          "raw": "0x00000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "b": {
+          "raw": "0x00000000000000000000000000000000000000000000000000000000000000000000001"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x503213f78ca44883f1a3b8162f188e553cd265f23c1567a16876913b0c2ac2458492836"
+        },
+        "y": {
+          "raw": "0x1ccda380f1c9e318d90f95d07e5426fe87e45c0e8184698e45962364e34116177dd2259"
+        }
+      },
+      "order": "0x1ffffffffffffffffffffffffffffffffffe9ae2ed07577265dff7f94451e061e163c61",
+      "cofactor": "0x4",
+      "standard": true,
+      "properties": {
+        "trace": "0x594744be2a2366880201aeeb87e787a70e7d"
+      }
+    },
+    {
+      "name": "ansit283r1",
+      "category": "x962",
+      "aliases": [
+        "secg/sect283r1"
+      ],
+      "form": "Weierstrass",
+      "field": {
+        "type": "Binary",
+        "poly": [
+          {
+            "power": 283,
+            "coeff": "0x01"
+          },
+          {
+            "power": 12,
+            "coeff": "0x01"
+          },
+          {
+            "power": 7,
+            "coeff": "0x01"
+          },
+          {
+            "power": 5,
+            "coeff": "0x01"
+          },
+          {
+            "power": 0,
+            "coeff": "0x01"
+          }
+        ],
+        "bits": 283,
+        "degree": 283,
+        "basis": "poly"
+      },
+      "params": {
+        "a": {
+          "raw": "0x00000000000000000000000000000000000000000000000000000000000000000000001"
+        },
+        "b": {
+          "raw": "0x27b680ac8b8596da5a4af8a19a0303fca97fd7645309fa2a581485af6263e313b79a2f5"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x5f939258db7dd90e1934f8c70b0dfec2eed25b8557eac9c80e2e198f8cdbecd86b12053"
+        },
+        "y": {
+          "raw": "0x3676854fe24141cb98fe6d4b20d02b4516ff702350eddb0826779c813f0df45be8112f4"
+        }
+      },
+      "order": "0x3ffffffffffffffffffffffffffffffffffef90399660fc938a90165b042a7cefadb307",
+      "cofactor": "0x2",
+      "standard": true,
+      "simulation": {
+        "seed": "0x77e2b07370eb0f832a6dd5b62dfc88cd06bb84be"
+      },
+      "properties": {
+        "trace": "0x20df8cd33e06d8eadfd349f7ab0620a499f3"
+      }
+    },
+    {
+      "name": "ansit409k1",
+      "category": "x962",
+      "aliases": [
+        "secg/sect409k1"
+      ],
+      "desc": "Koblitz curve.",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Binary",
+        "poly": [
+          {
+            "power": 409,
+            "coeff": "0x01"
+          },
+          {
+            "power": 87,
+            "coeff": "0x01"
+          },
+          {
+            "power": 0,
+            "coeff": "0x01"
+          }
+        ],
+        "bits": 409,
+        "degree": 409,
+        "basis": "poly"
+      },
+      "params": {
+        "a": {
+          "raw": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "b": {
+          "raw": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x060f05f658f49c1ad3ab1890f7184210efd0987e307c84c27accfb8f9f67cc2c460189eb5aaaa62ee222eb1b35540cfe9023746"
+        },
+        "y": {
+          "raw": "0x1e369050b7c4e42acba1dacbf04299c3460782f918ea427e6325165e9ea10e3da5f6c42e9c55215aa9ca27a5863ec48d8e0286b"
+        }
+      },
+      "order": "0x7ffffffffffffffffffffffffffffffffffffffffffffffffffe5f83b2d4ea20400ec4557d5ed3e3e7ca5b4b5c83b8e01e5fcf",
+      "cofactor": "0x4",
+      "standard": true,
+      "properties": {
+        "trace": "0x681f134ac577effc4eeaa0a84b07060d692d28df11c7f8680c5"
+      }
+    },
+    {
+      "name": "ansit409r1",
+      "category": "x962",
+      "aliases": [
+        "secg/sect409r1"
+      ],
+      "form": "Weierstrass",
+      "field": {
+        "type": "Binary",
+        "poly": [
+          {
+            "power": 409,
+            "coeff": "0x01"
+          },
+          {
+            "power": 87,
+            "coeff": "0x01"
+          },
+          {
+            "power": 0,
+            "coeff": "0x01"
+          }
+        ],
+        "bits": 409,
+        "degree": 409,
+        "basis": "poly"
+      },
+      "params": {
+        "a": {
+          "raw": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001"
+        },
+        "b": {
+          "raw": "0x021a5c2c8ee9feb5c4b9a753b7b476b7fd6422ef1f3dd674761fa99d6ac27c8a9a197b272822f6cd57a55aa4f50ae317b13545f"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x15d4860d088ddb3496b0c6064756260441cde4af1771d4db01ffe5b34e59703dc255a868a1180515603aeab60794e54bb7996a7"
+        },
+        "y": {
+          "raw": "0x061b1cfab6be5f32bbfa78324ed106a7636b9c5a7bd198d0158aa4f5488d08f38514f1fdf4b4f40d2181b3681c364ba0273c706"
+        }
+      },
+      "order": "0x10000000000000000000000000000000000000000000000000001e2aad6a612f33307be5fa47c3c9e052f838164cd37d9a21173",
+      "cofactor": "0x2",
+      "standard": true,
+      "simulation": {
+        "seed": "0x4099b5a457f9d69f79213d094c4bcd4d4262210b"
+      },
+      "properties": {
+        "trace": "-0x3c555ad4c25e6660f7cbf48f8793c0a5f0702c99a6fb34422e5"
+      }
+    },
+    {
+      "name": "ansit571k1",
+      "category": "x962",
+      "aliases": [
+        "secg/sect571k1"
+      ],
+      "desc": "Koblitz curve.",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Binary",
+        "poly": [
+          {
+            "power": 571,
+            "coeff": "0x01"
+          },
+          {
+            "power": 10,
+            "coeff": "0x01"
+          },
+          {
+            "power": 5,
+            "coeff": "0x01"
+          },
+          {
+            "power": 2,
+            "coeff": "0x01"
+          },
+          {
+            "power": 0,
+            "coeff": "0x01"
+          }
+        ],
+        "bits": 571,
+        "degree": 571,
+        "basis": "poly"
+      },
+      "params": {
+        "a": {
+          "raw": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "b": {
+          "raw": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x26eb7a859923fbc82189631f8103fe4ac9ca2970012d5d46024804801841ca44370958493b205e647da304db4ceb08cbbd1ba39494776fb988b47174dca88c7e2945283a01c8972"
+        },
+        "y": {
+          "raw": "0x349dc807f4fbf374f4aeade3bca95314dd58cec9f307a54ffc61efc006d8a2c9d4979c0ac44aea74fbebbb9f772aedcb620b01a7ba7af1b320430c8591984f601cd4c143ef1c7a3"
+        }
+      },
+      "order": "0x20000000000000000000000000000000000000000000000000000000000000000000000131850e1f19a63e4b391a8db917f4138b630d84be5d639381e91deb45cfe778f637c1001",
+      "cofactor": "0x4",
+      "standard": true,
+      "properties": {
+        "trace": "-0x4c614387c6698f92ce46a36e45fd04e2d8c3612f9758e4e07a477ad173f9de3d8df04003"
+      }
+    },
+    {
+      "name": "ansit571r1",
+      "category": "x962",
+      "aliases": [
+        "secg/sect571r1"
+      ],
+      "form": "Weierstrass",
+      "field": {
+        "type": "Binary",
+        "poly": [
+          {
+            "power": 571,
+            "coeff": "0x01"
+          },
+          {
+            "power": 10,
+            "coeff": "0x01"
+          },
+          {
+            "power": 5,
+            "coeff": "0x01"
+          },
+          {
+            "power": 2,
+            "coeff": "0x01"
+          },
+          {
+            "power": 0,
+            "coeff": "0x01"
+          }
+        ],
+        "bits": 571,
+        "degree": 571,
+        "basis": "poly"
+      },
+      "params": {
+        "a": {
+          "raw": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001"
+        },
+        "b": {
+          "raw": "0x2f40e7e2221f295de297117b7f3d62f5c6a97ffcb8ceff1cd6ba8ce4a9a18ad84ffabbd8efa59332be7ad6756a66e294afd185a78ff12aa520e4de739baca0c7ffeff7f2955727a"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x303001d34b856296c16c0d40d3cd7750a93d1d2955fa80aa5f40fc8db7b2abdbde53950f4c0d293cdd711a35b67fb1499ae60038614f1394abfa3b4c850d927e1e7769c8eec2d19"
+        },
+        "y": {
+          "raw": "0x37bf27342da639b6dccfffeb73d69d78c6c27a6009cbbca1980f8533921e8a684423e43bab08a576291af8f461bb2a8b3531d2f0485c19b16e2f1516e23dd3c1a4827af1b8ac15b"
+        }
+      },
+      "order": "0x3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe661ce18ff55987308059b186823851ec7dd9ca1161de93d5174d66e8382e9bb2fe84e47",
+      "cofactor": "0x2",
+      "standard": true,
+      "simulation": {
+        "seed": "0x2aa058f73a0e33ab486b0f610410c53a7f132310"
+      },
+      "properties": {
+        "trace": "0x333c63ce0154cf19eff4c9cf2fb8f5c27044c6bdd3c42d855d165322f8fa2c89a02f6373"
       }
     }
   ]
