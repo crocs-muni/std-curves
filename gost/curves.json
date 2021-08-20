@@ -6,7 +6,7 @@
 
       "name": "gost256",
       "category": "gost",
-      "desc": "RFC5832",
+      "desc": "RFC5832, example curve",
       "form": "Weierstrass",
       "field": {
         "type": "Prime",
@@ -42,7 +42,7 @@
 
       "name": "gost512",
       "category": "gost",
-      "desc": "RFC5832",
+      "desc": "RFC5832, example curve",
       "form": "Weierstrass",
       "field": {
         "type": "Prime",
