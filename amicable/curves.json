@@ -1,0 +1,153 @@
+{
+  "name": "amicable",
+  "desc": "Amicable curves",
+  "curves":
+  [
+    {
+      "name": "Tweedledum",
+      "category": "amicable",
+      "desc": "Tweedledum pairing friendly curve from <https://github.com/daira/tweedle>.",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Prime",
+        "p": "0x40000000000000000000000000000000038aa1276c3f59b9a14064e200000001",
+        "bits": 255
+      },
+      "params": {
+        "a": {
+          "raw": "0x00"
+        },
+        "b": {
+          "raw": "0x05"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x40000000000000000000000000000000038aa1276c3f59b9a14064e200000000"
+        },
+        "y": {
+          "raw": "0x02"
+        }
+      },
+      "order": "0x40000000000000000000000000000000038aa127696286c9842cafd400000001",
+      "cofactor": "0x1",
+      "standard": true,
+      "properties": {
+        "trace": "0x2dcd2f01d13b50e00000001",
+        "j_invariant": "0x0",
+        "embedding_degree": "0x40000000000000000000000000000000038aa127696286c9842cafd400000000",
+        "cm_discriminant": "-0x3"
+      }
+    },
+    {
+      "name": "Tweedledee",
+      "category": "amicable",
+      "desc": "Tweedledee pairing friendly curve from <https://github.com/daira/tweedle>.",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Prime",
+        "p": "0x40000000000000000000000000000000038aa127696286c9842cafd400000001",
+        "bits": 255
+      },
+      "params": {
+        "a": {
+          "raw": "0x00"
+        },
+        "b": {
+          "raw": "0x05"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x40000000000000000000000000000000038aa127696286c9842cafd400000000"
+        },
+        "y": {
+          "raw": "0x02"
+        }
+      },
+      "order": "0x40000000000000000000000000000000038aa1276c3f59b9a14064e200000001",
+      "cofactor": "0x1",
+      "standard": true,
+      "properties": {
+        "trace": "-0x2dcd2f01d13b50dffffffff",
+        "j_invariant": "0x0",
+        "embedding_degree": "0x40000000000000000000000000000000038aa1276c3f59b9a14064e200000000",
+        "cm_discriminant": "-0x3"
+      }
+    },
+    {
+      "name": "Pallas",
+      "category": "amicable",
+      "desc": "Pallas curve from the [Pasta curves](https://electriccoin.co/blog/the-pasta-curves-for-halo-2-and-beyond/).",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Prime",
+        "p": "0x40000000000000000000000000000000224698fc094cf91b992d30ed00000001",
+        "bits": 255
+      },
+      "params": {
+        "a": {
+          "raw": "0x00"
+        },
+        "b": {
+          "raw": "0x05"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x40000000000000000000000000000000224698fc094cf91b992d30ed00000000"
+        },
+        "y": {
+          "raw": "0x02"
+        }
+      },
+      "order": "0x40000000000000000000000000000000224698fc0994a8dd8c46eb2100000001",
+      "cofactor": "0x1",
+      "standard": true,
+      "properties": {
+        "trace": "-0x47afc1f319ba33ffffffff",
+        "j_invariant": "0x0",
+        "embedding_degree": "0x40000000000000000000000000000000224698fc0994a8dd8c46eb210000000",
+        "cm_discriminant": "-0x3"
+      }
+    },
+    {
+      "name": "Vesta",
+      "category": "amicable",
+      "desc": "Vesta curve from the [Pasta curves](https://electriccoin.co/blog/the-pasta-curves-for-halo-2-and-beyond/).",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Prime",
+        "p": "0x40000000000000000000000000000000224698fc0994a8dd8c46eb2100000001",
+        "bits": 255
+      },
+      "params": {
+        "a": {
+          "raw": "0x00"
+        },
+        "b": {
+          "raw": "0x05"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x40000000000000000000000000000000224698fc0994a8dd8c46eb2100000000"
+        },
+        "y": {
+          "raw": "0x02"
+        }
+      },
+      "order": "0x40000000000000000000000000000000224698fc094cf91b992d30ed00000001",
+      "cofactor": "0x1",
+      "standard": true,
+      "properties": {
+        "trace": "0x47afc1f319ba3400000001",
+        "j_invariant": "0x0",
+        "embedding_degree": "0x2000000000000000000000000000000011234c7e04a67c8dcc96987680000000",
+        "cm_discriminant": "-0x3"
+      }
+    }
+  ]
+
+
+}
