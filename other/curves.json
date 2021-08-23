@@ -36,8 +36,7 @@
         "j_invariant": "0x14211aac70793883a80002260ceff8e1c609a679cdd532a81b35a0d0",
         "embedding_degree": "0x1fffffffffffffffffffffffffffae68234ad0a2e1833e7a5571012",
         "cm_discriminant": "-0x197fa30fcf00524dc1e190927c23755c820aad532c8e93d4053aa944"
-      },
-      "ex": false
+      }
     },
     {
       "name": "Curve4417",
@@ -73,8 +72,7 @@
         "j_invariant": "0x844e41c209d18b67ce5874beb4c99b14d31934a29a04a6fb575c2cff",
         "embedding_degree": "0x1999999999999999999999999999993aa555baedb6cc752ed0b52e2b",
         "cm_discriminant": "-0xd5f33ee96b9ee9ad2a04c22ae9660fc0e91d2a2c40cc1a298b10a3"
-      },
-      "ex": false
+      }
     },
     {
       "name": "Curve67254",
@@ -108,8 +106,7 @@
       "properties": {
         "trace": "0xa813783785a8447a0e865b5f93bf4b62307607b00b0da334",
         "j_invariant": "0x296efcc098a02c52c023b63c7cd582082ca5a2728505a73f3d8876b4d154dbcdcada1c63fe29ca34623b0f8422d92c9d"
-      },
-      "ex": false
+      }
     },
     {
       "name": "Curve383187",
@@ -142,8 +139,7 @@
       "properties": {
         "trace": "-0x742d42943d0a44566a0d742595b8182237b90445805071c2",
         "j_invariant": "0x73fcea27b9769e7e8a27589ba1a4147f632c56740ba17843d1a7ea8ca011c01e1468674864d55caa1213afad87f27014"
-      },
-      "ex": false
+      }
     },
     {
       "name": "Ed448",
@@ -177,8 +173,7 @@
       "properties": {
         "trace": "0x10cd77058eec492d944a725bf7a4cf635c8e9c2ab721cf5b5529eec34",
         "j_invariant": "0xaa520fde4f7e2e3d65210fcb5998717952b5ce1382808f9392abe8264a7b7be9b7cb54edbe267b5d1600f3d007f50d0664982d75ddc4b441"
-      },
-      "ex": false
+      }
     },
     {
       "name": "Fp254BNa",
@@ -214,8 +209,7 @@
         "j_invariant": "0x0",
         "embedding_degree": "0xc",
         "cm_discriminant": "-0x3"
-      },
-      "ex": false
+      }
     },
     {
       "name": "Fp254n2BNa",
@@ -263,8 +257,7 @@
         "trace": "0x2370fb049d410fbdc02400000000000000000000000000000000000000000001",
         "embedding_degree": "0x6",
         "cm_discriminant": "-0x3"
-      },
-      "ex": false
+      }
     },
     {
       "name": "JubJub",
@@ -300,8 +293,7 @@
         "j_invariant": "0x53c09606cb5c141b089026f9d08386f093b6f7cb894827353527a391a4a27e4d",
         "embedding_degree": "0xe7db4ea6533afa906673b0101343b00a6682093ccc81082d0970e5ed6f72cb6",
         "cm_discriminant": "-0x72e5ce322cd4dc2ece8187fb7727d71c4af967e82975dba33c0b434668a2b8a8"
-      },
-      "ex": false
+      }
     },
     {
       "name": "MDC201601",
@@ -337,8 +329,7 @@
         "j_invariant": "0x2089683f289cb2a9798ce7341bfedb9079106ce1d8d6810a06d07e572576e62f",
         "embedding_degree": "0x3c4eda2e7515abed14cbe4bf75e97f534fb38975faf974bb588552f421b0f7fa",
         "cm_discriminant": "-0x24bb73e2ad3d18402aae6500a8bc42e34e3b02843c2db6b231fa0846c51cfa83"
-      },
-      "ex": false
+      }
     },
     {
       "name": "Ted37919",
@@ -364,8 +355,7 @@
       "properties": {
         "trace": "0x4561433a714ba3173ae6c5157eec81eb7153242d493c5c46",
         "j_invariant": "0x2c116d039795cbb4d7830c27545409fd83cbd90054a488e90b03e71ee1bc16675f3464b93a84cc38dde7bbfa7d33b80"
-      },
-      "ex": false
+      }
     },
     {
       "name": "E-3363",
@@ -393,8 +383,7 @@
         "j_invariant": "0x2621641a0d1701216004f02d5cb6a651b73743010b0d8b1c0c5af84043b658110f6b06a376b70e1ef09d",
         "embedding_degree": "0x8000000000000000000000000000000000000000001c5057ea614302f5ae1fe4eea9ecbe565cfa7ea01",
         "cm_discriminant": "-0xfcde538daa0b68c6e8e3f2b7fb2b33eaa6c2c9d9e80d73fc8b84ee06efdbdac1b3179527459d0339be44"
-      },
-      "ex": false
+      }
     }
   ]
 }

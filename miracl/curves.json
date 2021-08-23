@@ -28,8 +28,7 @@
         "j_invariant": "0x47131b51e2ce2c2aeb3f1e1a51164431642bbf76",
         "embedding_degree": "0x6487ed5110b4611a6262ec4fa796eb91a4f730fb",
         "cm_discriminant": "-0x2d9f0c3705c1a4a2d18e22cc1491572de4e1799eb"
-      },
-      "ex": false
+      }
     },
     {
       "name": "ssc-192",
@@ -57,8 +56,7 @@
         "j_invariant": "0x23be596c5cca0f45e59dee06e9da7e239f2763598e9aa0d3",
         "embedding_degree": "0xc90fdaa22168c234c4c6628c5dca19490dd3e6fd7979a7a2",
         "cm_discriminant": "-0x26595835d0560db35b62bc508c09dcb9f41b670346609586b"
-      },
-      "ex": false
+      }
     },
     {
       "name": "ssc-224",
@@ -86,8 +84,7 @@
         "j_invariant": "0x651513d106ff9d13453691248bbcbb5d4a71abfaba7e2177a518309e",
         "embedding_degree": "0xc90fdaa22168c234c4c6628b80dd2439be5b2b827a9ffbea7240e5cc",
         "cm_discriminant": "-0x215375cf23f3df9837edb4eaf29c217d548a3c5db9b75bc3b8421c413"
-      },
-      "ex": false
+      }
     },
     {
       "name": "ssc-256",
@@ -115,8 +112,7 @@
         "j_invariant": "0x44e58474c27fe10a5bce32df9048acf362ae334c897f09f4f30703622e5a87e7",
         "embedding_degree": "0x6487ed5110b4611a62633145c06e0e687df62174a059bd446ce57650cc53221b",
         "cm_discriminant": "-0x587a848666a6cec38b2d7e8ff3536674aaaae4984b2792e5a1adcd1e9a88381b"
-      },
-      "ex": false
+      }
     },
     {
       "name": "ssc-288",
@@ -144,8 +140,7 @@
         "j_invariant": "0x1f7205403e009faeaf3c90cb44ddb14801a8f66cc715b209a0cb89f69cb748525e62bdc4",
         "embedding_degree": "0xc90fdaa22168c234c4c6628b80dc1cd12903ba214366757b7a5240b2a637e2065a850854",
         "cm_discriminant": "-0x11e691a111f8709156cbaf349f4503ce3e3c48ebf9f89ee8ad67b8a00890576feb280ac5b"
-      },
-      "ex": false
+      }
     },
     {
       "name": "ssc-320",
@@ -171,8 +166,7 @@
       "properties": {
         "trace": "-0xbe3407dbd888519c91b8d763af4d6eecad7e8dbd",
         "j_invariant": "0x378f490bc823388586756c09d2618f69ac79d8fa11f9ddd2f27e2e7097b9bed86398166cb6e337a7"
-      },
-      "ex": false
+      }
     },
     {
       "name": "ssc-384",
@@ -198,8 +192,7 @@
       "properties": {
         "trace": "0x4aa52d43e8c83a5b1262ca0b8fc3aae8df5e09cc462cbde3",
         "j_invariant": "0x406595ba5aba43e511d58a58dcf4e21c46b33a538a1e74babf37a445393f26c6a838bf9e22021f384e32cd3e82f94228"
-      },
-      "ex": false
+      }
     },
     {
       "name": "ssc-512",
@@ -225,8 +218,7 @@
       "properties": {
         "trace": "-0x108d9514b218899d9a8ea02e6e643ff3e615dba49ea035580e0f6d32a88289981",
         "j_invariant": "0x763422081e1aeb7422023b788239996ac13b8bd5892012d5f27163e0f2c9446fe51ff264a3b106a851a1acc95330965e8a34ccd02f7fc695d87f4dfa06a7dd24"
-      },
-      "ex": false
+      }
     }
   ]
 }

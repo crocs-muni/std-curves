@@ -38,8 +38,7 @@
         "trace": "-0x1a7aba249509f5263700e105ee67b9dd",
         "embedding_degree": "0x2854d94201df2397d803125177b5b5e48dfa1150357875435aaa4e0ef6790e50",
         "cm_discriminant": "-0x3c537358acc6e15261ae40aa9283fc9b84ae8425db8d0fb092b2b090f5ef34743"
-      },
-      "ex": false
+      }
     }
   ]
 }

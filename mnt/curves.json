@@ -35,8 +35,7 @@
         "trace": "-0x2b30b4dc3d912150241a65",
         "embedding_degree": "0x3",
         "cm_discriminant": "-0x13"
-      },
-      "ex": false
+      }
     },
     {
       "name": "mnt2/1",
@@ -71,8 +70,7 @@
         "trace": "0x3",
         "embedding_degree": "0x5affffffffffff4b46081000000059bb1bf600b4",
         "cm_discriminant": "-0x5b"
-      },
-      "ex": false
+      }
     },
     {
       "name": "mnt2/2",
@@ -107,8 +105,7 @@
         "trace": "0x3",
         "embedding_degree": "0x5affffffffffff4b46081000000059bb1bf600b4",
         "cm_discriminant": "-0x5b"
-      },
-      "ex": false
+      }
     },
     {
       "name": "mnt3/1",
@@ -143,8 +140,7 @@
         "trace": "0x3",
         "embedding_degree": "0x8afffffffffffeeb0fa77000000089f0dd49fac4",
         "cm_discriminant": "-0x8b"
-      },
-      "ex": false
+      }
     },
     {
       "name": "mnt3/2",
@@ -179,8 +175,7 @@
         "trace": "0x3",
         "embedding_degree": "0x8afffffffffffeeb0fa77000000089f0dd49fac4",
         "cm_discriminant": "-0x8b"
-      },
-      "ex": false
+      }
     },
     {
       "name": "mnt3/3",
@@ -215,8 +210,7 @@
         "trace": "0x3",
         "embedding_degree": "0x8afffffffffffeeb0fa77000000089f0dd49fac4",
         "cm_discriminant": "-0x8b"
-      },
-      "ex": false
+      }
     },
     {
       "name": "mnt4",
@@ -251,8 +245,7 @@
         "trace": "0x3",
         "embedding_degree": "0xa2ffffffffffffffffffffffffc298b00000000000000000000005c866cc",
         "cm_discriminant": "-0xa3"
-      },
-      "ex": false
+      }
     },
     {
       "name": "mnt5/1",
@@ -287,8 +280,7 @@
         "trace": "0x3",
         "embedding_degree": "0xd2fffffffffffffffffffffffe9058d000000000000000000000a0271004",
         "cm_discriminant": "-0xd3"
-      },
-      "ex": false
+      }
     },
     {
       "name": "mnt5/2",
@@ -323,8 +315,7 @@
         "trace": "0x3",
         "embedding_degree": "0xd2fffffffffffffffffffffffe9058d000000000000000000000a0271004",
         "cm_discriminant": "-0xd3"
-      },
-      "ex": false
+      }
     },
     {
       "name": "mnt5/3",
@@ -359,8 +350,7 @@
         "trace": "0x3",
         "embedding_degree": "0xd2fffffffffffffffffffffffe9058d000000000000000000000a0271004",
         "cm_discriminant": "-0xd3"
-      },
-      "ex": false
+      }
     }
   ]
 }

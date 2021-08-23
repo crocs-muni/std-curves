@@ -41,7 +41,7 @@
         "embedding_degree": "0x3fffffffffffffffffffffff97ec69c9372010619236374c",
         "cm_discriminant": "-0x15b014740c8dc80d40d24effb60b5155a1eeada926e325c9b"
       },
-      "ex": true
+      "example": true
     },
     {
       "name": "prime192v3",
@@ -82,7 +82,7 @@
         "embedding_degree": "0x2aaaaaaaaaaaaaaaaaaaaaaa9465cd5da15fe06e290ad203",
         "cm_discriminant": "-0x3ba434bd1196e59cb5634736add111e16fcfa67dc98ccf693"
       },
-      "ex": true
+      "example": true
     },
     {
       "name": "prime239v1",
@@ -123,7 +123,7 @@
         "embedding_degree": "0x3fffffffffffffffffffffffbfffffcf2f4d4faec838fde8a91344484e85",
         "cm_discriminant": "-0x1dac44bcdba9ae20c61bebcfdd11b726f7b7c40be3f7d26b35c2f43498183"
       },
-      "ex": true
+      "example": true
     },
     {
       "name": "prime239v2",
@@ -164,7 +164,7 @@
         "embedding_degree": "0x30c30c30c30c30c30c30c30c0000004f1b64b44a76cab2925e86c1a7aad",
         "cm_discriminant": "-0xdbe0a8847e7d3c2af2eae0ead3e8605a6e345841ea6b26adf1017ac71ab"
       },
-      "ex": true
+      "example": true
     },
     {
       "name": "prime239v3",
@@ -205,7 +205,7 @@
         "embedding_degree": "0x3fffffffffffffffffffffffbfffffcbaef5a0d9d302be1e2190a32932a8",
         "cm_discriminant": "-0x1d53be8efc184777cc04ab3224e617f4fd5ced1eb0d4019c35130a402fc5b"
       },
-      "ex": true
+      "example": true
     },
     {
       "name": "c2pnb176w1",
@@ -263,7 +263,7 @@
         "trace": "0x1f911a71f4b081d6450eab",
         "j_invariant": "0x602154d99e143d2a7336b19998a24c73e2f840ecb529"
       },
-      "ex": true
+      "example": true
     },
     {
       "name": "c2pnb163v1",
@@ -329,7 +329,7 @@
         "trace": "-0x3cc1f9104398e9b5d5f81",
         "j_invariant": "0x68076a6ba1f3e9846d28bbf88a5993fb4a4dd3209"
       },
-      "ex": true
+      "example": true
     },
     {
       "name": "c2pnb163v2",
@@ -391,7 +391,7 @@
         "trace": "0x413643dd5ca4890e1deb3",
         "j_invariant": "0x5afa4c43ecbe18e5052f4a9ec326f5560cb21c2a7"
       },
-      "ex": true
+      "example": true
     },
     {
       "name": "c2pnb163v3",
@@ -453,7 +453,7 @@
         "trace": "0x3ca23d7e1ddea00d3d9ef",
         "j_invariant": "0x23eb719777b8a28158c2a868f251d7e91b485b9d8"
       },
-      "ex": true
+      "example": true
     },
     {
       "name": "c2pnb208w1",
@@ -512,7 +512,7 @@
         "trace": "0x1993725764530d55cef996cd5d9",
         "j_invariant": "0xfc2dd0edd35bf2c0b2e4e2049b0a37f8afa4c13a5970659fc6ea"
       },
-      "ex": true
+      "example": true
     },
     {
       "name": "c2tnb191v3",
@@ -566,7 +566,7 @@
         "trace": "-0x4648429870707e44f33d77d1",
         "j_invariant": "0x45ea85102172144f4beec8a5187b03368a4b148fd44f40ab"
       },
-      "ex": true
+      "example": true
     },
     {
       "name": "c2tnb191v2",
@@ -620,7 +620,7 @@
         "trace": "-0x1414232e27d94a09381ae05cb",
         "j_invariant": "0x70e203b2a06c729e6828618c7b2b00218e9f9f81dd17a66c"
       },
-      "ex": true
+      "example": true
     },
     {
       "name": "c2tnb191v1",
@@ -674,7 +674,7 @@
         "trace": "-0x9441d218720cf9127777349",
         "j_invariant": "0x40f048e2954f107f0844319a7614b3fa3ad60cf861aecfdb"
       },
-      "ex": true
+      "example": true
     },
     {
       "name": "c2tnb239v3",
@@ -728,7 +728,7 @@
         "trace": "0x1452543c37d445d8a40aa8c9b70fe0b",
         "j_invariant": "0x17a5c47d7664cb2d48dd874a9bfef60ae4e20083031c1f3c0a8beab945f0"
       },
-      "ex": true
+      "example": true
     },
     {
       "name": "c2tnb239v2",
@@ -782,7 +782,7 @@
         "trace": "0x95650ce11e56d4a812c5805b2612f3",
         "j_invariant": "0x655d003e0c9cb720b2a6fb0fe92c3769c53242ced82e60b85067a066a95"
       },
-      "ex": true
+      "example": true
     },
     {
       "name": "c2tnb239v1",
@@ -836,7 +836,7 @@
         "trace": "-0x3d350bff8524a9264fc72b599b911b",
         "j_invariant": "0x4a4b020b33c0090feac45da1559612b422c661cb211b06c3032d53167c28"
       },
-      "ex": true
+      "example": true
     },
     {
       "name": "c2pnb272w1",
@@ -895,7 +895,7 @@
         "trace": "0x14f8d859cbd8ce329da5e658b611724a23b",
         "j_invariant": "0x4fe5a69bac34709cd38a3e922a8e22a272ac7686dffb63d0f6117cc82336a1c26bb5"
       },
-      "ex": true
+      "example": true
     },
     {
       "name": "c2pnb304w1",
@@ -953,7 +953,7 @@
         "trace": "-0x5765ff5b92cb3e01c9ae4906af99bac31db135",
         "j_invariant": "0xe94cd000c1f1012c27c47de234f525556965fca8774276731fb00f70a04fef673514b3e30da6"
       },
-      "ex": true
+      "example": true
     },
     {
       "name": "c2pnb368w1",
@@ -1012,7 +1012,7 @@
         "trace": "-0xa179a2e9506aa90d4c9698cea2934a3dbc4977c5bcb60f",
         "j_invariant": "0x77573d8ca1c471f81aab5cbb5c7fd2d0613d8226b7ee6c8ed965256fe7358404ef92ac289a3a0cdbb4e241329781"
       },
-      "ex": true
+      "example": true
     },
     {
       "name": "c2tnb359v1",
@@ -1066,7 +1066,7 @@
         "trace": "0x9516c14496a4f46e64e260f60474a44f547651d1a127d",
         "j_invariant": "0x3d1ddae8e0e49abb8727e86f47860fd527b67e5c0388c72ff9dcb6a9b9da04eeecb04446ec26f7391b1873ee72"
       },
-      "ex": true
+      "example": true
     },
     {
       "name": "c2tnb431r1",
@@ -1117,7 +1117,7 @@
         "trace": "0x45fdecd506845fc5cde4c3607e4353049bcb953c547d5f8a7f2a1",
         "j_invariant": "0x85cb07e9f4b95e35f0c16911130c39e2c5dcf52f5df965c7ab1693d5e3b2793d2f888a022927fe1975574b2d9db9cc687f9940c75d2"
       },
-      "ex": true
+      "example": true
     },
     {
       "name": "c2onb191v4",
@@ -1211,7 +1211,7 @@
         "trace": "-0x139e5adc7203b589865dd8cb9",
         "j_invariant": "0x2bf4f29f51c4a5878735a7243a9d14899aa6076b7859faa2"
       },
-      "ex": true
+      "example": true
     },
     {
       "name": "c2onb191v5",
@@ -1305,7 +1305,7 @@
         "trace": "0x8a655a46c7a6b36a43f3cec9",
         "j_invariant": "0x40c9b2c3238b3761bdddde9e46601fdb639bb93bcce4580c"
       },
-      "ex": true
+      "example": true
     },
     {
       "name": "c2onb239v4",
@@ -1431,7 +1431,7 @@
         "trace": "-0x11d3df9a7d0bf90c24c742d156aba2b",
         "j_invariant": "0x77847b3e523fb6cdec29b4f8714eb8242d98774b184bffe8e7b133bce127"
       },
-      "ex": true
+      "example": true
     },
     {
       "name": "c2onb239v5",
@@ -1557,7 +1557,7 @@
         "trace": "-0x14dccde2e213aeff738518564e10a11",
         "j_invariant": "0x73f252a3530846173b8480f33ed933610d76ec17f10d1abdbf3ce653ffd9"
       },
-      "ex": true
+      "example": true
     },
     {
       "name": "ansix9p192r1",
@@ -1600,8 +1600,7 @@
         "trace": "0x662107c8eb94364e4b2dd7cf",
         "embedding_degree": "0x1999999999999999999999998f6318d2353dfa91c5483738",
         "cm_discriminant": "-0x3d741a988e23c8df090918240db2143ab31994533214ca69b"
-      },
-      "ex": false
+      }
     },
     {
       "name": "ansip224r1",
@@ -1644,8 +1643,7 @@
         "trace": "0xe95c1f470fc1ec22d6baa3a3d5c5",
         "embedding_degree": "0x5555555555555555555555555555078ba03da56a069f0dc1c9740e14",
         "cm_discriminant": "-0x5a245a6f599a2778760a3eacdf9b0b9c6f78b867c3f4a9a10611d7d3"
-      },
-      "ex": false
+      }
     },
     {
       "name": "ansix9p256r1",
@@ -1688,8 +1686,7 @@
         "trace": "0x4319055358e8617b0c46353d039cdaaf",
         "embedding_degree": "0x555555550000000055555555555555553ef7a8e48d07df81a693439654210c70",
         "cm_discriminant": "-0x3ee69e4c05512a2feb42c40318a014ae4c618ec481b963d8454f2455ea5e97c5b"
-      },
-      "ex": false
+      }
     },
     {
       "name": "ansip384r1",
@@ -1732,8 +1729,7 @@
         "trace": "0x389cb27e0bc8d21fa7e5f24cb74f58851313e696333ad68d",
         "embedding_degree": "0x1249249249249249249249249249249249249249249249248e3df34023bacc6b61b8b7d5e09ee764357e9419ea0e153f",
         "cm_discriminant": "-0x3f37b11fed4c640df3189098260a4a0a693503fc3028613e2c0f691ba40196c5ef8997a25fabd8ebb6c58b7c5e64bf653"
-      },
-      "ex": false
+      }
     },
     {
       "name": "ansip521r1",
@@ -1776,8 +1772,7 @@
         "trace": "0x5ae79787c40d069948033feb708f65a2fc44a36477663b851449048e16ec79bf7",
         "embedding_degree": "0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe9461a1e0efcbe59adff300523dc269740eed726e226711ebaedbedc7a44e1902",
         "cm_discriminant": "-0x7dfb857f1b9719692971405ceef1f0b49c7f0badb4bcaea90ce4a795c6a610cc03116a848f2a996c919a4850d0c90d4de29e5c470e2cb3bfd731f94c225e2f8f7ab"
-      },
-      "ex": false
+      }
     },
     {
       "name": "ansix9t163k1",
@@ -1839,8 +1834,7 @@
       "standard": true,
       "properties": {
         "trace": "-0x4021145c1981b33f14bdd"
-      },
-      "ex": false
+      }
     },
     {
       "name": "ansit163r2",
@@ -1903,8 +1897,7 @@
       },
       "properties": {
         "trace": "-0x525fcefce182548469865"
-      },
-      "ex": false
+      }
     },
     {
       "name": "ansit233k1",
@@ -1957,8 +1950,7 @@
       "standard": true,
       "properties": {
         "trace": "-0x1a756ee456f351bbec6b57c5ceaf7b"
-      },
-      "ex": false
+      }
     },
     {
       "name": "ansit233r1",
@@ -2013,8 +2005,7 @@
       },
       "properties": {
         "trace": "-0x27d2e9ce5f14d244063a4c079fc1ad"
-      },
-      "ex": false
+      }
     },
     {
       "name": "ansit283k1",
@@ -2075,8 +2066,7 @@
       "standard": true,
       "properties": {
         "trace": "0x594744be2a2366880201aeeb87e787a70e7d"
-      },
-      "ex": false
+      }
     },
     {
       "name": "ansit283r1",
@@ -2139,8 +2129,7 @@
       },
       "properties": {
         "trace": "0x20df8cd33e06d8eadfd349f7ab0620a499f3"
-      },
-      "ex": false
+      }
     },
     {
       "name": "ansit409k1",
@@ -2193,8 +2182,7 @@
       "standard": true,
       "properties": {
         "trace": "0x681f134ac577effc4eeaa0a84b07060d692d28df11c7f8680c5"
-      },
-      "ex": false
+      }
     },
     {
       "name": "ansit409r1",
@@ -2249,8 +2237,7 @@
       },
       "properties": {
         "trace": "-0x3c555ad4c25e6660f7cbf48f8793c0a5f0702c99a6fb34422e5"
-      },
-      "ex": false
+      }
     },
     {
       "name": "ansit571k1",
@@ -2311,8 +2298,7 @@
       "standard": true,
       "properties": {
         "trace": "-0x4c614387c6698f92ce46a36e45fd04e2d8c3612f9758e4e07a477ad173f9de3d8df04003"
-      },
-      "ex": false
+      }
     },
     {
       "name": "ansit571r1",
@@ -2375,8 +2361,7 @@
       },
       "properties": {
         "trace": "0x333c63ce0154cf19eff4c9cf2fb8f5c27044c6bdd3c42d855d165322f8fa2c89a02f6373"
-      },
-      "ex": false
+      }
     }
   ]
 }

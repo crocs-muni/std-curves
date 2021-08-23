@@ -44,8 +44,7 @@
         "j_invariant": "0xadad8cacc8dd210422960337beca",
         "embedding_degree": "0xdb7c2abf62e35e7628dfac6561c4",
         "cm_discriminant": "-0x36cfb7fe7ccf1fcdd86299e26837b"
-      },
-      "ex": false
+      }
     },
     {
       "name": "secp112r2",
@@ -85,8 +84,7 @@
         "j_invariant": "0x597e254b44d77100b6eb01a0fecc",
         "embedding_degree": "0x124a58e5483d9d1dd435ac60456e",
         "cm_discriminant": "-0x9b351dbd00959c5113358ac3078b"
-      },
-      "ex": false
+      }
     },
     {
       "name": "secp128r1",
@@ -126,8 +124,7 @@
         "j_invariant": "0x6b324db0e738c0b1281f6a261980a579",
         "embedding_degree": "0x7fffffff000000003ad1868dc81c508a",
         "cm_discriminant": "-0x3c9f18e231c66c5082fb421d381749443"
-      },
-      "ex": false
+      }
     },
     {
       "name": "secp128r2",
@@ -167,8 +164,7 @@
         "j_invariant": "0x92a06b59be064918b6fdd808c5363c53",
         "embedding_degree": "0x2e8ba2e85d1745d1445d31c74a3ce13",
         "cm_discriminant": "-0xbbf04b2917c794a45cddd32f93b868db"
-      },
-      "ex": false
+      }
     },
     {
       "name": "secp160k1",
@@ -205,8 +201,7 @@
         "j_invariant": "0x0",
         "embedding_degree": "0x80000000000000000000dc7d0b6fd5cd650b5b59",
         "cm_discriminant": "-0x3"
-      },
-      "ex": false
+      }
     },
     {
       "name": "secp160r1",
@@ -250,8 +245,7 @@
         "j_invariant": "0xfce63f3745bfae104ff7852383d66f97ba3dec5e",
         "embedding_degree": "0x100000000000000000001f4c8f927aed3ca752256",
         "cm_discriminant": "-0x2c5e54f6bc93593265eaae4fa926ee734bdec66b"
-      },
-      "ex": false
+      }
     },
     {
       "name": "secp160r2",
@@ -291,8 +285,7 @@
         "j_invariant": "0xb3e6e6ec627556928cb0ebd0f934efaddc70f163",
         "embedding_degree": "0x800000000000000000001a8f73c3540c79d0d0b5",
         "cm_discriminant": "-0x3f4fa3067297190d69760e813bc691a3b0ce8eb7b"
-      },
-      "ex": false
+      }
     },
     {
       "name": "secp192k1",
@@ -329,8 +322,7 @@
         "j_invariant": "0x0",
         "embedding_degree": "0x7fffffffffffffffffffffff13797e0b87b4a3353a6f7ec6",
         "cm_discriminant": "-0x3"
-      },
-      "ex": false
+      }
     },
     {
       "name": "secp192r1",
@@ -375,8 +367,7 @@
         "j_invariant": "0xfe40fc48ef4b5633d091b1a2707da063644b08bb896f560b",
         "embedding_degree": "0x1999999999999999999999998f6318d2353dfa91c5483738",
         "cm_discriminant": "-0x3d741a988e23c8df090918240db2143ab31994533214ca69b"
-      },
-      "ex": false
+      }
     },
     {
       "name": "secp224k1",
@@ -413,8 +404,7 @@
         "j_invariant": "0x0",
         "embedding_degree": "0x2aaaaaaaaaaaaaaaaaaaaaaaaaaafa26cdd21040cc7d7192e91a9da9",
         "cm_discriminant": "-0x3"
-      },
-      "ex": false
+      }
     },
     {
       "name": "secp224r1",
@@ -459,8 +449,7 @@
         "j_invariant": "0xc55630164a29a17b465f4a532fa010aabe1ffc9fdea639fc47307d75",
         "embedding_degree": "0x5555555555555555555555555555078ba03da56a069f0dc1c9740e14",
         "cm_discriminant": "-0x5a245a6f599a2778760a3eacdf9b0b9c6f78b867c3f4a9a10611d7d3"
-      },
-      "ex": false
+      }
     },
     {
       "name": "secp256k1",
@@ -497,8 +486,7 @@
         "j_invariant": "0x0",
         "embedding_degree": "0x2aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa74727a26728c1ab49ff8651778090ae0",
         "cm_discriminant": "-0x3"
-      },
-      "ex": false
+      }
     },
     {
       "name": "secp256r1",
@@ -542,8 +530,7 @@
         "j_invariant": "0x1198954424ebb0f8479de43131caece8ee0a9b13a558c21e0b2f74e3fcd36aa3",
         "embedding_degree": "0x555555550000000055555555555555553ef7a8e48d07df81a693439654210c70",
         "cm_discriminant": "-0x3ee69e4c05512a2feb42c40318a014ae4c618ec481b963d8454f2455ea5e97c5b"
-      },
-      "ex": false
+      }
     },
     {
       "name": "secp384r1",
@@ -585,8 +572,7 @@
       "properties": {
         "trace": "0x389cb27e0bc8d21fa7e5f24cb74f58851313e696333ad68d",
         "j_invariant": "0x518a082af8607c03213839c2b6efae43d5cd8c65cd5865926ed9160babd0375237286aca1f65c23db03a303b04a2855b"
-      },
-      "ex": false
+      }
     },
     {
       "name": "secp521r1",
@@ -628,8 +614,7 @@
       "properties": {
         "trace": "0x5ae79787c40d069948033feb708f65a2fc44a36477663b851449048e16ec79bf7",
         "j_invariant": "0x10dec9284c5dafd5ade693a4b878916bbf99b97b51a91684867740b8730466241c32a294645557b3915d9c1a5c1c9cf144f3b79a41c70f8bc76ed5928da5e3f69cd"
-      },
-      "ex": false
+      }
     },
     {
       "name": "sect113r1",
@@ -682,8 +667,7 @@
       "properties": {
         "trace": "-0x1b399d91473cadd",
         "j_invariant": "0x6942e38fc45c62366c09aa8204cd"
-      },
-      "ex": false
+      }
     },
     {
       "name": "sect113r2",
@@ -732,8 +716,7 @@
       "properties": {
         "trace": "-0x210f136492d5f25",
         "j_invariant": "0xc18e0ce25a96ff3462e467b97828"
-      },
-      "ex": false
+      }
     },
     {
       "name": "sect131r1",
@@ -790,8 +773,7 @@
       "properties": {
         "trace": "-0x462472a7528c96a99",
         "j_invariant": "0x6feec1f6a4aff5a546d69743c10579ce8"
-      },
-      "ex": false
+      }
     },
     {
       "name": "sect131r2",
@@ -848,8 +830,7 @@
       "properties": {
         "trace": "-0x2d2a944660937531d",
         "j_invariant": "0x2a2ea45050ea133dcbdc6d293d0d2b9a6"
-      },
-      "ex": false
+      }
     },
     {
       "name": "sect163k1",
@@ -912,8 +893,7 @@
       "properties": {
         "trace": "-0x4021145c1981b33f14bdd",
         "j_invariant": "0x1"
-      },
-      "ex": false
+      }
     },
     {
       "name": "sect163r1",
@@ -974,8 +954,7 @@
       "properties": {
         "trace": "0x16eaa92ec7ac6b1dfb0cb",
         "j_invariant": "0x4a718e63a51514ae413202b0a58d245fc28e76d75"
-      },
-      "ex": false
+      }
     },
     {
       "name": "sect163r2",
@@ -1041,8 +1020,7 @@
       "properties": {
         "trace": "-0x525fcefce182548469865",
         "j_invariant": "0xa1f9aabdf28d9e1ae61dfdf41a22011cfdd17e82"
-      },
-      "ex": false
+      }
     },
     {
       "name": "sect193r1",
@@ -1091,8 +1069,7 @@
       "properties": {
         "trace": "-0x18fe694ef1e887599241d7491",
         "j_invariant": "0x1b2e142390ba9f2932e5d76d9d9f31ae157a8d508b5870df4"
-      },
-      "ex": false
+      }
     },
     {
       "name": "sect193r2",
@@ -1141,8 +1118,7 @@
       "properties": {
         "trace": "-0x2b556ac3600a82799a9dd33a9",
         "j_invariant": "0xce147980b1a2d9cfdee35522b9e478f7ec16744e16fdf051"
-      },
-      "ex": false
+      }
     },
     {
       "name": "sect233k1",
@@ -1196,8 +1172,7 @@
       "properties": {
         "trace": "-0x1a756ee456f351bbec6b57c5ceaf7b",
         "j_invariant": "0x1"
-      },
-      "ex": false
+      }
     },
     {
       "name": "sect233r1",
@@ -1254,8 +1229,7 @@
       "properties": {
         "trace": "-0x27d2e9ce5f14d244063a4c079fc1ad",
         "j_invariant": "0x9fc7d572facc759be39facf5bb89cbb8c3f2b63f723f4f57460600bf5e"
-      },
-      "ex": false
+      }
     },
     {
       "name": "sect239k1",
@@ -1304,8 +1278,7 @@
       "properties": {
         "trace": "-0x169e7fb19f2dba47c7076a00391e293",
         "j_invariant": "0x1"
-      },
-      "ex": false
+      }
     },
     {
       "name": "sect283k1",
@@ -1367,8 +1340,7 @@
       "properties": {
         "trace": "0x594744be2a2366880201aeeb87e787a70e7d",
         "j_invariant": "0x1"
-      },
-      "ex": false
+      }
     },
     {
       "name": "sect283r1",
@@ -1433,8 +1405,7 @@
       "properties": {
         "trace": "0x20df8cd33e06d8eadfd349f7ab0620a499f3",
         "j_invariant": "0x52b93729f30766131413473e14639b58a99eace4f5c4cf1e3cc939dab79766b75e0c63"
-      },
-      "ex": false
+      }
     },
     {
       "name": "sect409k1",
@@ -1488,8 +1459,7 @@
       "properties": {
         "trace": "0x681f134ac577effc4eeaa0a84b07060d692d28df11c7f8680c5",
         "j_invariant": "0x1"
-      },
-      "ex": false
+      }
     },
     {
       "name": "sect409r1",
@@ -1546,8 +1516,7 @@
       "properties": {
         "trace": "-0x3c555ad4c25e6660f7cbf48f8793c0a5f0702c99a6fb34422e5",
         "j_invariant": "0x1241bb84d965baff2ce60aab16c00a576e9cea905ed5a81d279e52da527227f8ec486be36047eb65b91fd822420b2959a0b4a09"
-      },
-      "ex": false
+      }
     },
     {
       "name": "sect571k1",
@@ -1609,8 +1578,7 @@
       "properties": {
         "trace": "-0x4c614387c6698f92ce46a36e45fd04e2d8c3612f9758e4e07a477ad173f9de3d8df04003",
         "j_invariant": "0x1"
-      },
-      "ex": false
+      }
     },
     {
       "name": "sect571r1",
@@ -1675,8 +1643,7 @@
       "properties": {
         "trace": "0x333c63ce0154cf19eff4c9cf2fb8f5c27044c6bdd3c42d855d165322f8fa2c89a02f6373",
         "j_invariant": "0x45cbb32ced5555aa026b3b1728cec729c0d032e61381d4aae04bd3974ab437328b3d7123043021cc53b9e834f5cc04fde6ccbc0e9f4adb71d18678796b42848a95446bb29ef5928"
-      },
-      "ex": false
+      }
     }
   ]
 }

@@ -36,8 +36,7 @@
         "trace": "0x8dfc2093de39fad5ac440bf6c62abedd",
         "embedding_degree": "0xfffffffeffffffffffffffffffffffff7203df6b21c6052b53bbf40939d54122",
         "cm_discriminant": "-0x3b1404bc8f5f15293555dcc39830894cc2dfdc6427fbae62a82a40ae2f52f3533"
-      },
-      "ex": false
+      }
     }
   ]
 }

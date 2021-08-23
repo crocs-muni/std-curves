@@ -36,8 +36,7 @@
         "j_invariant": "0x0",
         "embedding_degree": "0xc",
         "cm_discriminant": "-0x3"
-      },
-      "ex": false
+      }
     },
     {
       "name": "Fp256BN",
@@ -73,8 +72,7 @@
         "j_invariant": "0x0",
         "embedding_degree": "0xc",
         "cm_discriminant": "-0x3"
-      },
-      "ex": false
+      }
     },
     {
       "name": "Fp384BN",
@@ -108,8 +106,7 @@
       "properties": {
         "trace": "0xfffffffffffffffffff954b2d861e7c602f6573948b27997",
         "j_invariant": "0x0"
-      },
-      "ex": false
+      }
     },
     {
       "name": "Fp512BN",
@@ -143,8 +140,7 @@
       "properties": {
         "trace": "0xfffffffffffffffffffffffffffcf63e475a24905a52c1b3ae44dda9d113e547",
         "j_invariant": "0x0"
-      },
-      "ex": false
+      }
     }
   ]
 }

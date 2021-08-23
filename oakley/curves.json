@@ -40,8 +40,7 @@
       "standard": true,
       "properties": {
         "trace": "-0x57db5698537193aef943"
-      },
-      "ex": false
+      }
     },
     {
       "name": "Oakley Group 4",
@@ -81,8 +80,7 @@
       "standard": true,
       "properties": {
         "trace": "0x240d077648c1b7be8a06b145"
-      },
-      "ex": false
+      }
     }
   ]
 }
