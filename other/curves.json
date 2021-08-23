@@ -4,42 +4,6 @@
   "curves":
   [
     {
-      "name": "Curve25519",
-      "category": "other",
-      "desc": "Curve from https://cr.yp.to/ecdh.html",
-      "form": "Montgomery",
-      "field": {
-        "type": "Prime",
-        "p": "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffed",
-        "bits": 255
-      },
-      "params": {
-        "a": {
-          "raw": "0x76d06"
-        },
-        "b": {
-          "raw": "0x01"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": "0x09"
-        },
-        "y": {
-          "raw": "0x20ae19a1b8a086b4e01edd2c7748d14c923d4d7e6d7c61b229e9c5a27eced3d9"
-        }
-      },
-      "order": "0x1000000000000000000000000000000014def9dea2f79cd65812631a5cf5d3ed",
-      "cofactor": "0x8",
-      "standard": true,
-      "properties": {
-        "trace": "-0xa6f7cef517bce6b2c09318d2e7ae9f7a",
-        "j_invariant": "0x56c143fbfba334948229e71bacc4801f4321f1a7c4591336f27d7903cb215317",
-        "embedding_degree": "0x2aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaae2529a51b2944ce6403108464d3a352",
-        "cm_discriminant": "-0x64c66bee483cf65c231138c2de80a413a110920000d1b1d90bf4b83b29b3ce64"
-      }
-    },
-    {
       "name": "Curve22103",
       "category": "other",
       "desc": "Curve from https://github.com/relic-toolkit/relic",
@@ -112,42 +76,6 @@
       }
     },
     {
-      "name": "Curve1174",
-      "category": "other",
-      "desc": "Curve from https://eprint.iacr.org/2013/325.pdf",
-      "form": "Weierstrass",
-      "field": {
-        "type": "Prime",
-        "p": "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff7",
-        "bits": 251
-      },
-      "params": {
-        "a": {
-          "raw": "0x486BE25B34C8080922B969257EEB54C404F914A29067A5560BB9AEE0BC67A6D"
-        },
-        "b": {
-          "raw": "0xE347A25BF875DD2F1F12D8A10334D417CC15E77893A99F4BF278CA563072E6"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": "0x3BE821D63D2CD5AFE0504F452E5CF47A60A10446928CEAECFD5294F89B45051"
-        },
-        "y": {
-          "raw": "0x66FE4E7B8B6FE152F743393029A61BFB839747C8FB00F7B27A6841C07532A0"
-        }
-      },
-      "order": "0x1fffffffffffffffffffffffffffffff77965c4dfd307348944d45fd166c971",
-      "cofactor": "0x4",
-      "standard": true,
-      "properties": {
-        "trace": "0x221a68ec80b3e32ddaecae80ba64da34",
-        "j_invariant": "0x5f30a3a63eb27900677c02d3f4544c89cf1f3ef7b2e54a54dea1a82e3debdf7",
-        "embedding_degree": "0x1fffffffffffffffffffffffffffffff77965c4dfd307348944d45fd166c970",
-        "cm_discriminant": "-0x6dd3e59ecb144037de50a6444e1753443f9154341c7198246bc19cc4f58d953"
-      }
-    },
-    {
       "name": "Curve67254",
       "category": "other",
       "desc": "Curve from https://github.com/relic-toolkit/relic",
@@ -214,42 +142,7 @@
         "j_invariant": "0x73fcea27b9769e7e8a27589ba1a4147f632c56740ba17843d1a7ea8ca011c01e1468674864d55caa1213afad87f27014"
       }
     },
-    {
-      "name": "Ed25519",
-      "category": "other",
-      "desc": "Curve from https://ed25519.cr.yp.to",
-      "form": "TwistedEdwards",
-      "field": {
-        "type": "Prime",
-        "p": "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffed",
-        "bits": 255
-      },
-      "params": {
-        "a": {
-          "raw": "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffec"
-        },
-        "d": {
-          "raw": "0x52036cee2b6ffe738cc740797779e89800700a4d4141d8ab75eb4dca135978a3"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": "0x216936D3CD6E53FEC0A4E231FDD6DC5C692CC7609525A7B2C9562D608F25D51A"
-        },
-        "y": {
-          "raw": "0x6666666666666666666666666666666666666666666666666666666666666658"
-        }
-      },
-      "order": "0x1000000000000000000000000000000014def9dea2f79cd65812631a5cf5d3ed",
-      "cofactor": "0x8",
-      "standard": true,
-      "properties": {
-        "trace": "-0xa6f7cef517bce6b2c09318d2e7ae9f7a",
-        "j_invariant": "0x56c143fbfba334948229e71bacc4801f4321f1a7c4591336f27d7903cb215317",
-        "embedding_degree": "0x2aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaae2529a51b2944ce6403108464d3a352",
-        "cm_discriminant": "-0x64c66bee483cf65c231138c2de80a413a110920000d1b1d90bf4b83b29b3ce64"
-      }
-    },
+    
     {
       "name": "Ed448",
       "category": "other",
@@ -282,40 +175,6 @@
       "properties": {
         "trace": "0x10cd77058eec492d944a725bf7a4cf635c8e9c2ab721cf5b5529eec34",
         "j_invariant": "0xaa520fde4f7e2e3d65210fcb5998717952b5ce1382808f9392abe8264a7b7be9b7cb54edbe267b5d1600f3d007f50d0664982d75ddc4b441"
-      }
-    },
-    {
-      "name": "Curve41417",
-      "category": "other",
-      "desc": "Curve from https://cr.yp.to/talks/2013.09.16/slides-djb-20130916-a4.pdf",
-      "form": "TwistedEdwards",
-      "field": {
-        "type": "Prime",
-        "p": "0x3fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffef",
-        "bits": 414
-      },
-      "params": {
-        "a": {
-          "raw": "0x01"
-        },
-        "d": {
-          "raw": "0xe21"
-        }
-      },
-      "generator": {
-        "x": {
-          "raw": "0x1a334905141443300218c0631c326e5fcd46369f44c03ec7f57ff35498a4ab4d6d6ba111301a73faa8537c64c4fd3812f3cbc595"
-        },
-        "y": {
-          "raw": "0x22"
-        }
-      },
-      "order": "0x7ffffffffffffffffffffffffffffffffffffffffffffffffffeb3cc92414cf706022b36f1c0338ad63cf181b0e71a5e106af79",
-      "cofactor": "0x8",
-      "standard": true,
-      "properties": {
-        "trace": "0xa619b6df59847cfeea64871fe63a94e1873f278c72d0f7ca8428",
-        "j_invariant": "0x5abc06801b00316d78daa5b5e565f3e6e2ac1e80cde4b4ccf0e223160ce5c9c3d30cb600169f6ead44d1064d1ca75279c9618e1"
       }
     },
     {
@@ -612,181 +471,6 @@
         "j_invariant": "0x2089683f289cb2a9798ce7341bfedb9079106ce1d8d6810a06d07e572576e62f",
         "embedding_degree": "0x3c4eda2e7515abed14cbe4bf75e97f534fb38975faf974bb588552f421b0f7fa",
         "cm_discriminant": "-0x24bb73e2ad3d18402aae6500a8bc42e34e3b02843c2db6b231fa0846c51cfa83"
-      }
-    },
-    {
-      "name": "BADA55-R-256",
-      "category": "other",
-      "desc": "BADA55 curve from the https://bada55.cr.yp.to/bada55-20150927.pdf",
-      "form": "Weierstrass",
-      "field": {
-        "type": "Prime",
-        "p": "0xf1fd178c0b3ad58f10126de8ce42435b3961adbcabc8ca6de8fcf353d86e9c03",
-        "bits": 256
-      },
-      "params": {
-        "a": {
-          "raw": "0xf1fd178c0b3ad58f10126de8ce42435b3961adbcabc8ca6de8fcf353d86e9c00"
-        },
-        "b": {
-          "raw": "0xbada55bada55bada55bada55bada55bada55bada55bada55bada55bada55bd48"
-        }
-      },
-      "order": "0xf1fd178c0b3ad58f10126de8ce42435a1a8e3837861aa0efa0e52aec7379c967",
-      "cofactor": "0x1",
-      "standard": true,
-      "properties": {
-        "trace": "0x11ed3758525ae297e4817c86764f4d29d",
-        "j_invariant": "0xd505bc917e14f66f1045a705e7d4a80eba2b8eb2b3bc6448cd45d1bfa4888f33",
-        "embedding_degree": "0x50a9b28403be472fb00624a2ef6b6bc8b384bd67d75e35a535a1b8f97bd34322",
-        "cm_discriminant": "-0x19dd1698f3177bf30d8b41670cf4bb5b2b9b769a6070b820d2793bb12486e63b"
-      }
-    },
-    {
-      "name": "BADA55-VR-224",
-      "category": "other",
-      "desc": "BADA55 curve from the https://bada55.cr.yp.to/bada55-20150927.pdf",
-      "form": "Weierstrass",
-      "field": {
-        "type": "Prime",
-        "p": "0xffffffffffffffffffffffffffffffff000000000000000000000001",
-        "bits": 224
-      },
-      "params": {
-        "a": {
-          "raw": "0xfffffffffffffffffffffffffffffffefffffffffffffffffffffffe"
-        },
-        "b": {
-          "raw": "0xbada55ecfd9ca54c0738b8a6fb8cf4ccf84e916d83d6da1b78b622351e11ab4e"
-        }
-      },
-      "order": "0xffffffffffffffffffffffffffff0d44ef1096b2b67b7a3dcee7b079",
-      "cofactor": "0x1",
-      "standard": true,
-      "simulation": {
-        "seed": "0x3cc520e9434349df680a8f4bcadda648d693b2907b216ee55cb4853db68f9165"
-      },
-      "properties": {
-        "trace": "0xf2ba10ef694d498485c231184f89",
-        "j_invariant": "0x6cba852a351a1cfd8923025d19a6372329357c908b1ae0be281b9e9e",
-        "embedding_degree": "0x1fffffffffffffffffffffffffffe1a89de212d656cf6f47b9dcf60f",
-        "cm_discriminant": "-0x319dbb0bebfe60fa32bba2930a7041797ee2decd623d0c99a8b9a28b3"
-      }
-    },
-    {
-      "name": "BADA55-VR-256",
-      "category": "other",
-      "desc": "BADA55 curve from the https://bada55.cr.yp.to/bada55-20150927.pdf",
-      "form": "Weierstrass",
-      "field": {
-        "type": "Prime",
-        "p": "0xffffffff00000001000000000000000000000000ffffffffffffffffffffffff",
-        "bits": 256
-      },
-      "params": {
-        "a": {
-          "raw": "0xffffffff00000001000000000000000000000000fffffffffffffffffffffffc"
-        },
-        "b": {
-          "raw": "0xbada55ecd8bbead3add6c534f92197deb47fceb9be7e0e702a8d1dd56b5d0b0c"
-        }
-      },
-      "order": "0xffffffff00000000fffffffffffffffebedc2797003336661a49d76a903bdb91",
-      "cofactor": "0x1",
-      "standard": true,
-      "simulation": {
-        "seed": "0x3adcc48e36f1d1926701417f101a75f000118a739d4686e77278325a825aa3c6"
-      },
-      "properties": {
-        "trace": "0x14123d869ffccc999e5b628956fc4246f",
-        "j_invariant": "0x75338e5977bcc1a10f2329e4638b711a826715e3dbcefcdbc70a975c44a4585b",
-        "embedding_degree": "0x92492491b6db6db76db6db6db6db6db623eb84564941d5f13397e8cf2dd90fc",
-        "cm_discriminant": "-0x5222861d42b841b44cb38704ffa3b5df3b16a862ecc4aa3196f6e7ca4e20df3"
-      }
-    },
-    {
-      "name": "BADA55-VR-384",
-      "category": "other",
-      "desc": "BADA55 curve from the https://bada55.cr.yp.to/bada55-20150927.pdf",
-      "form": "Weierstrass",
-      "field": {
-        "type": "Prime",
-        "p": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffeffffffff0000000000000000ffffffff",
-        "bits": 384
-      },
-      "params": {
-        "a": {
-          "raw": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffeffffffff0000000000000000fffffffc"
-        },
-        "b": {
-          "raw": "0xbada55ec3be2ad1f9eeea5881ecf95bbf3ac392526f01d4cd13e684c63a17cc4d5f271642ad83899113817a61006413d"
-        }
-      },
-      "order": "0xfffffffffffffffffffffffffffffffffffffffffffffffeefe1169b82ff7e5032c683f766fae57359cfc5fc25ffce37",
-      "cofactor": "0x1",
-      "standard": true,
-      "simulation": {
-        "seed": "0xca9ebd338a9ee0e6862fd329062abc06a793575a1c744f0ec24503a525f5d06e"
-      },
-      "properties": {
-        "trace": "0x1101ee9647d0081aecd397c0799051a8ca6303a04da0031c9",
-        "j_invariant": "0x6bf8246dd62e41da6cd28afcc563c8b0163e75447fb0794cc51e9ce24177069173f2a227a737be4235f1098298b1199d"
-      }
-    },
-    {
-      "name": "BADA55-VPR-224",
-      "category": "other",
-      "desc": "BADA55 curve from the https://bada55.cr.yp.to/bada55-20150927.pdf",
-      "form": "Weierstrass",
-      "field": {
-        "type": "Prime",
-        "p": "0xffffffffffffffffffffffffffffffff000000000000000000000001",
-        "bits": 224
-      },
-      "params": {
-        "a": {
-          "raw": "0x7144ba12ce8a0c3befa053edbada555a42391fc64f052376e041c7d4af23195ebd8d83625321d452e8a0c3bb0a048a26115704e45dceb346a9f4bd9741d14d49"
-        },
-        "b": {
-          "raw": "0x5c32ec7fc48ce1802d9b70dbc3fa574eaf015fce4e99b43ebe3468d6efb2276ba3669aff6ffc0f4c6ae4ae2e5d74c3c0af97dce17147688dda89e734b56944a2"
-        }
-      },
-      "order": "0xffffffffffffffffffffffffffff473fa5d3e9bf40a95a8d3f014add",
-      "cofactor": "0x1",
-      "standard": true,
-      "properties": {
-        "trace": "0xb8bf5a2c1640bf56a572c0feb525",
-        "j_invariant": "0x552daadbb6778187c9be00d41931e5c3a6ea89bcbf011520714b8e98",
-        "embedding_degree": "0xffffffffffffffffffffffffffff473fa5d3e9bf40a95a8d3f014adc",
-        "cm_discriminant": "-0x37aac5f58f276b118c02645f5319e3918a0c833d84b49ebe88a66a8ab"
-      }
-    },
-    {
-      "name": "BADA55-VPR2-224",
-      "category": "other",
-      "desc": "BADA55 curve from the https://bada55.cr.yp.to/bada55-20150927.pdf",
-      "form": "Weierstrass",
-      "field": {
-        "type": "Prime",
-        "p": "0xffffffffffffffffffffffffffffffff000000000000000000000001",
-        "bits": 224
-      },
-      "params": {
-        "a": {
-          "raw": "0x8f0ff20e1e3cf4905d492e04110683948bfc236790bbb59e6e6b33f24f348ed2e16c64ee79f9fd27e9a367ff6415b41189e4fb6bada555455dc44c4f87011eef"
-        },
-        "b": {
-          "raw": "0xe85067a95547e30661c854a43ed80f36289043ffc73da78a97e37fb96a2717009088656b948865a660ff3959330d8a1ca1e4de31b7b7d496a4cde555e57d05c"
-        }
-      },
-      "order": "0xffffffffffffffffffffffffffffdf5c0319f61dc6ccebe902bc220f",
-      "cofactor": "0x1",
-      "standard": true,
-      "properties": {
-        "trace": "0x20a2fce609e239331416fd43ddf3",
-        "j_invariant": "0xbe3f54639e90d62e95f21da9e2e5cf596be2057d7db2a94b76c6b369",
-        "embedding_degree": "0x7fffffffffffffffffffffffffffefae018cfb0ee36675f4815e1107",
-        "cm_discriminant": "-0x3fbd6d901708d3d37b2d7cc528050c5fd96684d703e46ab8bc4608b5b"
       }
     },
     {
