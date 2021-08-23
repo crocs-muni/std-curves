@@ -1,10 +1,10 @@
 {
-  "name": "OSCAA",
+  "name": "OSCCA",
   "desc": "http://gmssl.org/english.html",
   "curves": [
     {
       "name": "SM2",
-      "category": "oscaa",
+      "category": "oscca",
       "oid": "1.2.156.10197.1.301",
       "form": "Weierstrass",
       "field": {
