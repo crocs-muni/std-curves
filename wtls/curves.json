@@ -3,7 +3,7 @@
   [
     {
       "name": "wap-wsg-idm-ecid-wtls1",
-      "category": "WTLS",
+      "category": "wtls",
       "oid": "2.23.43.1.4.1",
       "form": "Weierstrass",
       "field": {
@@ -52,7 +52,7 @@
     },
     {
       "name": "wap-wsg-idm-ecid-wtls3",
-      "category": "WTLS",
+      "category": "wtls",
       "aliases": [
         "nist/K-163",
         "secg/sect163k1",
@@ -114,7 +114,7 @@
     },
     {
       "name": "wap-wsg-idm-ecid-wtls4",
-      "category": "WTLS",
+      "category": "wtls",
       "aliases": [
         "secg/sect113r1"
       ],
@@ -166,7 +166,7 @@
     },
     {
       "name": "wap-wsg-idm-ecid-wtls5",
-      "category": "WTLS",
+      "category": "wtls",
       "aliases": [
         "x962/c2pnb163v1"
       ],
@@ -226,7 +226,7 @@
     },
     {
       "name": "wap-wsg-idm-ecid-wtls6",
-      "category": "WTLS",
+      "category": "wtls",
       "aliases": [
         "secg/secp112r1"
       ],
@@ -265,7 +265,7 @@
     },
     {
       "name": "wap-wsg-idm-ecid-wtls7",
-      "category": "WTLS",
+      "category": "wtls",
       "aliases": [
         "secg/secp160r1",
         "x963/ansip160r1"
@@ -305,7 +305,7 @@
     },
     {
       "name": "wap-wsg-idm-ecid-wtls8",
-      "category": "WTLS",
+      "category": "wtls",
       "oid": "2.23.43.1.4.8",
       "form": "Weierstrass",
       "field": {
@@ -341,7 +341,7 @@
     },
     {
       "name": "wap-wsg-idm-ecid-wtls9",
-      "category": "WTLS",
+      "category": "wtls",
       "oid": "2.23.43.1.4.9",
       "form": "Weierstrass",
       "field": {
