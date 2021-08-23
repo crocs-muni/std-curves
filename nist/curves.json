@@ -6,8 +6,9 @@
       "name": "P-192",
       "category": "nist",
       "aliases": [
+        "nist/P-192",
         "secg/secp192r1",
-        "x962/prime192v1"
+        "x962/ansix9p192r1"
       ],
       "form": "Weierstrass",
       "field": {
@@ -42,15 +43,16 @@
         "trace": "0x662107c8eb94364e4b2dd7cf",
         "embedding_degree": "0x1999999999999999999999998f6318d2353dfa91c5483738",
         "cm_discriminant": "-0x3d741a988e23c8df090918240db2143ab31994533214ca69b"
-      }
+      },
+      "ex": false
     },
     {
       "name": "P-224",
       "category": "nist",
       "aliases": [
+        "nist/P-224",
         "secg/secp224r1",
-        "wtls/wap-wsg-idm-ecid-wtls12",
-        "x963/ansip224r1"
+        "x962/ansip224r1"
       ],
       "form": "Weierstrass",
       "field": {
@@ -85,14 +87,16 @@
         "trace": "0xe95c1f470fc1ec22d6baa3a3d5c5",
         "embedding_degree": "0x5555555555555555555555555555078ba03da56a069f0dc1c9740e14",
         "cm_discriminant": "-0x5a245a6f599a2778760a3eacdf9b0b9c6f78b867c3f4a9a10611d7d3"
-      }
+      },
+      "ex": false
     },
     {
       "name": "P-256",
       "category": "nist",
       "aliases": [
+        "nist/P-256",
         "secg/secp256r1",
-        "x962/prime256v1"
+        "x962/ansix9p256r1"
       ],
       "form": "Weierstrass",
       "field": {
@@ -127,14 +131,16 @@
         "trace": "0x4319055358e8617b0c46353d039cdaaf",
         "embedding_degree": "0x555555550000000055555555555555553ef7a8e48d07df81a693439654210c70",
         "cm_discriminant": "-0x3ee69e4c05512a2feb42c40318a014ae4c618ec481b963d8454f2455ea5e97c5b"
-      }
+      },
+      "ex": false
     },
     {
       "name": "P-384",
       "category": "nist",
       "aliases": [
+        "nist/P-384",
         "secg/secp384r1",
-        "x963/ansip384r1"
+        "x962/ansip384r1"
       ],
       "form": "Weierstrass",
       "field": {
@@ -169,14 +175,16 @@
         "trace": "0x389cb27e0bc8d21fa7e5f24cb74f58851313e696333ad68d",
         "embedding_degree": "0x1249249249249249249249249249249249249249249249248e3df34023bacc6b61b8b7d5e09ee764357e9419ea0e153f",
         "cm_discriminant": "-0x3f37b11fed4c640df3189098260a4a0a693503fc3028613e2c0f691ba40196c5ef8997a25fabd8ebb6c58b7c5e64bf653"
-      }
+      },
+      "ex": false
     },
     {
       "name": "P-521",
       "category": "nist",
       "aliases": [
+        "nist/P-521",
         "secg/secp521r1",
-        "x963/ansip521r1"
+        "x962/ansip521r1"
       ],
       "form": "Weierstrass",
       "field": {
@@ -211,13 +219,17 @@
         "trace": "0x5ae79787c40d069948033feb708f65a2fc44a36477663b851449048e16ec79bf7",
         "embedding_degree": "0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe9461a1e0efcbe59adff300523dc269740eed726e226711ebaedbedc7a44e1902",
         "cm_discriminant": "-0x7dfb857f1b9719692971405ceef1f0b49c7f0badb4bcaea90ce4a795c6a610cc03116a848f2a996c919a4850d0c90d4de29e5c470e2cb3bfd731f94c225e2f8f7ab"
-      }
+      },
+      "ex": false
     },
     {
       "name": "K-163",
       "category": "nist",
       "aliases": [
-        "secg/sect163k1"
+        "nist/K-163",
+        "secg/sect163k1",
+        "wtls/wap-wsg-idm-ecid-wtls3",
+        "x962/ansix9t163k1"
       ],
       "desc": "Koblitz curve.",
       "form": "Weierstrass",
@@ -270,14 +282,16 @@
       "standard": true,
       "properties": {
         "trace": "-0x4021145c1981b33f14bdd"
-      }
+      },
+      "ex": false
     },
     {
       "name": "B-163",
       "category": "nist",
       "aliases": [
+        "nist/B-163",
         "secg/sect163r2",
-        "x963/ansit163r2"
+        "x962/ansit163r2"
       ],
       "form": "Weierstrass",
       "field": {
@@ -332,15 +346,16 @@
       },
       "properties": {
         "trace": "-0x525fcefce182548469865"
-      }
+      },
+      "ex": false
     },
     {
       "name": "K-233",
       "category": "nist",
       "aliases": [
+        "nist/K-233",
         "secg/sect233k1",
-        "wtls/wap-wsg-idm-ecid-wtls10",
-        "x963/ansit233k1"
+        "x962/ansit233k1"
       ],
       "desc": "Koblitz curve.",
       "form": "Weierstrass",
@@ -385,15 +400,16 @@
       "standard": true,
       "properties": {
         "trace": "-0x1a756ee456f351bbec6b57c5ceaf7b"
-      }
+      },
+      "ex": false
     },
     {
       "name": "B-233",
       "category": "nist",
       "aliases": [
+        "nist/B-233",
         "secg/sect233r1",
-        "wtls/wap-wsg-idm-ecid-wtls11",
-        "x963/ansit233r1"
+        "x962/ansit233r1"
       ],
       "form": "Weierstrass",
       "field": {
@@ -440,14 +456,16 @@
       },
       "properties": {
         "trace": "-0x27d2e9ce5f14d244063a4c079fc1ad"
-      }
+      },
+      "ex": false
     },
     {
       "name": "K-283",
       "category": "nist",
       "aliases": [
+        "nist/K-283",
         "secg/sect283k1",
-        "x963/ansit283k1"
+        "x962/ansit283k1"
       ],
       "desc": "Koblitz curve.",
       "form": "Weierstrass",
@@ -500,14 +518,16 @@
       "standard": true,
       "properties": {
         "trace": "0x594744be2a2366880201aeeb87e787a70e7d"
-      }
+      },
+      "ex": false
     },
     {
       "name": "B-283",
       "category": "nist",
       "aliases": [
+        "nist/B-283",
         "secg/sect283r1",
-        "x963/ansit283r1"
+        "x962/ansit283r1"
       ],
       "form": "Weierstrass",
       "field": {
@@ -562,14 +582,16 @@
       },
       "properties": {
         "trace": "0x20df8cd33e06d8eadfd349f7ab0620a499f3"
-      }
+      },
+      "ex": false
     },
     {
       "name": "K-409",
       "category": "nist",
       "aliases": [
+        "nist/K-409",
         "secg/sect409k1",
-        "x963/ansit409k1"
+        "x962/ansit409k1"
       ],
       "desc": "Koblitz curve.",
       "form": "Weierstrass",
@@ -614,14 +636,16 @@
       "standard": true,
       "properties": {
         "trace": "0x681f134ac577effc4eeaa0a84b07060d692d28df11c7f8680c5"
-      }
+      },
+      "ex": false
     },
     {
       "name": "B-409",
       "category": "nist",
       "aliases": [
+        "nist/B-409",
         "secg/sect409r1",
-        "x963/ansit409r1"
+        "x962/ansit409r1"
       ],
       "form": "Weierstrass",
       "field": {
@@ -668,14 +692,16 @@
       },
       "properties": {
         "trace": "-0x3c555ad4c25e6660f7cbf48f8793c0a5f0702c99a6fb34422e5"
-      }
+      },
+      "ex": false
     },
     {
       "name": "K-571",
       "category": "nist",
       "aliases": [
+        "nist/K-571",
         "secg/sect571k1",
-        "x963/ansit571k1"
+        "x962/ansit571k1"
       ],
       "desc": "Koblitz curve.",
       "form": "Weierstrass",
@@ -728,14 +754,16 @@
       "standard": true,
       "properties": {
         "trace": "-0x4c614387c6698f92ce46a36e45fd04e2d8c3612f9758e4e07a477ad173f9de3d8df04003"
-      }
+      },
+      "ex": false
     },
     {
       "name": "B-571",
       "category": "nist",
       "aliases": [
+        "nist/B-571",
         "secg/sect571r1",
-        "x963/ansit571r1"
+        "x962/ansit571r1"
       ],
       "form": "Weierstrass",
       "field": {
@@ -790,9 +818,8 @@
       },
       "properties": {
         "trace": "0x333c63ce0154cf19eff4c9cf2fb8f5c27044c6bdd3c42d855d165322f8fa2c89a02f6373"
-      }
+      },
+      "ex": false
     }
-
   ]
-
 }

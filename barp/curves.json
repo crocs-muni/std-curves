@@ -1,8 +1,7 @@
 {
   "name": "barp",
   "desc": "Curves proposed in https://eprint.iacr.org/2013/647.pdf",
-  "curves":
-  [
+  "curves": [
     {
       "name": "M-221",
       "category": "barp",
@@ -37,7 +36,8 @@
         "j_invariant": "0x14e0960359e174bb871455283de84e5e3916bf179cf726971f851603",
         "embedding_degree": "0x2000000000000000000000000000ad0476b9874517bbf802821302d",
         "cm_discriminant": "-0x2c43ddd54943526ae6d55085b3a85fd81970f09e26691124ae6f794"
-      }
+      },
+      "ex": false
     },
     {
       "name": "M-383",
@@ -71,7 +71,8 @@
       "properties": {
         "trace": "-0x363cb39d61b5d373d192bb7bd8d924f235de112df4838f72",
         "j_invariant": "0x7c770a02487d62ebdb187dac746d11efa23088e021e3f6a212a3ecee9db74d30be5fad9bf31d31d8426dc4b1f0188596"
-      }
+      },
+      "ex": false
     },
     {
       "name": "M-511",
@@ -105,7 +106,8 @@
       "properties": {
         "trace": "-0xbdaff7f9863fab3bd595775e89bbcd1560928215355085fd2a60add5bb5d7992",
         "j_invariant": "0x1758a56c9110ec032a330e527fc5290b55ea351dd65c69e6b4c24547b5b3ef2e1780bdc4cb91e6a5b1b3264e973595f9c1f80c24e5f7428d86d4a3c4fd4ba4fc"
-      }
+      },
+      "ex": false
     },
     {
       "name": "E-222",
@@ -141,7 +143,8 @@
         "j_invariant": "0x13fa15fbf0990791ee5128129647848ca173c32e453909eb7d42de19",
         "embedding_degree": "0xffffffffffffffffffffffffffff70cbc95e932f802f31423598cbe",
         "cm_discriminant": "-0x3ebf928145acc9733b271a2508f90c217b9cdc38011ae722661a8b4b"
-      }
+      },
+      "ex": false
     },
     {
       "name": "E-382",
@@ -175,7 +178,8 @@
       "properties": {
         "trace": "0xa813783785a8447a0e865b5f93bf4b62307607b00b0da334",
         "j_invariant": "0x296efcc098a02c52c023b63c7cd582082ca5a2728505a73f3d8876b4d154dbcdcada1c63fe29ca34623b0f8422d92c9d"
-      }
+      },
+      "ex": false
     },
     {
       "name": "E-521",
@@ -209,9 +213,8 @@
       "properties": {
         "trace": "0xba924e6e2e40de823251d428604eb03ec109ceea595c382eafc576f282b9fca54",
         "j_invariant": "0xc84acd23e501385e4f6711719c30309f24360980c9a771b2b60dd88dd83ae09a015b25f634aa3e44162f70244ca7aaf0f341cb19b3dccf88e6a8c6b38faa2558b5"
-      }
+      },
+      "ex": false
     }
   ]
-
-
 }

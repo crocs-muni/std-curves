@@ -5,9 +5,6 @@
     {
       "name": "numsp256d1",
       "category": "nums",
-      "aliases": [
-        "w-256-mers"
-      ],
       "form": "Weierstrass",
       "field": {
         "type": "Prime",
@@ -38,14 +35,12 @@
         "j_invariant": "0x8c43cc32dc4079dfa8761741400f36982d3a0f45547fb236330d434078c619a8",
         "embedding_degree": "0x3ffffffffffffffffffffffffffffffff90f209d7a899718082ac80a51d46a09",
         "cm_discriminant": "-0x3fcfd2e3c6176aa1ae709e72701935753681ba4b60d8f9573cd2b4234e435e74b"
-      }
+      },
+      "ex": false
     },
     {
       "name": "numsp256t1",
       "category": "nums",
-      "aliases": [
-        "ed-256-mers"
-      ],
       "form": "TwistedEdwards",
       "field": {
         "type": "Prime",
@@ -76,14 +71,12 @@
         "j_invariant": "0x51dd39b091f31b6d35d096eec5934adda361c3fc3ffa542f18f39dbbbc4484a4",
         "embedding_degree": "0x3fffffffffffffffffffffffffffffffbe6aa55ad0a6bc64e5b84e6f1122b4ac",
         "cm_discriminant": "-0xbccb4355e64bf786d2fb98098d7e7abecc3bd5d0265bf025a12de1f8f7278b03"
-      }
+      },
+      "ex": false
     },
     {
       "name": "numsp384d1",
       "category": "nums",
-      "aliases": [
-        "w-384-mers"
-      ],
       "form": "Weierstrass",
       "field": {
         "type": "Prime",
@@ -112,14 +105,12 @@
       "properties": {
         "trace": "0x29e150e114a2977e412562c2b3c81d859fb27e0984f19d0b",
         "j_invariant": "0x43305188ddda8d563c5cafbfb6ce5aa8584d4e3d853d95e862374570fe388f26ef9415f23539d4fbade4129500dce4b1"
-      }
+      },
+      "ex": false
     },
     {
       "name": "numsp384t1",
       "category": "nums",
-      "aliases": [
-        "ed-384-mers"
-      ],
       "form": "TwistedEdwards",
       "field": {
         "type": "Prime",
@@ -148,14 +139,12 @@
       "properties": {
         "trace": "0x4ca0bb84a976997697b17ee9c7182c6eb8a4a3823ef64630",
         "j_invariant": "0x7ac9c5fe3bba35f9844c4367e3110f7cd05aaa318b4a19efc09d686d49a2c2a38fc66487b40597c2d2ff844dea00ac88"
-      }
+      },
+      "ex": false
     },
     {
       "name": "numsp512d1",
       "category": "nums",
-      "aliases": [
-        "w-512-mers"
-      ],
       "form": "Weierstrass",
       "field": {
         "type": "Prime",
@@ -184,14 +173,12 @@
       "properties": {
         "trace": "0xa4c35b046b187ce4b03da712682f4239c4a974c99f832dbc31eac0c6fbcca86b",
         "j_invariant": "0x772e80043b0bc6ce7a21ba4925805eab51f6614f16eff4e0c310362efa0e7bf1e20eaa6f220db343627ab8d0f8b7390b9e965790967d77b1b79d8d11a2088008"
-      }
+      },
+      "ex": false
     },
     {
       "name": "numsp512t1",
       "category": "nums",
-      "aliases": [
-        "ed-512-mers"
-      ],
       "form": "TwistedEdwards",
       "field": {
         "type": "Prime",
@@ -220,7 +207,8 @@
       "properties": {
         "trace": "0x1606bdfd840951119676e1ec2edaae83c8c56803cd1ffc1dac61cb8d3d283f7a4",
         "j_invariant": "0xf372e27e3233537708ddea113e4ee5cf72010f522f0458ab617677fe1b2bd311d28f997504ac1688361695a6cd63f17cad363f40c7547addc95c6498e6915621"
-      }
+      },
+      "ex": false
     },
     {
       "name": "ed-256-mont",
@@ -248,8 +236,10 @@
         "j_invariant": "0x518d79145010414d302bdda036cde5e5ba872b130a5dcf09e8ee5efbf18f09b8",
         "embedding_degree": "0x3fe9ffffffffffffffffffffffffffffb154bbafb86733c966d92eded8ec7baa",
         "cm_discriminant": "-0x9ef4bf2afb91f8dfa6e3fafa97647fec3e69b0aef222804896c8911cc3e8ef1b"
-      }
-    },{
+      },
+      "ex": false
+    },
+    {
       "name": "ed-254-mont",
       "category": "nums",
       "desc": "Original nums curve from https://eprint.iacr.org/2014/130.pdf",
@@ -275,8 +265,10 @@
         "j_invariant": "0x135d79329e6c7840748ca096d3644e5e5d2d035a88caa72ace76de9395aae67e",
         "embedding_degree": "0xfe03fffffffffffffffffffffffffffeb95306c8bd62fb0eaf3d3fec46e98c6",
         "cm_discriminant": "-0x38fd8c019db5e8239e76824dd27c2d3447010c3f833f3715e0b5058e873c553b"
-      }
-    },{
+      },
+      "ex": false
+    },
+    {
       "name": "ed-255-mers",
       "category": "nums",
       "desc": "Original nums curve from https://eprint.iacr.org/2014/130.pdf",
@@ -302,8 +294,10 @@
         "j_invariant": "0x5f27924db0ae3c434896c8273161414babc5f329356c0303474178e595c90c31",
         "embedding_degree": "0x1fffffffffffffffffffffffffffffffdcf1a785eda6832eac49d1ed0436eb74",
         "cm_discriminant": "-0x6ccc4c034c357d085f2dc64d1654eff361611a1f206b5113bb9ff237808052c3"
-      }
-    },{
+      },
+      "ex": false
+    },
+    {
       "name": "ed-384-mont",
       "category": "nums",
       "desc": "Original nums curve from https://eprint.iacr.org/2014/130.pdf",
@@ -327,8 +321,10 @@
       "properties": {
         "trace": "0x2a4be076c762d8c9825225944dfc2407e406c7167336dd94",
         "j_invariant": "0x537206bf00c21d5baee862c54cc66fe15e4e59b2eaed1e5d90aaa82d7ff2aefbc763a4d8773187650d9a1bb40c0374c"
-      }
-    },{
+      },
+      "ex": false
+    },
+    {
       "name": "ed-382-mont",
       "category": "nums",
       "desc": "Original nums curve from https://eprint.iacr.org/2014/130.pdf",
@@ -352,8 +348,10 @@
       "properties": {
         "trace": "0xb394157ab7c8fa209cfa7e8edf87e5f659dff2586830167c",
         "j_invariant": "0xca7a7e821e9e780fec8f382519f34ac2d92b9c4ef1a36566c23ecad8a420be99872735008cbd0065cda4b356be6cc11"
-      }
-    },{
+      },
+      "ex": false
+    },
+    {
       "name": "ed-383-mers",
       "category": "nums",
       "desc": "Original nums curve from https://eprint.iacr.org/2014/130.pdf",
@@ -377,8 +375,10 @@
       "properties": {
         "trace": "0x3bbda3ec630981110caa5e0d854d777e40050c4f9160dde8",
         "j_invariant": "0x1009575ea00fe1506252fd0824cafd104ba005000a1beeaf41c711e40718045b53f1e0e0739558c580abf51cc070c22f"
-      }
-    },{
+      },
+      "ex": false
+    },
+    {
       "name": "ed-512-mont",
       "category": "nums",
       "desc": "Original nums curve from https://eprint.iacr.org/2014/130.pdf",
@@ -402,8 +402,10 @@
       "properties": {
         "trace": "0xccc0a98c8f32e3cbbf3e7ebb024842cb2099437935363f81733ade04d1c927ec",
         "j_invariant": "0xcda9233a5135668daa95aecf615d3de755bef0f5e9be3c3c630af4a986c701d0f7e96570e595d6d5f14f57c807143c6f196221dc3c9b7ebdce5f445445871263"
-      }
-    },{
+      },
+      "ex": false
+    },
+    {
       "name": "ed-510-mont",
       "category": "nums",
       "desc": "Original nums curve from https://eprint.iacr.org/2014/130.pdf",
@@ -427,8 +429,10 @@
       "properties": {
         "trace": "0xa0c4bb860f4395023a482f564f6e7dfd280cf7dba06996f4de9f78c8324ab93c",
         "j_invariant": "0x254391c7d08bafb2322725fd17ea39ef08eb3cb826dbb27f592956b10b874a5fa6b1783affd6e41c2db7740e5e52c82f24393bbc8c2be94770176e8c6e7c0199"
-      }
-    },{
+      },
+      "ex": false
+    },
+    {
       "name": "ed-511-mers",
       "category": "nums",
       "desc": "Original nums curve from https://eprint.iacr.org/2014/130.pdf",
@@ -452,8 +456,10 @@
       "properties": {
         "trace": "0x560f2f9f46f87459155b3c6e1cedd9236af63e504e83379ac20f45c1cbaf41dc",
         "j_invariant": "0x6b981e37d43b3b5947e5fc7ebb6f6777a4cdb7c4fdd5ed19ac8f788ce94c57cdd5643c34cd35172acffa8dfbddf1881922a63699700fc6554b1fe7dce73c0d75"
-      }
-    },{
+      },
+      "ex": false
+    },
+    {
       "name": "w-256-mont",
       "category": "nums",
       "desc": "Original nums curve from https://eprint.iacr.org/2014/130.pdf",
@@ -479,8 +485,10 @@
         "j_invariant": "0xbdd11a669cf91ff7ba81bd7a3159895c9af1a2ae722e0dd0a63e11de0d5777a0",
         "embedding_degree": "0x7fd3fffffffffffffffffffffffffffffe28ba89f37283a5ce8862f0d3cc2bf5",
         "cm_discriminant": "-0x3fe9271bd5313d8b2502498c5435cb527c270b363ccc4c09445cda98ce0be6e43"
-      }
-    },{
+      },
+      "ex": false
+    },
+    {
       "name": "w-254-mont",
       "category": "nums",
       "desc": "Original nums curve from https://eprint.iacr.org/2014/130.pdf",
@@ -506,8 +514,10 @@
         "j_invariant": "0x241bdb147c4142e61d7b9951a5890233884e3b890c9b6933f01b832cb776362",
         "embedding_degree": "0xcb36666666666666666666666666666624d1bfb9c53e459afed9ec0efe931a6",
         "cm_discriminant": "-0xfc5fff6617e311c874f4297b4c0b5f269ab3a1cac911feec4904296677dfe07b"
-      }
-    },{
+      },
+      "ex": false
+    },
+    {
       "name": "w-255-mers",
       "category": "nums",
       "desc": "Original nums curve from https://eprint.iacr.org/2014/130.pdf",
@@ -533,8 +543,10 @@
         "j_invariant": "0x661734f09b8540109c7681cdde324ef2080bff3ca6ef898c0002ffb7060110ba",
         "embedding_degree": "0x3fffffffffffffffffffffffffffffffc3251c141d6959efd5c7d64c1e2ca575",
         "cm_discriminant": "-0x1c622a801d47d31929427898fe6049161ccb6472bd76d9816a4f91a0475ad2d9b"
-      }
-    },{
+      },
+      "ex": false
+    },
+    {
       "name": "w-384-mont",
       "category": "nums",
       "desc": "Original nums curve from https://eprint.iacr.org/2014/130.pdf",
@@ -558,8 +570,10 @@
       "properties": {
         "trace": "0x456480eb358aedac85b1232c7583be25d641b76b4d671145",
         "j_invariant": "0x3d01bf71194313e5bc0b2ace28c9f389cdeb62b7c7d842fc45bcdea37f7324f26d5e42f81ebc4797eba9173cede2623e"
-      }
-    },{
+      },
+      "ex": false
+    },
+    {
       "name": "w-382-mont",
       "category": "nums",
       "desc": "Original nums curve from https://eprint.iacr.org/2014/130.pdf",
@@ -583,8 +597,10 @@
       "properties": {
         "trace": "0x5914e300b421deb28c4cde002717d32e9f54797fc144cfe3",
         "j_invariant": "0x7c1c7dcbbb7ac08a19e2c0907ee9189c5968fb6b296fa9dbd654c012f15a4f2649518c3caf514201d2d8887faad1f64"
-      }
-    },{
+      },
+      "ex": false
+    },
+    {
       "name": "w-383-mers",
       "category": "nums",
       "desc": "Original nums curve from https://eprint.iacr.org/2014/130.pdf",
@@ -608,8 +624,10 @@
       "properties": {
         "trace": "0x563507eb575ee952604f4bfcabe8550ce6d6803f4485babd",
         "j_invariant": "0x4c6dafb9b071be8dcf501e229ccf718a7db00cdffe463355a1709a1538edae59f50e16fd89261cfb138db23400f32fbd"
-      }
-    },{
+      },
+      "ex": false
+    },
+    {
       "name": "w-512-mont",
       "category": "nums",
       "desc": "Original nums curve from https://eprint.iacr.org/2014/130.pdf",
@@ -633,8 +651,10 @@
       "properties": {
         "trace": "0x9c757286d118afd67f9b550f47b6719e20c2c66af9b128c46c69d70e81670237",
         "j_invariant": "0x933e68652c792de1b06fd603ed749716736c131dad92f7ec405100a1d547dd29af0d63806b170386a81ef1fcf76e63680bb1218d047f36a46c114890a763489e"
-      }
-    },{
+      },
+      "ex": false
+    },
+    {
       "name": "w-510-mont",
       "category": "nums",
       "desc": "Original nums curve from https://eprint.iacr.org/2014/130.pdf",
@@ -658,8 +678,10 @@
       "properties": {
         "trace": "0x46eb93321eaf10cc8b854d62e19a8c272dd216a1cddcfc0c5ff4dff6790565d3",
         "j_invariant": "0x243063c1052f01002754a0b67ab8c46f9cf001ca12e81aa08295593eb3f9b4524ead8ef2416ed9ac4b0ac69dbecdceefec505eee0f153139805293078f617e02"
-      }
-    },{
+      },
+      "ex": false
+    },
+    {
       "name": "w-511-mers",
       "category": "nums",
       "desc": "Original nums curve from https://eprint.iacr.org/2014/130.pdf",
@@ -683,8 +705,8 @@
       "properties": {
         "trace": "0x724105c0a12627c65d2b01900ae91780572c19a95f06605e0fefa08c4c462c81",
         "j_invariant": "0x6ebb653b932f9624f3cb17bda956ae317e2d850ae2d7662ead52e87ba272a41f060ce3279d0215c60fa2ab203be316c8e63508856621e690c00017fe748859c2"
-      }
+      },
+      "ex": false
     }
   ]
-
 }

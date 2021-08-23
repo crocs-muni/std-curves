@@ -3,7 +3,6 @@
   "desc": "ECC Brainpool Standard Curves and Curve Generation v. 1.0  19.10.2005",
   "curves": [
     {
-
       "name": "brainpoolP160r1",
       "category": "brainpool",
       "oid": "1.3.36.3.3.2.8.1.1.1",
@@ -37,9 +36,10 @@
         "j_invariant": "0x43da23b765117e73aa03e3e93502d15e8734fc9b",
         "embedding_degree": "0x4dca18ca7bd01df4204a73309c1ab86adf75a958",
         "cm_discriminant": "-0xd04e59de188aa4acf08997c792afaacfa1754b"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "brainpoolP160t1",
       "category": "brainpool",
       "oid": "1.3.36.3.3.2.8.1.1.2",
@@ -73,9 +73,10 @@
         "j_invariant": "0x43da23b765117e73aa03e3e93502d15e8734fc9b",
         "embedding_degree": "0x4dca18ca7bd01df4204a73309c1ab86adf75a958",
         "cm_discriminant": "-0xd04e59de188aa4acf08997c792afaacfa1754b"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "brainpoolP192r1",
       "category": "brainpool",
       "oid": "1.3.36.3.3.2.8.1.1.3",
@@ -109,9 +110,10 @@
         "j_invariant": "0x8044dcd1a97a40d2e1f4033bd02d034887ee2c8f5f825a7a",
         "embedding_degree": "0x18605e83b26546d9b4f468c5f3d3d22d6b7d1e2053589598",
         "cm_discriminant": "-0x221312f64eae9815d2a21dc9ce4bf28c9ee6b55fff62dcfcb"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "brainpoolP192t1",
       "category": "brainpool",
       "oid": "1.3.36.3.3.2.8.1.1.4",
@@ -145,9 +147,10 @@
         "j_invariant": "0x8044dcd1a97a40d2e1f4033bd02d034887ee2c8f5f825a7a",
         "embedding_degree": "0x18605e83b26546d9b4f468c5f3d3d22d6b7d1e2053589598",
         "cm_discriminant": "-0x221312f64eae9815d2a21dc9ce4bf28c9ee6b55fff62dcfcb"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "brainpoolP224r1",
       "category": "brainpool",
       "oid": "1.3.36.3.3.2.8.1.1.5",
@@ -181,9 +184,10 @@
         "j_invariant": "0x5fe9d422de303d0de7fd2a6879cb008549a5028994625c10985e961",
         "embedding_degree": "0x23f588c7066091165c595d5b93a2d499782e74b73cfa74c5f0f14345",
         "cm_discriminant": "-0x2a2124151040c8456c2d3867b19e8b31d47006ec40f5ed338ce15c53b"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "brainpoolP224t1",
       "category": "brainpool",
       "oid": "1.3.36.3.3.2.8.1.1.6",
@@ -217,9 +221,10 @@
         "j_invariant": "0x5fe9d422de303d0de7fd2a6879cb008549a5028994625c10985e961",
         "embedding_degree": "0x23f588c7066091165c595d5b93a2d499782e74b73cfa74c5f0f14345",
         "cm_discriminant": "-0x2a2124151040c8456c2d3867b19e8b31d47006ec40f5ed338ce15c53b"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "brainpoolP256r1",
       "category": "brainpool",
       "oid": "1.3.36.3.3.2.8.1.1.7",
@@ -253,9 +258,10 @@
         "j_invariant": "0xa7331dcd8c8ebffcc2174678d6653122ecaa44b9c969c437e036725d523d8faf",
         "embedding_degree": "0x54fdabedd0f754de1f3305484ec1c6b8c61cbd51dab0d37bc80f07414ba42b53",
         "cm_discriminant": "-0x13373d5586a46f7d63e95b447652b9c9c63b287d778a0953d8100f63d0a02073"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "brainpoolP256t1",
       "category": "brainpool",
       "oid": "1.3.36.3.3.2.8.1.1.8",
@@ -289,9 +295,10 @@
         "j_invariant": "0xa7331dcd8c8ebffcc2174678d6653122ecaa44b9c969c437e036725d523d8faf",
         "embedding_degree": "0x54fdabedd0f754de1f3305484ec1c6b8c61cbd51dab0d37bc80f07414ba42b53",
         "cm_discriminant": "-0x13373d5586a46f7d63e95b447652b9c9c63b287d778a0953d8100f63d0a02073"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "brainpoolP320r1",
       "category": "brainpool",
       "oid": "1.3.36.3.3.2.8.1.1.9",
@@ -323,9 +330,10 @@
       "properties": {
         "trace": "0x14064fb4c224a8b248a0d933f7642bd56aced9b17",
         "j_invariant": "0x2aea21150d8e276819b6e552fe47f251f7da013d6f3f0456b938cf77cec0e5ec3e311fa4f192a09e"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "brainpoolP320t1",
       "category": "brainpool",
       "oid": "1.3.36.3.3.2.8.1.1.10",
@@ -357,9 +365,10 @@
       "properties": {
         "trace": "0x14064fb4c224a8b248a0d933f7642bd56aced9b17",
         "j_invariant": "0x2aea21150d8e276819b6e552fe47f251f7da013d6f3f0456b938cf77cec0e5ec3e311fa4f192a09e"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "brainpoolP384r1",
       "category": "brainpool",
       "oid": "1.3.36.3.3.2.8.1.1.11",
@@ -391,9 +400,10 @@
       "properties": {
         "trace": "0xf39b6bacd3b2eb7bdd98f07a249d57614bbece10480386ef",
         "j_invariant": "0x150ad51cc0dc24baca7d6c5f5fecd7e6ec2b901ca377286fc97b6103f8544ba085342614a744e655c7dee6b039b683bc"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "brainpoolP384t1",
       "category": "brainpool",
       "oid": "1.3.36.3.3.2.8.1.1.12",
@@ -425,9 +435,10 @@
       "properties": {
         "trace": "0xf39b6bacd3b2eb7bdd98f07a249d57614bbece10480386ef",
         "j_invariant": "0x150ad51cc0dc24baca7d6c5f5fecd7e6ec2b901ca377286fc97b6103f8544ba085342614a744e655c7dee6b039b683bc"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "brainpoolP512r1",
       "category": "brainpool",
       "oid": "1.3.36.3.3.2.8.1.1.13",
@@ -459,9 +470,10 @@
       "properties": {
         "trace": "0x1280f3ebf4f1d42296d47401166f7709f0ad02bae2524eba77322c9d3bb91488b",
         "j_invariant": "0x5617d035fbd69aab71618f8935c0e40856edb0e3d1668f6ae2a531e35edfb30f9050c6b173d4a73d04e9afbcdddd305ed8eabd62b1d671a41a94945fb3954317"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "brainpoolP512t1",
       "category": "brainpool",
       "oid": "1.3.36.3.3.2.8.1.1.14",
@@ -493,9 +505,8 @@
       "properties": {
         "trace": "0x1280f3ebf4f1d42296d47401166f7709f0ad02bae2524eba77322c9d3bb91488b",
         "j_invariant": "0x5617d035fbd69aab71618f8935c0e40856edb0e3d1668f6ae2a531e35edfb30f9050c6b173d4a73d04e9afbcdddd305ed8eabd62b1d671a41a94945fb3954317"
-      }
+      },
+      "ex": false
     }
-
   ]
-
 }

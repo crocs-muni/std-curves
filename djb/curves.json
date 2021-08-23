@@ -1,8 +1,7 @@
 {
   "name": "djb",
   "desc": "djb curves",
-  "curves":
-  [
+  "curves": [
     {
       "name": "Curve25519",
       "category": "djb",
@@ -37,7 +36,8 @@
         "j_invariant": "0x56c143fbfba334948229e71bacc4801f4321f1a7c4591336f27d7903cb215317",
         "embedding_degree": "0x2aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaae2529a51b2944ce6403108464d3a352",
         "cm_discriminant": "-0x64c66bee483cf65c231138c2de80a413a110920000d1b1d90bf4b83b29b3ce64"
-      }
+      },
+      "ex": false
     },
     {
       "name": "Curve1174",
@@ -73,7 +73,8 @@
         "j_invariant": "0x5f30a3a63eb27900677c02d3f4544c89cf1f3ef7b2e54a54dea1a82e3debdf7",
         "embedding_degree": "0x1fffffffffffffffffffffffffffffff77965c4dfd307348944d45fd166c970",
         "cm_discriminant": "-0x6dd3e59ecb144037de50a6444e1753443f9154341c7198246bc19cc4f58d953"
-      }
+      },
+      "ex": false
     },
     {
       "name": "Ed25519",
@@ -109,7 +110,8 @@
         "j_invariant": "0x56c143fbfba334948229e71bacc4801f4321f1a7c4591336f27d7903cb215317",
         "embedding_degree": "0x2aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaae2529a51b2944ce6403108464d3a352",
         "cm_discriminant": "-0x64c66bee483cf65c231138c2de80a413a110920000d1b1d90bf4b83b29b3ce64"
-      }
+      },
+      "ex": false
     },
     {
       "name": "Curve41417",
@@ -143,7 +145,8 @@
       "properties": {
         "trace": "0xa619b6df59847cfeea64871fe63a94e1873f278c72d0f7ca8428",
         "j_invariant": "0x5abc06801b00316d78daa5b5e565f3e6e2ac1e80cde4b4ccf0e223160ce5c9c3d30cb600169f6ead44d1064d1ca75279c9618e1"
-      }
+      },
+      "ex": false
     },
     {
       "name": "BADA55-R-256",
@@ -171,7 +174,8 @@
         "j_invariant": "0xd505bc917e14f66f1045a705e7d4a80eba2b8eb2b3bc6448cd45d1bfa4888f33",
         "embedding_degree": "0x50a9b28403be472fb00624a2ef6b6bc8b384bd67d75e35a535a1b8f97bd34322",
         "cm_discriminant": "-0x19dd1698f3177bf30d8b41670cf4bb5b2b9b769a6070b820d2793bb12486e63b"
-      }
+      },
+      "ex": true
     },
     {
       "name": "BADA55-VR-224",
@@ -202,7 +206,8 @@
         "j_invariant": "0x6cba852a351a1cfd8923025d19a6372329357c908b1ae0be281b9e9e",
         "embedding_degree": "0x1fffffffffffffffffffffffffffe1a89de212d656cf6f47b9dcf60f",
         "cm_discriminant": "-0x319dbb0bebfe60fa32bba2930a7041797ee2decd623d0c99a8b9a28b3"
-      }
+      },
+      "ex": true
     },
     {
       "name": "BADA55-VR-256",
@@ -233,7 +238,8 @@
         "j_invariant": "0x75338e5977bcc1a10f2329e4638b711a826715e3dbcefcdbc70a975c44a4585b",
         "embedding_degree": "0x92492491b6db6db76db6db6db6db6db623eb84564941d5f13397e8cf2dd90fc",
         "cm_discriminant": "-0x5222861d42b841b44cb38704ffa3b5df3b16a862ecc4aa3196f6e7ca4e20df3"
-      }
+      },
+      "ex": true
     },
     {
       "name": "BADA55-VR-384",
@@ -262,7 +268,8 @@
       "properties": {
         "trace": "0x1101ee9647d0081aecd397c0799051a8ca6303a04da0031c9",
         "j_invariant": "0x6bf8246dd62e41da6cd28afcc563c8b0163e75447fb0794cc51e9ce24177069173f2a227a737be4235f1098298b1199d"
-      }
+      },
+      "ex": true
     },
     {
       "name": "BADA55-VPR-224",
@@ -290,7 +297,8 @@
         "j_invariant": "0x552daadbb6778187c9be00d41931e5c3a6ea89bcbf011520714b8e98",
         "embedding_degree": "0xffffffffffffffffffffffffffff473fa5d3e9bf40a95a8d3f014adc",
         "cm_discriminant": "-0x37aac5f58f276b118c02645f5319e3918a0c833d84b49ebe88a66a8ab"
-      }
+      },
+      "ex": true
     },
     {
       "name": "BADA55-VPR2-224",
@@ -318,9 +326,8 @@
         "j_invariant": "0xbe3f54639e90d62e95f21da9e2e5cf596be2057d7db2a94b76c6b369",
         "embedding_degree": "0x7fffffffffffffffffffffffffffefae018cfb0ee36675f4815e1107",
         "cm_discriminant": "-0x3fbd6d901708d3d37b2d7cc528050c5fd96684d703e46ab8bc4608b5b"
-      }
+      },
+      "ex": true
     }
   ]
-
-
 }

@@ -1,6 +1,5 @@
 {
-  "curves":
-  [
+  "curves": [
     {
       "name": "wap-wsg-idm-ecid-wtls1",
       "category": "wtls",
@@ -48,7 +47,8 @@
       "properties": {
         "trace": "0x480dca1242b1b",
         "j_invariant": "0x1"
-      }
+      },
+      "ex": false
     },
     {
       "name": "wap-wsg-idm-ecid-wtls3",
@@ -56,7 +56,8 @@
       "aliases": [
         "nist/K-163",
         "secg/sect163k1",
-        "x963/ansit163k1"
+        "wtls/wap-wsg-idm-ecid-wtls3",
+        "x962/ansix9t163k1"
       ],
       "oid": "2.23.43.1.4.3",
       "form": "Weierstrass",
@@ -110,13 +111,15 @@
       "properties": {
         "trace": "-0x4021145c1981b33f14bdd",
         "j_invariant": "0x1"
-      }
+      },
+      "ex": false
     },
     {
       "name": "wap-wsg-idm-ecid-wtls4",
       "category": "wtls",
       "aliases": [
-        "secg/sect113r1"
+        "secg/sect113r1",
+        "wtls/wap-wsg-idm-ecid-wtls4"
       ],
       "oid": "2.23.43.1.4.4",
       "form": "Weierstrass",
@@ -162,12 +165,14 @@
       "properties": {
         "trace": "-0x1b399d91473cadd",
         "j_invariant": "0x6942e38fc45c62366c09aa8204cd"
-      }
+      },
+      "ex": false
     },
     {
       "name": "wap-wsg-idm-ecid-wtls5",
       "category": "wtls",
       "aliases": [
+        "wtls/wap-wsg-idm-ecid-wtls5",
         "x962/c2pnb163v1"
       ],
       "oid": "2.23.43.1.4.5",
@@ -222,13 +227,15 @@
       "properties": {
         "trace": "-0x3cc1f9104398e9b5d5f81",
         "j_invariant": "0x68076a6ba1f3e9846d28bbf88a5993fb4a4dd3209"
-      }
+      },
+      "ex": false
     },
     {
       "name": "wap-wsg-idm-ecid-wtls6",
       "category": "wtls",
       "aliases": [
-        "secg/secp112r1"
+        "secg/secp112r1",
+        "wtls/wap-wsg-idm-ecid-wtls6"
       ],
       "oid": "2.23.43.1.4.6",
       "form": "Weierstrass",
@@ -261,14 +268,15 @@
         "j_invariant": "0xadad8cacc8dd210422960337beca",
         "embedding_degree": "0xdb7c2abf62e35e7628dfac6561c4",
         "cm_discriminant": "-0x36cfb7fe7ccf1fcdd86299e26837b"
-      }
+      },
+      "ex": false
     },
     {
       "name": "wap-wsg-idm-ecid-wtls7",
       "category": "wtls",
       "aliases": [
         "secg/secp160r1",
-        "x963/ansip160r1"
+        "wtls/wap-wsg-idm-ecid-wtls7"
       ],
       "oid": "2.23.43.1.4.7",
       "form": "Weierstrass",
@@ -301,7 +309,8 @@
         "j_invariant": "0xfce63f3745bfae104ff7852383d66f97ba3dec5e",
         "embedding_degree": "0x100000000000000000001f4c8f927aed3ca752256",
         "cm_discriminant": "-0x2c5e54f6bc93593265eaae4fa926ee734bdec66b"
-      }
+      },
+      "ex": false
     },
     {
       "name": "wap-wsg-idm-ecid-wtls8",
@@ -337,7 +346,8 @@
         "j_invariant": "0x0",
         "embedding_degree": "0x2aaaaaaaaaaaaafcd1b8d9ceb3fc",
         "cm_discriminant": "-0x3"
-      }
+      },
+      "ex": false
     },
     {
       "name": "wap-wsg-idm-ecid-wtls9",
@@ -373,11 +383,10 @@
         "j_invariant": "0x0",
         "embedding_degree": "0x2aaaaaaaaaaaaaaaaaaaf7a197257b250e8c7533",
         "cm_discriminant": "-0x3"
-      }
+      },
+      "ex": false
     }
-  ]
-
-  ,
+  ],
   "desc": "Wireless Application Protocol - Wireless Transport Layer Security (WAP-WTLS) curves: <https://www.wapforum.org/tech/documents/WAP-199-WTLS-20000218-a.pdf>",
   "name": "WTLS"
 }

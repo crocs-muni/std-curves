@@ -3,7 +3,6 @@
   "desc": "GOST R 34.10-2001: RFC5832, GOST R 34.10-2012: RFC7836",
   "curves": [
     {
-
       "name": "gost256",
       "category": "gost",
       "desc": "RFC5832, example curve",
@@ -37,9 +36,10 @@
         "j_invariant": "0x693d2dbca184b143e5945e66b4ffa191ba58a9c6317f1d208d31012194c5628d",
         "embedding_degree": "0x155555555555555555555555555555558d7fc1aec3193ae37644d4aedf2228f3",
         "cm_discriminant": "-0x393"
-      }
-    },{
-
+      },
+      "ex": true
+    },
+    {
       "name": "gost512",
       "category": "gost",
       "desc": "RFC5832, example curve",
@@ -71,9 +71,10 @@
       "properties": {
         "trace": "0x49a924f54fd6b582eac7a81f9420307b5d4a0d81edfe884240201103a0d77c95",
         "j_invariant": "0xbaa052a2a968bbed40cfdca18f0f65ac7b5ac3b2ddf8caec67e868500b3e32c7ec9865cf54ea1afb01ba9978d50e1c857d870d358c25954f5754c58d77cf0b9"
-      }
-    },{
-
+      },
+      "ex": true
+    },
+    {
       "name": "id-tc26-gost-3410-12-512-paramSetA",
       "category": "gost",
       "desc": "RFC7836",
@@ -105,9 +106,10 @@
       "properties": {
         "trace": "0xd8196acd0b7276ee900dd472b1fa9f9f64b4c754052d47a235324ebee0ef4b53",
         "j_invariant": "0x366d06b0ea038a1f285c60d04d76a587f3877fb02b0a232ebceaeb27e3b0bc0bf27bf6d0ec8a3ee967e0b2b9c5f5709599c76c481ffea31818c23177e4db6144"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "id-tc26-gost-3410-12-512-paramSetB",
       "category": "gost",
       "desc": "RFC7836",
@@ -139,9 +141,10 @@
       "properties": {
         "trace": "-0x149a1ec142565a545acfdb77bd9d40cfa8b996712101bea0ec6346c54374f254d",
         "j_invariant": "0x3e9dfdd823c1bd3ea7a43f8e1055baadaeef1eb792ea8d21f72aae3f1258835bb7053d66a08ce3bc8369500f64ff131eef41844a2884c299128d64acc8cf86e9"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "id-GostR3410-2001-CryptoPro-A-ParamSet",
       "category": "gost",
       "desc": "RFC4357",
@@ -175,9 +178,10 @@
         "j_invariant": "0x5f71484039164cb5f71484039164cb5f71484039164cb5f71484039164cb5e8b",
         "embedding_degree": "0x7fffffffffffffffffffffffffffffffb63088384cad688022c20d84dbb0dc49",
         "cm_discriminant": "-0x3aae01634baee862408b77a2f75c8edff71d8e9fbcc7b515ed97b09b7eb384443"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "id-GostR3410-2001-CryptoPro-B-ParamSet",
       "category": "gost",
       "desc": "RFC4357",
@@ -211,9 +215,10 @@
         "j_invariant": "0xeb55211d5ce06b7a7f1cc637dd93b32cf6ae9e3f7de2a17453a9c240919033b",
         "embedding_degree": "0x40000000000000000000000000000000afb8067ff8d31272f24b8b0de6450cc7",
         "cm_discriminant": "-0x26b"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "id-GostR3410-2001-CryptoPro-C-ParamSet",
       "category": "gost",
       "desc": "RFC4357",
@@ -247,9 +252,10 @@
         "j_invariant": "0x1da05b810fa7d7f8bd75c165d67dd7b775a73654204303beada786c1d57907df",
         "embedding_degree": "0x9b9f605f5a858107ab1ec85e6b41c8aa582ca3511eddfb74f02f3a6598980bb8",
         "cm_discriminant": "-0x236dac4761121993cfc3a403ae5fb84c407f5bc32be44339fd3661fa164abd723"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "id-tc26-gost-3410-2012-256-paramSetA",
       "category": "gost",
       "desc": "RFC5832",
@@ -283,9 +289,10 @@
         "j_invariant": "0xd0d6242c5d7ec20b1345a8030dfd932fa2f3f36116504ba88f6f28d37bb278fb",
         "embedding_degree": "0x400000000000000000000000000000000fd8cddfc87b6635c115af556c360c66",
         "cm_discriminant": "-0xfc13810edd3c3c52cbe9b32681b1ecc05f4bb8c41c22aaa5b1b163ceabab9593"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "id-tc26-gost-3410-2012-512-paramSetC",
       "category": "gost",
       "desc": "RFC5832",
@@ -317,8 +324,8 @@
       "properties": {
         "trace": "0xd9cc916e6be553fecf315802bae2bf4cdc49586162597b65ae770c42e03f6e14",
         "j_invariant": "0x7811b126b066ba9248a6a3262106ed4ed3e34e71f487de6ec0a4205ff0adefa3faeed89084d8d9da172f958af0f805851c88dcf431eaae6c07b13c4c4f0b5780"
-      }
+      },
+      "ex": false
     }
-
   ]
 }

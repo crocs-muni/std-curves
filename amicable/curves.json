@@ -1,8 +1,7 @@
 {
   "name": "amicable",
   "desc": "Amicable curves",
-  "curves":
-  [
+  "curves": [
     {
       "name": "Tweedledum",
       "category": "amicable",
@@ -37,7 +36,8 @@
         "j_invariant": "0x0",
         "embedding_degree": "0x40000000000000000000000000000000038aa127696286c9842cafd400000000",
         "cm_discriminant": "-0x3"
-      }
+      },
+      "ex": false
     },
     {
       "name": "Tweedledee",
@@ -73,7 +73,8 @@
         "j_invariant": "0x0",
         "embedding_degree": "0x40000000000000000000000000000000038aa1276c3f59b9a14064e200000000",
         "cm_discriminant": "-0x3"
-      }
+      },
+      "ex": false
     },
     {
       "name": "Pallas",
@@ -109,7 +110,8 @@
         "j_invariant": "0x0",
         "embedding_degree": "0x40000000000000000000000000000000224698fc0994a8dd8c46eb210000000",
         "cm_discriminant": "-0x3"
-      }
+      },
+      "ex": false
     },
     {
       "name": "Vesta",
@@ -145,9 +147,8 @@
         "j_invariant": "0x0",
         "embedding_degree": "0x2000000000000000000000000000000011234c7e04a67c8dcc96987680000000",
         "cm_discriminant": "-0x3"
-      }
+      },
+      "ex": false
     }
   ]
-
-
 }

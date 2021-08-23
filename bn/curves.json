@@ -35,9 +35,10 @@
         "j_invariant": "0x0",
         "embedding_degree": "0xc",
         "cm_discriminant": "-0x3"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "bn190",
       "category": "bn",
       "form": "Weierstrass",
@@ -70,9 +71,10 @@
         "j_invariant": "0x0",
         "embedding_degree": "0xc",
         "cm_discriminant": "-0x3"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "bn222",
       "category": "bn",
       "form": "Weierstrass",
@@ -105,14 +107,12 @@
         "j_invariant": "0x0",
         "embedding_degree": "0xc",
         "cm_discriminant": "-0x3"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "bn254",
       "category": "bn",
-      "aliases": [
-        "other/Fp254BNb"
-      ],
       "form": "Weierstrass",
       "field": {
         "type": "Prime",
@@ -143,9 +143,10 @@
         "j_invariant": "0x0",
         "embedding_degree": "0xc",
         "cm_discriminant": "-0x3"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "bn286",
       "category": "bn",
       "form": "Weierstrass",
@@ -178,9 +179,10 @@
         "j_invariant": "0x0",
         "embedding_degree": "0xc",
         "cm_discriminant": "-0x3"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "bn318",
       "category": "bn",
       "form": "Weierstrass",
@@ -211,9 +213,10 @@
       "properties": {
         "trace": "0x6000c00060000000000900090000000000000037",
         "j_invariant": "0x0"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "bn350",
       "category": "bn",
       "form": "Weierstrass",
@@ -244,9 +247,10 @@
       "properties": {
         "trace": "0x5fffa0001800002fffe802fffe8006000000c0000007",
         "j_invariant": "0x0"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "bn382",
       "category": "bn",
       "form": "Weierstrass",
@@ -277,9 +281,10 @@
       "properties": {
         "trace": "0x6000330006c60000000000030000cc000000000000000007",
         "j_invariant": "0x0"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "bn414",
       "category": "bn",
       "form": "Weierstrass",
@@ -310,9 +315,10 @@
       "properties": {
         "trace": "0x6000300005fe7fffa0000001830000bffffffa00000000000007",
         "j_invariant": "0x0"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "bn446",
       "category": "bn",
       "form": "Weierstrass",
@@ -343,9 +349,10 @@
       "properties": {
         "trace": "0x6000000000000000003000000003000000000600000000c000000007",
         "j_invariant": "0x0"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "bn478",
       "category": "bn",
       "form": "Weierstrass",
@@ -376,9 +383,10 @@
       "properties": {
         "trace": "0x5ffffffffffffffe7fffffffe8000301800000002ffffa00017fffa00007",
         "j_invariant": "0x0"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "bn510",
       "category": "bn",
       "form": "Weierstrass",
@@ -409,9 +417,10 @@
       "properties": {
         "trace": "0x6000000000000000005400000000000300001260000000000150000000000007",
         "j_invariant": "0x0"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "bn542",
       "category": "bn",
       "form": "Weierstrass",
@@ -442,9 +451,10 @@
       "properties": {
         "trace": "0x60000c00006000000000000000c0000c030000300000000000006000000300000007",
         "j_invariant": "0x0"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "bn574",
       "category": "bn",
       "form": "Weierstrass",
@@ -475,9 +485,10 @@
       "properties": {
         "trace": "0x600002ffffedffffa000018000000000000300000bffffa0000000000000000000000007",
         "j_invariant": "0x0"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "bn606",
       "category": "bn",
       "form": "Weierstrass",
@@ -508,9 +519,10 @@
       "properties": {
         "trace": "0x5ffffffffffffe800000000000018000000302fffffffffff9fa000000000000000000060c07",
         "j_invariant": "0x0"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "bn638",
       "category": "bn",
       "form": "Weierstrass",
@@ -541,9 +553,8 @@
       "properties": {
         "trace": "0x5ffffffd00000005ffffffd0000000c000000003000005f3ffffffffffffff400000000000000007",
         "j_invariant": "0x0"
-      }
+      },
+      "ex": false
     }
-
   ]
-
 }

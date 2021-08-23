@@ -36,9 +36,10 @@
         "j_invariant": "0x0",
         "embedding_degree": "0xc",
         "cm_discriminant": "-0x3"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "BLS12-446",
       "category": "bls",
       "desc": "Curve from https://github.com/relic-toolkit/relic.",
@@ -72,9 +73,10 @@
         "j_invariant": "0x0",
         "embedding_degree": "0xc",
         "cm_discriminant": "-0x3"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "BLS12-455",
       "category": "bls",
       "desc": "Curve from https://github.com/relic-toolkit/relic.",
@@ -106,9 +108,10 @@
       "properties": {
         "trace": "0x10000020000080000801",
         "j_invariant": "0x0"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "BLS12-638",
       "category": "bls",
       "desc": "Curve from https://github.com/relic-toolkit/relic. Also in https://eprint.iacr.org/2012/232.pdf.",
@@ -140,9 +143,10 @@
       "properties": {
         "trace": "-0x5ffdfffffffffffffffffffffdf",
         "j_invariant": "0x0"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "BLS24-477",
       "category": "bls",
       "desc": "Curve from https://github.com/relic-toolkit/relic. Also in https://eprint.iacr.org/2012/232.pdf.",
@@ -174,9 +178,10 @@
       "properties": {
         "trace": "-0xdfff8000007f",
         "j_invariant": "0x0"
-      }
-    },{
-
+      },
+      "ex": false
+    },
+    {
       "name": "Bandersnatch",
       "category": "bls",
       "desc": "Curve from https://ethresear.ch/t/introducing-bandersnatch-a-fast-elliptic-curve-built-over-the-bls12-381-scalar-field/9957",
@@ -202,9 +207,8 @@
         "j_invariant": "0x1f40",
         "embedding_degree": "0x2e5f0fbadd72321ce14a56699d73f00198e5a4cd868e6d8254c80abb73f1730",
         "cm_discriminant": "-0x8"
-      }
+      },
+      "ex": false
     }
-
   ]
-
 }
