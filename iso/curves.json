@@ -1,11 +1,82 @@
 {
   "name": "iso",
-  "desc": "Curves from the iso standard",
+  "desc": "Example curves from the iso standard",
   "curves": [
     {
-      "name": "Fp224BN",
+      "name": "ISOBN160",
       "category": "iso",
-      "desc": "Curve described in https://www.iso.org/standard/80241.html",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Prime",
+        "p": "0xffffffda48afd02cccf4fe550dc1ddf3f4046e43",
+        "bits": 160
+      },
+      "params": {
+        "a": {
+          "raw": "0x0"
+        },
+        "b": {
+          "raw": "0x3"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x1"
+        },
+        "y": {
+          "raw": "0x2"
+        }
+      },
+      "order": "0xffffffda48afd02cccf3fe550dd4bad595810cdd",
+      "cofactor": "0x1",
+      "standard": true,
+      "example": true,
+      "properties": {
+        "trace": "0xffffffed231e5e836167",
+        "j_invariant": "0x0",
+        "embedding_degree": "0xc",
+        "cm_discriminant": "-0x3"
+      }
+    },
+    {
+      "name": "ISOBN192",
+      "category": "iso",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Prime",
+        "p": "0xfffffff526bac3d523661124f38543e91f0186c1f247719b",
+        "bits": 192
+      },
+      "params": {
+        "a": {
+          "raw": "0x0"
+        },
+        "b": {
+          "raw": "0x3"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x1"
+        },
+        "y": {
+          "raw": "0x2"
+        }
+      },
+      "order": "0xfffffff526bac3d523661123f38543ee8ba2eb5d35910e65",
+      "cofactor": "0x1",
+      "standard": true,
+      "example": true,
+      "properties": {
+        "trace": "0xfffffffa935e9b64bcb66337",
+        "j_invariant": "0x0",
+        "embedding_degree": "0xc",
+        "cm_discriminant": "-0x3"
+      }
+    },
+    {
+      "name": "ISOBN224",
+      "category": "iso",
       "form": "Weierstrass",
       "field": {
         "type": "Prime",
@@ -14,23 +85,24 @@
       },
       "params": {
         "a": {
-          "raw": "0x00"
+          "raw": "0x0"
         },
         "b": {
-          "raw": "0x03"
+          "raw": "0x3"
         }
       },
       "generator": {
         "x": {
-          "raw": "0x01"
+          "raw": "0x1"
         },
         "y": {
-          "raw": "0x02"
+          "raw": "0x2"
         }
       },
       "order": "0xfffffffffff107288ec29e602c4420db4218082b36c2accff76c58ed",
       "cofactor": "0x1",
       "standard": true,
+      "example": true,
       "properties": {
         "trace": "0xfffffffffff884cdd0428fa61f47",
         "j_invariant": "0x0",
@@ -39,9 +111,8 @@
       }
     },
     {
-      "name": "Fp256BN",
+      "name": "ISOBN256",
       "category": "iso",
-      "desc": "Curve described in https://www.iso.org/standard/80241.html",
       "form": "Weierstrass",
       "field": {
         "type": "Prime",
@@ -50,23 +121,24 @@
       },
       "params": {
         "a": {
-          "raw": "0x00"
+          "raw": "0x0"
         },
         "b": {
-          "raw": "0x03"
+          "raw": "0x3"
         }
       },
       "generator": {
         "x": {
-          "raw": "0x01"
+          "raw": "0x1"
         },
         "y": {
-          "raw": "0x02"
+          "raw": "0x2"
         }
       },
       "order": "0xfffffffffffcf0cd46e5f25eee71a49e0cdc65fb1299921af62d536cd10b500d",
       "cofactor": "0x1",
       "standard": true,
+      "example": true,
       "properties": {
         "trace": "0xfffffffffffe7867dcfbda6eddc7e007",
         "j_invariant": "0x0",
@@ -75,9 +147,8 @@
       }
     },
     {
-      "name": "Fp384BN",
+      "name": "ISOBN384",
       "category": "iso",
-      "desc": "Curve described in https://www.iso.org/standard/80241.html",
       "form": "Weierstrass",
       "field": {
         "type": "Prime",
@@ -86,32 +157,35 @@
       },
       "params": {
         "a": {
-          "raw": "0x00"
+          "raw": "0x0"
         },
         "b": {
-          "raw": "0x03"
+          "raw": "0x3"
         }
       },
       "generator": {
         "x": {
-          "raw": "0x01"
+          "raw": "0x1"
         },
         "y": {
-          "raw": "0x02"
+          "raw": "0x2"
         }
       },
       "order": "0xfffffffffffffffffff2a96823d5920d2a127e3f6fbca023c8fbe29531892c795356487d8ac63e4f4db17384341a5775",
       "cofactor": "0x1",
       "standard": true,
+      "example": true,
       "properties": {
         "trace": "0xfffffffffffffffffff954b2d861e7c602f6573948b27997",
-        "j_invariant": "0x0"
+        "j_invariant": "0x0",
+        "embedding_degree": "0xc",
+        "cm_discriminant": "-0x3"
       }
     },
+
     {
-      "name": "Fp512BN",
+      "name": "ISOBN512",
       "category": "iso",
-      "desc": "Curve described in https://www.iso.org/standard/80241.html",
       "form": "Weierstrass",
       "field": {
         "type": "Prime",
@@ -120,27 +194,164 @@
       },
       "params": {
         "a": {
-          "raw": "0x00"
+          "raw": "0x0"
         },
         "b": {
-          "raw": "0x03"
+          "raw": "0x3"
         }
       },
       "generator": {
         "x": {
-          "raw": "0x01"
+          "raw": "0x1"
         },
         "y": {
-          "raw": "0x02"
+          "raw": "0x2"
         }
       },
       "order": "0xfffffffffffffffffffffffffff9ec7f01c60ba1d8cb5307c0bbe3c111b0ef445146cf1eacbe98b8e48c65deab2679a34a10313e04f9a2b406a64a5f519a09ed",
       "cofactor": "0x1",
       "standard": true,
+      "example": true,
       "properties": {
         "trace": "0xfffffffffffffffffffffffffffcf63e475a24905a52c1b3ae44dda9d113e547",
-        "j_invariant": "0x0"
+        "j_invariant": "0x0",
+        "embedding_degree": "0xc",
+        "cm_discriminant": "-0x3"
+      }
+    },
+    {
+      "name": "ISOFREE234",
+      "category": "iso",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Prime",
+        "p": "0x2a381f6c6d1423bd4775aa52e8b38ffe9f236dfdd4a4b6f5b038b3218db",
+        "bits": 234
+      },
+      "params": {
+        "a": {
+          "raw": "0x2a381f6c6d1423bd4775aa52e8b38ffe9f236dfdd4a4b6f5b038b3218d8"
+        },
+        "b": {
+          "raw": "0x248268b780fa06cef9c31295050153fd4c6f94dbbe621d5d68da6487f2b"
+        }
+      },
+      "order": "0x2a381f6c6d1423bd4775aa52e8b38cbeecb69176e35bb5f3716e4fe375b",
+      "cofactor": "0x1",
+      "standard": true,
+      "example": true,
+      "properties": {
+        "trace": "0x33fb26cdc86f14901023eca633e181",
+        "j_invariant": "0x22f797b3651920663fe4bafb8ae936a8e03fae50ed691b32abc806392dc",
+        "embedding_degree": "0xa",
+        "cm_discriminant": "-0x492c7f03"
+      }
+    },
+    {
+      "name": "ISOFREE252",
+      "category": "iso",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Prime",
+        "p": "0xe4989d4fd7e87ff6ff300efd7e4393d2c7ed5852b0bf1c77b422e6fe4911f8b",
+        "bits": 252
+      },
+      "params": {
+        "a": {
+          "raw": "0xe4989d4fd7e87ff6ff300efd7e4393d2c7ed5852b0bf1c77b422e6fe4911f88"
+        },
+        "b": {
+          "raw": "0xaefa431ec51a8a37e999461fe75b15bf85dd6e119ab11421b798e51c565610d"
+        }
+      },
+      "order": "0xe4989d4fd7e87ff6ff300efd7e4393cb38a4f5eceb8cc58c00200ffc97e408d",
+      "cofactor": "0x1",
+      "standard": true,
+      "example": true,
+      "properties": {
+        "trace": "0x78f486265c53256ebb402d701b12deff",
+        "j_invariant": "0xa2f8ef56a4a1263cd667d1ac0ddafd673fb2d4dd2acc85e7d1879deef60e305",
+        "embedding_degree": "0xa",
+        "cm_discriminant": "-0x3df4c893"
+      }
+    },
+    {
+      "name": "ISOMNT256",
+      "category": "iso",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Prime",
+        "p": "0xf6529c2a424a6332b1d5054e2f7b68aaee7ef91874dd140c6919af9b719ed905",
+        "bits": 256
+      },
+      "params": {
+        "a": {
+          "raw": "0xf6529c2a424a6332b1d5054e2f7b68aaee7ef91874dd140c6919af9b719ed902"
+        },
+        "b": {
+          "raw": "0x6e974d68ef44f266ae3dd5d1f97c497c1d5452d1b074a6c06a25d4e5819ccd1c"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x3"
+        },
+        "y": {
+          "raw": "0x693d7af8c4a29f8de56e477ff569661c4dcd2227aac17b09e4b4b0b703b978ce"
+        }
+      },
+      "order": "0xf6529c2a424a6332b1d5054e2f7b68abe99c585a8419ae9fb45c620e5ef666c3",
+      "cofactor": "0x1",
+      "standard": true,
+      "example": true,
+      "properties": {
+        "trace": "-0xfb1d5f420f3c9a934b42b272ed578dbd",
+        "j_invariant": "0x134f7a9fb2eda5b64e792dcfb33e368e9e06b05e1b0762f158d824234de93d2c",
+        "embedding_degree": "0x6",
+        "cm_discriminant": "-0x35cd6db"
+      }
+    },
+    {
+      "name": "ISOMNT160",
+      "category": "iso",
+      "form": "Weierstrass",
+      "field": {
+        "type": "Prime",
+        "p": "0x8c72d321e48aa1419b22f914cb43c112b76d7ae5",
+        "bits": 160
+      },
+      "params": {
+        "a": {
+          "raw": "0x8c72d321e48aa1419b22f914cb43c112b76d7ae2"
+        },
+        "b": {
+          "raw": "0x299ce219b7b01348fc2b5007b6ab1ee1005676f7"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x2"
+        },
+        "y": {
+          "raw": "0xbe8f0d3623edadace4c2faca541679b002f1d07"
+        }
+      },
+      "order": "0x8c72d321e48aa1419b23b6b2e4a85a073822640f",
+      "cofactor": "0x1",
+      "standard": true,
+      "example": true,
+      "properties": {
+        "trace": "-0xbd9e196498f480b4e929",
+        "j_invariant": "0x1d0c4bf9029a2a7b2d0cdedb907f7add35e0a892",
+        "embedding_degree": "0x6",
+        "cm_discriminant": "-0x460af6fb"
       }
     }
+
+
+
+
+
+
   ]
 }
